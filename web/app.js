@@ -359,7 +359,7 @@ function card(b) {
       ${sLink ? `<a class="btn" href="${esc(sLink)}" target="_blank" rel="noopener noreferrer">Check listing ↗</a>` : ''}
       ${b.opt_out_url ? `<a class="btn primary" href="${esc(b.opt_out_url)}" target="_blank" rel="noopener noreferrer">Opt-out form ↗</a>` : ''}
       ${b.email ? `<button class="btn" data-letter="${stage}">${stage === 'initial' ? 'Draft letter' : stage === 'followup' ? 'Draft follow-up' : 'Draft final notice'}</button>` : ''}
-      ${r.status === 'sent' ? `<span class="stamp">submitted ${esc(r.date || '—')}</span>` : ''}
+      ${r.status === 'sent' ? `<span class="stamp-txt">submitted ${esc(r.date || '—')}</span>` : ''}
     </div>`;
 
   el.querySelector('.status').addEventListener('change', e => {
@@ -415,14 +415,17 @@ function bindProfile() {
 function dropVisibility() {
   const st = document.getElementById('pState').value;
   const box = document.getElementById('dropNotice');
-  const flag = box.querySelector('.flag');
+  const flag = document.getElementById('dropFlag');
+  if (!flag) return;
   if (st === 'CA') {
-    flag.textContent = 'You selected California — do this first';
+    flag.textContent = 'You selected California — do this before anything else';
     box.style.borderWidth = '2px';
   } else if (st) {
-    flag.textContent = `Not applicable in ${st} — here is what is`;
+    flag.textContent = `Not available in ${st} — this tool is your route`;
+    box.style.borderWidth = '1px';
   } else {
-    flag.textContent = 'Read this before you use this tool';
+    flag.textContent = 'California residents — use the state platform instead';
+    box.style.borderWidth = '1px';
   }
 }
 
@@ -494,7 +497,12 @@ async function boot() {
     const payload = await res.json();
     BROKERS = payload.brokers || [];
     document.getElementById('rankHint').textContent =
-      `${BROKERS.length} brokers, ranked by exposure · data built ${payload.generated}`;
+      `ranked by exposure · built ${payload.generated}`;
+
+    const n = v => v.toLocaleString('en-US');
+    document.getElementById('lbTotal').textContent = n(BROKERS.length);
+    document.getElementById('lbEmail').textContent = n(BROKERS.filter(b => b.email).length);
+    document.getElementById('lbForm').textContent = n(BROKERS.filter(b => b.opt_out_url).length);
   } catch (e) {
     document.getElementById('rankHint').textContent = 'Could not load broker data.';
     document.getElementById('empty').hidden = false;

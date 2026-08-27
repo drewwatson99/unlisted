@@ -56,24 +56,111 @@ DROP is excellent and incomplete. Three things it does not do:
 
 ---
 
-## Quick start
+## How to open it
 
-### Web app (recommended)
+There are three ways in, depending on how much you want to fuss. **All three run
+the same code entirely inside your browser** — there is no version of this that
+sends your data anywhere.
 
-Open **`web/index.html`** — either the hosted copy or your own:
+### 1. Just use the website (easiest)
+
+If this repo has GitHub Pages enabled, the app is live at a normal URL:
+
+```
+https://YOURNAME.github.io/unlisted/
+```
+
+Visit it like any website. Nothing to install, no account. Despite being hosted,
+your details never reach the server — GitHub is only serving static files, the
+same way it would serve an image. Everything you type stays in your browser.
+
+*To enable this on your own fork: Settings → Pages → Build from branch → `main`,
+folder `/web`. It's free.*
+
+### 2. Download one file and open it (most private)
+
+Grab **`dist/unlisted.html`** from this repo and double-click it. That single
+321 KB file contains the app, the styling, and all 882 brokers inlined.
+
+It makes **zero network requests**. You can turn off your Wi-Fi entirely and it
+still works. If you want the strongest possible guarantee that nothing leaks,
+this is it — there is nothing for it to leak *to*.
+
+### 3. Run it locally from the repo (for developers)
 
 ```bash
 git clone https://github.com/YOURNAME/unlisted.git
 cd unlisted
 python3 -m http.server --directory web 8000
-# then open http://localhost:8000
+# open http://localhost:8000
 ```
 
-Enter your details, work down the list, and mark each broker as you go. Your
-information is stored in your browser's `localStorage` and is never transmitted.
-When you've submitted some requests, download the follow-up calendar.
+Use this if you want to rebuild the dataset or modify the app.
 
-### CLI
+---
+
+## Does it save my progress?
+
+**Yes.** Everything you mark is saved automatically in your browser as you go.
+Close the tab, shut the laptop, come back next week — your details and every
+broker's status are still there.
+
+Some specifics worth knowing:
+
+- It's stored in your browser's **`localStorage`**, on your machine only.
+- It is **tied to one browser on one device.** Progress in Chrome on your laptop
+  won't appear in Safari, or on your phone.
+- **Clearing site data or cookies erases it.** So does private/incognito mode,
+  which forgets everything when you close the window.
+- Use **Export progress** for a backup, or to move to another browser or
+  machine — then **Import progress** on the other side. The exported file
+  contains the details you entered, so treat it like any personal document.
+
+If you'd rather your progress live in a plain file you control instead of in a
+browser, use the CLI — it stores state in `~/.config/unlisted/`.
+
+---
+
+## What it actually does — and what you still do yourself
+
+**This is a workbench, not a robot.** It does the research, ranking, drafting and
+scheduling. You do the clicking. That split is deliberate, not an unfinished
+feature.
+
+| Step | Who does it |
+|---|---|
+| Rank 882 brokers by how much they expose you | **The tool** |
+| Search your name on each broker site | **You** |
+| Decide whether a listing is actually you | **You** |
+| Fill in the opt-out form, solve the CAPTCHA | **You** |
+| Draft the deletion letter with your state's statute | **The tool** |
+| Send the letter | **You**, from your own email |
+| Track status and schedule follow-ups | **The tool** |
+
+**Searching is manual and there is no way around it.** Each broker gets a "Check
+listing" button that opens their search with your name filled in — you look at
+the result and judge whether it's you. The tool doesn't automate this for two
+reasons: broker search pages are protected against automated access, and more
+importantly, **a name and an age cannot reliably distinguish you from a stranger
+who shares them.** Filing a deletion request against someone else's record is a
+real harm. Two seconds of your own eyes settles what no script can.
+
+Realistically: budget **about an hour** for the top 20 brokers, then roughly
+20 minutes every few months for follow-ups and listings that come back.
+
+### What it can't do
+
+- **Solve CAPTCHAs or complete phone verifications.** Those exist to stop
+  automation. Working around them would violate terms of service and produce a
+  tool that gets abused for worse things than privacy.
+- **Actually delete you.** Opting out suppresses your listing on that broker's
+  site. It does not touch public records, breach dumps already circulating, or
+  private databases with no public interface. Anyone promising full erasure is
+  selling something.
+
+---
+
+## CLI
 
 ```bash
 python3 cli/unlisted.py init            # your details → ~/.config/unlisted (chmod 600)
