@@ -75,7 +75,7 @@ your details never reach the server — GitHub is only serving static files, the
 same way it would serve an image. Everything you type stays in your browser.
 
 *To enable this on your own fork: Settings → Pages → Build from branch → `main`,
-folder `/web`. It's free.*
+folder `/docs`. It's free.*
 
 ### 2. Download one file and open it (most private)
 
@@ -91,7 +91,7 @@ this is it — there is nothing for it to leak *to*.
 ```bash
 git clone https://github.com/YOURNAME/unlisted.git
 cd unlisted
-python3 -m http.server --directory web 8000
+python3 -m http.server --directory docs 8000
 # open http://localhost:8000
 ```
 

@@ -19,7 +19,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-WEB = os.path.join(ROOT, "web")
+WEB = os.path.join(ROOT, "docs")
 DIST = os.path.join(ROOT, "dist")
 
 

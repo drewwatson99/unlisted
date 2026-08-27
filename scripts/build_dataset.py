@@ -414,7 +414,7 @@ def write_outputs(records, leverage):
     )
     slim = [{k: r[k] for k in web_fields if r.get(k) not in (None, "", False)}
             for r in records]
-    web_dir = os.path.join(ROOT, "web")
+    web_dir = os.path.join(ROOT, "docs")
     os.makedirs(web_dir, exist_ok=True)
     with open(os.path.join(web_dir, "brokers.json"), "w", encoding="utf-8") as f:
         json.dump({"generated": stats["generated"], "brokers": slim},
