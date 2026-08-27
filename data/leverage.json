@@ -1,0 +1,101 @@
+{
+  "generated": "2026-08-27",
+  "hubs": {
+    "suppression.peopleconnect.us": {
+      "clears": 5,
+      "brokers": [
+        "Addresses.com",
+        "Instant Checkmate",
+        "Intelius",
+        "TruthFinder",
+        "US Search"
+      ]
+    },
+    "privacyportal.onetrust.com": {
+      "clears": 4,
+      "brokers": [
+        "DR Decision Resources, LLC",
+        "Health Union, LLC",
+        "IQVIA Digital Inc.",
+        "Lightcast, LLC"
+      ]
+    },
+    "spokeo.com": {
+      "clears": 2,
+      "brokers": [
+        "AnyWho",
+        "Spokeo, Inc."
+      ]
+    },
+    "beenverified.com": {
+      "clears": 2,
+      "brokers": [
+        "BeenVerified, Inc. and its subsidiaries and affiliates",
+        "BeenVerified, LLC and its subsidiaries and affiliates"
+      ]
+    },
+    "datasubject.deloitte.com": {
+      "clears": 2,
+      "brokers": [
+        "Deloitte Consulting LLP",
+        "Deloitte Financial Advisory Services LLP"
+      ]
+    },
+    "equifax.com": {
+      "clears": 2,
+      "brokers": [
+        "Equifax Workforce Solutions LLC",
+        "Knowledge Works, Inc."
+      ]
+    },
+    "privacyportal-cdn.onetrust.com": {
+      "clears": 2,
+      "brokers": [
+        "Path2Response, LLC",
+        "VIZIO Services, LLC"
+      ]
+    },
+    "portals.dporganizer.com": {
+      "clears": 2,
+      "brokers": [
+        "Cision",
+        "Crimson Hexagon"
+      ]
+    },
+    "liftbasedata.com": {
+      "clears": 2,
+      "brokers": [
+        "Blue Hill Marketing Solutions, Inc",
+        "Blue Hill Marketing Solutions, inc"
+      ]
+    },
+    "rayinsights.com": {
+      "clears": 2,
+      "brokers": [
+        "Ray CDP Inc",
+        "Ray CDP, Inc."
+      ]
+    },
+    "ccpa-optout.com": {
+      "clears": 2,
+      "brokers": [
+        "Infofree.com",
+        "ResearchUSA"
+      ]
+    },
+    "myprivacy.equifax.com": {
+      "clears": 2,
+      "brokers": [
+        "DataX, Ltd.",
+        "Knowledge Works, Inc., d/b/a PayNet"
+      ]
+    },
+    "privacyportal-uk.onetrust.com": {
+      "clears": 2,
+      "brokers": [
+        "Acuant, Inc.",
+        "IDology, Inc."
+      ]
+    }
+  }
+}

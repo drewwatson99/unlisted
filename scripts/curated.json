@@ -1,0 +1,564 @@
+[
+  {
+    "name": "Whitepages",
+    "website": "https://www.whitepages.com",
+    "domain": "whitepages.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.whitepages.com/suppression-requests",
+    "search_url": "https://www.whitepages.com/name/{first}-{last}/{city}-{state}",
+    "email": "legal@whitepages.com",
+    "verification": "phone",
+    "removal_method": "form",
+    "notes": "Automated phone call reads a 4-digit code you must enter. Same submission also suppresses 411.com."
+  },
+  {
+    "name": "411.com",
+    "website": "https://www.411.com",
+    "domain": "411.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.whitepages.com/suppression-requests",
+    "email": "support@whitepages.com",
+    "verification": "phone",
+    "removal_method": "form",
+    "notes": "Whitepages property with no separate opt-out; cleared by the Whitepages suppression request."
+  },
+  {
+    "name": "Spokeo",
+    "website": "https://www.spokeo.com",
+    "domain": "spokeo.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.spokeo.com/optout",
+    "search_url": "https://www.spokeo.com/{first}-{last}/{state}",
+    "email": "privacy@spokeo.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Requires the profile URL. Also clears AnyWho, which now sources from Spokeo."
+  },
+  {
+    "name": "AnyWho",
+    "website": "https://www.anywho.com",
+    "domain": "anywho.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.spokeo.com/optout",
+    "email": "privacy@spokeo.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "No longer runs its own opt-out; listings derive from Spokeo."
+  },
+  {
+    "name": "TruePeopleSearch",
+    "website": "https://www.truepeoplesearch.com",
+    "domain": "truepeoplesearch.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.truepeoplesearch.com/removal",
+    "search_url": "https://www.truepeoplesearch.com/results?name={first}%20{last}&citystatezip={city}%2C%20{state}",
+    "email": "support@truepeoplesearch.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Verification link expires in 24 hours."
+  },
+  {
+    "name": "FastPeopleSearch",
+    "website": "https://www.fastpeoplesearch.com",
+    "domain": "fastpeoplesearch.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.fastpeoplesearch.com/optout",
+    "search_url": "https://www.fastpeoplesearch.com/name/{first}-{last}_{city}-{state}",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Does not accept opt-out requests by email. Phone fallback: 1-617-229-7889."
+  },
+  {
+    "name": "BeenVerified",
+    "website": "https://www.beenverified.com",
+    "domain": "beenverified.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.beenverified.com/app/optout/search",
+    "email": "privacy@beenverified.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "One opt-out per email address. Also covers PeopleLooker and PeopleSmart."
+  },
+  {
+    "name": "PeopleLooker",
+    "website": "https://www.peoplelooker.com",
+    "domain": "peoplelooker.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.peoplelooker.com/app/optout/form",
+    "email": "privacy@beenverified.com",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "PeopleSmart",
+    "website": "https://www.peoplesmart.com",
+    "domain": "peoplesmart.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.peoplesmart.com/app/optout/search",
+    "email": "privacy@beenverified.com",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "That's Them",
+    "website": "https://thatsthem.com",
+    "domain": "thatsthem.com",
+    "category": "people-search",
+    "opt_out_url": "https://thatsthem.com/optout",
+    "search_url": "https://thatsthem.com/name/{first}-{last}/{city}-{state}",
+    "email": "optout@thatsthem.com",
+    "verification": "none",
+    "removal_method": "form",
+    "notes": "One record per request; submit separately for each past address."
+  },
+  {
+    "name": "Cyber Background Checks",
+    "website": "https://www.cyberbackgroundchecks.com",
+    "domain": "cyberbackgroundchecks.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.cyberbackgroundchecks.com/removal",
+    "search_url": "https://www.cyberbackgroundchecks.com/people/{first}-{last}/{state}",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Verification link expires in 24 hours."
+  },
+  {
+    "name": "Search People Free",
+    "website": "https://www.searchpeoplefree.com",
+    "domain": "searchpeoplefree.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.searchpeoplefree.com/opt-out/email",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Validate email within 24 hours, then locate and remove the record."
+  },
+  {
+    "name": "USPhoneBook",
+    "website": "https://www.usphonebook.com",
+    "domain": "usphonebook.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.usphonebook.com/removal",
+    "email": "support+optout@usphonebook.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Phone fallback: 888-747-4095."
+  },
+  {
+    "name": "SmartBackgroundChecks",
+    "website": "https://www.smartbackgroundchecks.com",
+    "domain": "smartbackgroundchecks.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.smartbackgroundchecks.com/optout",
+    "email": "privacy@mtalley.zendesk.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Caps removals at 5 per 24 hours. Widely reported to silently fail; recheck after a week."
+  },
+  {
+    "name": "USA People Search",
+    "website": "https://www.usa-people-search.com",
+    "domain": "usa-people-search.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.usa-people-search.com/manage",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "FastBackgroundCheck",
+    "website": "https://www.fastbackgroundcheck.com",
+    "domain": "fastbackgroundcheck.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.fastbackgroundcheck.com/removal",
+    "email": "support@fastbackgroundcheck.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Phone fallback: 888-747-4094."
+  },
+  {
+    "name": "MyLife",
+    "website": "https://www.mylife.com",
+    "domain": "mylife.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.mylife.com/privacyrequest",
+    "email": "privacy@mylife.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Slowest common broker: 7-15 business days. Phone fallback: 888-704-1900."
+  },
+  {
+    "name": "Intelius",
+    "website": "https://www.intelius.com",
+    "domain": "intelius.com",
+    "category": "people-search",
+    "opt_out_url": "https://suppression.peopleconnect.us",
+    "email": "privacy@intelius.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "PeopleConnect suppression also clears TruthFinder, Instant Checkmate, US Search and Addresses.com."
+  },
+  {
+    "name": "TruthFinder",
+    "website": "https://www.truthfinder.com",
+    "domain": "truthfinder.com",
+    "category": "people-search",
+    "opt_out_url": "https://suppression.peopleconnect.us",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "PeopleConnect network."
+  },
+  {
+    "name": "Instant Checkmate",
+    "website": "https://www.instantcheckmate.com",
+    "domain": "instantcheckmate.com",
+    "category": "people-search",
+    "opt_out_url": "https://suppression.peopleconnect.us",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "PeopleConnect network."
+  },
+  {
+    "name": "US Search",
+    "website": "https://www.ussearch.com",
+    "domain": "ussearch.com",
+    "category": "people-search",
+    "opt_out_url": "https://suppression.peopleconnect.us",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "PeopleConnect network."
+  },
+  {
+    "name": "Addresses.com",
+    "website": "https://www.addresses.com",
+    "domain": "addresses.com",
+    "category": "people-search",
+    "opt_out_url": "https://suppression.peopleconnect.us",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "PeopleConnect network."
+  },
+  {
+    "name": "InfoTracer",
+    "website": "https://infotracer.com",
+    "domain": "infotracer.com",
+    "category": "people-search",
+    "opt_out_url": "https://infotracer.com/optout/",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Highest-leverage single opt-out known: the removal backend for dozens of state arrest-record and public-record sites."
+  },
+  {
+    "name": "Radaris",
+    "website": "https://radaris.com",
+    "domain": "radaris.com",
+    "category": "people-search",
+    "opt_out_url": "https://radaris.com/control/privacy",
+    "email": "customer-service@radaris.com",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "PeopleFinders",
+    "website": "https://www.peoplefinders.com",
+    "domain": "peoplefinders.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.peoplefinders.com/opt-out",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "Nuwber",
+    "website": "https://nuwber.com",
+    "domain": "nuwber.com",
+    "category": "people-search",
+    "opt_out_url": "https://nuwber.com/removal/link",
+    "email": "support@nuwber.com",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "CheckPeople",
+    "website": "https://checkpeople.com",
+    "domain": "checkpeople.com",
+    "category": "people-search",
+    "opt_out_url": "https://checkpeople.com/opt-out",
+    "email": "support@checkpeople.com",
+    "verification": "dob",
+    "removal_method": "form"
+  },
+  {
+    "name": "AdvancedBackgroundChecks",
+    "website": "https://www.advancedbackgroundchecks.com",
+    "domain": "advancedbackgroundchecks.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.advancedbackgroundchecks.com/removal",
+    "verification": "dob",
+    "removal_method": "form",
+    "notes": "Phone fallback: 855-240-6392."
+  },
+  {
+    "name": "FamilyTreeNow",
+    "website": "https://www.familytreenow.com",
+    "domain": "familytreenow.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.familytreenow.com/optout",
+    "email": "support@familytreenow.com",
+    "verification": "none",
+    "removal_method": "form",
+    "notes": "Genealogy-style; also exposes relatives."
+  },
+  {
+    "name": "National Public Data",
+    "website": "https://nationalpublicdata.com",
+    "domain": "nationalpublicdata.com",
+    "category": "people-search",
+    "opt_out_url": "https://nationalpublicdata.com/optout.html",
+    "email": "support@nationalpublicdata.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Source of the 2024 mass breach. Opting out of the live site does not undo that exposure."
+  },
+  {
+    "name": "IDCrawl",
+    "website": "https://www.idcrawl.com",
+    "domain": "idcrawl.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.idcrawl.com/remove-my-information",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "IDStrong",
+    "website": "https://www.idstrong.com",
+    "domain": "idstrong.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.idstrong.com/optout/",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "ClustrMaps",
+    "website": "https://clustrmaps.com",
+    "domain": "clustrmaps.com",
+    "category": "people-search",
+    "opt_out_url": "https://clustrmaps.com/bl/opt-out",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Address-centric; exposes property and household detail."
+  },
+  {
+    "name": "Neighbor.Report",
+    "website": "https://neighbor.report",
+    "domain": "neighbor.report",
+    "category": "people-search",
+    "opt_out_url": "https://neighbor.report/remove",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "OfficialUSA",
+    "website": "https://www.officialusa.com",
+    "domain": "officialusa.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.officialusa.com/opt-out/",
+    "verification": "none",
+    "removal_method": "form"
+  },
+  {
+    "name": "Veripages",
+    "website": "https://veripages.com",
+    "domain": "veripages.com",
+    "category": "people-search",
+    "opt_out_url": "https://veripages.com/inner/control-privacy",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "Rehold",
+    "website": "https://rehold.com",
+    "domain": "rehold.com",
+    "category": "people-search",
+    "opt_out_url": "https://rehold.com/control/privacy",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "PublicDataUSA",
+    "website": "https://publicdatausa.com",
+    "domain": "publicdatausa.com",
+    "category": "people-search",
+    "opt_out_url": "https://publicdatausa.com/optout",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "SpyDialer",
+    "website": "https://spydialer.com",
+    "domain": "spydialer.com",
+    "category": "people-search",
+    "opt_out_url": "https://spydialer.com/Consumers/",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "PeopleByName",
+    "website": "https://www.peoplebyname.com",
+    "domain": "peoplebyname.com",
+    "category": "people-search",
+    "opt_out_url": "http://www.peoplebyname.com/remove.php",
+    "verification": "none",
+    "removal_method": "form"
+  },
+  {
+    "name": "PeopleSearchNow",
+    "website": "https://www.peoplesearchnow.com",
+    "domain": "peoplesearchnow.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.peoplesearchnow.com/opt-out",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "PrivateEye",
+    "website": "https://www.privateeye.com",
+    "domain": "privateeye.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.privateeye.com/removal",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "Unmask",
+    "website": "https://unmask.com",
+    "domain": "unmask.com",
+    "category": "people-search",
+    "opt_out_url": "https://unmask.com/opt-out/",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "SocialCatfish",
+    "website": "https://socialcatfish.com",
+    "domain": "socialcatfish.com",
+    "category": "people-search",
+    "opt_out_url": "https://socialcatfish.com/opt-out/",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "RecordsFinder",
+    "website": "https://recordsfinder.com",
+    "domain": "recordsfinder.com",
+    "category": "people-search",
+    "opt_out_url": "https://recordsfinder.com/optout/",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "SearchQuarry",
+    "website": "https://www.searchquarry.com",
+    "domain": "searchquarry.com",
+    "category": "people-search",
+    "opt_out_url": "https://members.searchquarry.com/removeMyData/",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "DOBSearch",
+    "website": "https://www.dobsearch.com",
+    "domain": "dobsearch.com",
+    "category": "people-search",
+    "opt_out_url": "https://www.dobsearch.com/people-finder/block-record-request.php",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "Zlookup",
+    "website": "https://www.zlookup.com",
+    "domain": "zlookup.com",
+    "category": "phone-directory",
+    "opt_out_url": "https://www.zlookup.com/opt_out",
+    "verification": "none",
+    "removal_method": "form"
+  },
+  {
+    "name": "NumLookup",
+    "website": "https://www.numlookup.com",
+    "domain": "numlookup.com",
+    "category": "phone-directory",
+    "opt_out_url": "https://www.numlookup.com/opt_out",
+    "verification": "none",
+    "removal_method": "form"
+  },
+  {
+    "name": "PhoneBooks.com",
+    "website": "https://www.phonebooks.com",
+    "domain": "phonebooks.com",
+    "category": "phone-directory",
+    "opt_out_url": "https://www.phonebooks.com/opt-out",
+    "verification": "email",
+    "removal_method": "form"
+  },
+  {
+    "name": "UnitedStatesPhonebook",
+    "website": "https://www.unitedstatesphonebook.com",
+    "domain": "unitedstatesphonebook.com",
+    "category": "phone-directory",
+    "opt_out_url": "http://www.unitedstatesphonebook.com/contact.php",
+    "verification": "none",
+    "removal_method": "form"
+  },
+  {
+    "name": "PimEyes",
+    "website": "https://pimeyes.com",
+    "domain": "pimeyes.com",
+    "category": "face-search",
+    "opt_out_url": "https://pimeyes.com/en/opt-out",
+    "email": "dpo@pimeyes.com",
+    "verification": "photo-id",
+    "removal_method": "form",
+    "notes": "Facial recognition search. Requires a face photo plus government ID with all fields except photo and expiry redacted."
+  },
+  {
+    "name": "FaceCheck.ID",
+    "website": "https://facecheck.id",
+    "domain": "facecheck.id",
+    "category": "face-search",
+    "opt_out_url": "https://facecheck.id/Face-Search/RemoveMyPhotos",
+    "verification": "photo-id",
+    "removal_method": "form",
+    "notes": "Facial recognition search. Driver's license (name/address/ID redactable) or selfie."
+  },
+  {
+    "name": "ZoomInfo",
+    "website": "https://www.zoominfo.com",
+    "domain": "zoominfo.com",
+    "category": "b2b",
+    "opt_out_url": "https://privacyrequest.zoominfo.com/remove/verify",
+    "email": "privacy@zoominfo.com",
+    "verification": "email",
+    "removal_method": "form",
+    "notes": "Business profile data: title, employer, work email and phone."
+  },
+  {
+    "name": "Acxiom",
+    "website": "https://www.acxiom.com",
+    "domain": "acxiom.com",
+    "category": "marketing",
+    "opt_out_url": "https://www.acxiom.com/optout/",
+    "email": "consumeradvo@acxiom.com",
+    "verification": "identity",
+    "removal_method": "form",
+    "notes": "Major upstream supplier feeding many downstream brokers. No public search interface of its own."
+  },
+  {
+    "name": "VoterRecords",
+    "website": "https://voterrecords.com",
+    "domain": "voterrecords.com",
+    "category": "public-record",
+    "opt_out_url": "https://voterrecords.com/faq",
+    "email": "admin@voterrecords.com",
+    "verification": "none",
+    "removal_method": "form",
+    "notes": "Sourced from public voter rolls. Removal is discretionary and does not affect the underlying government record."
+  }
+]

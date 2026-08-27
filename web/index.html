@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unlisted — data broker opt-out workbench</title>
+<meta name="description" content="A free, open-source tool for removing yourself from data brokers. Runs entirely in your browser. Your information never leaves your device.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:#F1F3EF; --raised:#FFF; --sunk:#E8EBE6;
+    --ink:#1E2A28; --ink-soft:#46534F; --slate:#64716C;
+    --line:#D7DCD3; --line-strong:#B9C2BB;
+    --accent:#3E6259; --accent-soft:#E4EBE7; --accent-ink:#F1F3EF;
+    --todo:#8B9490; --todo-bg:#E7E9E6;
+    --sent:#97711A; --sent-bg:#F3E7CB;
+    --done:#3F7D46; --done-bg:#DFEEE0;
+    --back:#A64B3C; --back-bg:#F3DFDA;
+    --focus:#2F6E63;
+    --shadow:0 1px 2px rgba(30,42,40,.06),0 1px 1px rgba(30,42,40,.04);
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --paper:#121815; --raised:#1A211D; --sunk:#0D120F;
+    --ink:#E9EDE9; --ink-soft:#B7C1BB; --slate:#8B9A92;
+    --line:#2A342F; --line-strong:#3B4740;
+    --accent:#6FA396; --accent-soft:#223129; --accent-ink:#121815;
+    --todo:#97A19C; --todo-bg:#232B27;
+    --sent:#D8AE55; --sent-bg:#2E2717;
+    --done:#74BE7C; --done-bg:#1B2B1C;
+    --back:#E08170; --back-bg:#2E1D19;
+    --shadow:0 1px 2px rgba(0,0,0,.35),0 1px 1px rgba(0,0,0,.25);
+  }}
+  :root[data-theme="dark"]{
+    --paper:#121815; --raised:#1A211D; --sunk:#0D120F;
+    --ink:#E9EDE9; --ink-soft:#B7C1BB; --slate:#8B9A92;
+    --line:#2A342F; --line-strong:#3B4740;
+    --accent:#6FA396; --accent-soft:#223129; --accent-ink:#121815;
+    --todo:#97A19C; --todo-bg:#232B27;
+    --sent:#D8AE55; --sent-bg:#2E2717;
+    --done:#74BE7C; --done-bg:#1B2B1C;
+    --back:#E08170; --back-bg:#2E1D19;
+    --shadow:0 1px 2px rgba(0,0,0,.35),0 1px 1px rgba(0,0,0,.25);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Source Sans 3",ui-sans-serif,system-ui,sans-serif;font-size:16px;line-height:1.55}
+  .wrap{max-width:860px;margin:0 auto;padding:40px 20px 90px}
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:600;margin:0;text-wrap:balance}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+  a{color:var(--accent)}
+  button{font-family:inherit}
+
+  header.top{border-bottom:1px solid var(--line);padding-bottom:22px}
+  .brandrow{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  h1{font-size:30px;letter-spacing:-.02em}
+  .tagline{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.07em;
+    text-transform:uppercase;color:var(--accent)}
+  .lede{margin-top:12px;max-width:64ch;color:var(--ink-soft);font-size:15px}
+
+  .privacy-strip{margin-top:16px;display:flex;align-items:center;gap:9px;
+    background:var(--accent-soft);border:1px solid var(--line);border-radius:6px;
+    padding:9px 13px;font-size:13.5px;color:var(--ink-soft)}
+  .privacy-strip b{color:var(--ink)}
+  .lock{flex:none;width:15px;height:15px;color:var(--accent)}
+
+  section{margin-top:30px}
+  .sec-title{display:flex;align-items:baseline;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+  .sec-title h2{font-size:19px}
+  .sec-title .hint{font-size:13px;color:var(--slate)}
+
+  .panel{background:var(--raised);border:1px solid var(--line);border-radius:9px;
+    box-shadow:var(--shadow);padding:18px 20px}
+
+  /* ---- DROP notice ---- */
+  .drop{border:2px solid var(--accent);border-radius:9px;padding:20px 22px;
+    background:var(--accent-soft);margin-top:22px}
+  .drop .flag{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.07em;
+    text-transform:uppercase;color:var(--accent);font-weight:500;display:block;margin-bottom:8px}
+  .drop h2{font-size:19px;margin-bottom:9px}
+  .drop p{margin:0 0 10px;font-size:14.5px;color:var(--ink-soft)}
+  .drop p:last-of-type{margin-bottom:0}
+  .drop b{color:var(--ink)}
+  .drop .cta{display:inline-flex;align-items:center;gap:7px;margin-top:13px;
+    background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;
+    font-size:14px;padding:9px 15px;border-radius:6px}
+  .drop .cta:hover{filter:brightness(1.07)}
+  .drop ul{margin:8px 0 0;padding-left:19px;font-size:14px;color:var(--ink-soft)}
+  .drop li{margin-bottom:5px}
+
+  /* ---- profile ---- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+  label.fld{display:block}
+  label.fld span{display:block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;
+    text-transform:uppercase;letter-spacing:.05em;color:var(--slate);margin-bottom:5px}
+  input,select,textarea{width:100%;font-family:inherit;font-size:14px;color:var(--ink);
+    background:var(--paper);border:1px solid var(--line-strong);border-radius:6px;padding:8px 10px}
+  input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{
+    outline:2px solid var(--focus);outline-offset:1px}
+  .fieldnote{margin-top:10px;font-size:12.5px;color:var(--slate)}
+
+  /* ---- progress ---- */
+  .counts{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:7px;overflow:hidden;margin-top:14px}
+  .count{background:var(--raised);padding:12px 13px;display:flex;flex-direction:column;gap:3px}
+  .count .n{font-family:"IBM Plex Mono",monospace;font-size:20px}
+  .count .l{font-size:11px;color:var(--slate);display:flex;align-items:center;gap:6px}
+  .dot{width:7px;height:7px;border-radius:50%;flex:none}
+  .dot.todo{background:var(--todo)}.dot.sent{background:var(--sent)}
+  .dot.done{background:var(--done)}.dot.back{background:var(--back)}
+
+  /* ---- controls ---- */
+  .controls{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-top:16px;
+    padding:11px;background:var(--raised);border:1px solid var(--line);border-radius:8px;
+    box-shadow:var(--shadow);position:sticky;top:10px;z-index:20}
+  .controls input[type=text]{flex:1 1 190px}
+  .controls select{width:auto;font-family:"IBM Plex Mono",monospace;font-size:12px;
+    text-transform:uppercase;color:var(--ink-soft);cursor:pointer}
+  .shown{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--slate);white-space:nowrap}
+
+  /* ---- broker cards ---- */
+  .list{display:flex;flex-direction:column;gap:11px;margin-top:16px}
+  .bk{background:var(--raised);border:1px solid var(--line);border-radius:9px;
+    box-shadow:var(--shadow);padding:15px 17px}
+  .bk[data-s="done"]{border-color:color-mix(in srgb,var(--done) 38%,var(--line))}
+  .bk[data-s="back"]{border-color:color-mix(in srgb,var(--back) 45%,var(--line))}
+  .bk-top{display:flex;justify-content:space-between;gap:11px;align-items:flex-start;flex-wrap:wrap}
+  .bk-id{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;min-width:0}
+  .rankbadge{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--slate);flex:none}
+  .bk-name{font-family:"Fraunces",serif;font-weight:600;font-size:16.5px}
+  .bk-dom{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--slate)}
+  select.status{appearance:none;font-family:"IBM Plex Mono",monospace;font-size:11px;
+    text-transform:uppercase;border:1px solid transparent;border-radius:5px;
+    padding:5px 24px 5px 9px;cursor:pointer;width:auto;background-repeat:no-repeat;
+    background-position:right 7px center;background-size:9px;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2364716C' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E")}
+  select.status[data-v=todo]{background-color:var(--todo-bg);color:var(--todo)}
+  select.status[data-v=sent]{background-color:var(--sent-bg);color:var(--sent)}
+  select.status[data-v=done]{background-color:var(--done-bg);color:var(--done)}
+  select.status[data-v=back]{background-color:var(--back-bg);color:var(--back)}
+
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+  .tag{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.03em;
+    text-transform:uppercase;padding:3px 6px;border-radius:4px;
+    background:var(--sunk);color:var(--slate);white-space:nowrap}
+  .tag.hot{background:var(--back-bg);color:var(--back)}
+  .tag.lev{background:var(--accent-soft);color:var(--accent)}
+  .note{margin-top:9px;font-size:13px;color:var(--ink-soft)}
+  .acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;align-items:center}
+  .btn{font-size:13px;font-weight:600;border-radius:6px;padding:7px 12px;
+    text-decoration:none;border:1px solid var(--line-strong);background:var(--paper);
+    color:var(--ink-soft);cursor:pointer;display:inline-flex;align-items:center;gap:5px}
+  .btn:hover{border-color:var(--accent);color:var(--accent)}
+  .btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+  .btn.primary:hover{filter:brightness(1.07);color:var(--accent-ink)}
+  .btn[disabled]{opacity:.4;cursor:not-allowed}
+  .stamp{margin-top:9px;font-size:12px;color:var(--sent)}
+
+  .empty{padding:34px 14px;text-align:center;color:var(--slate);font-size:14px}
+
+  /* ---- modal ---- */
+  dialog{border:1px solid var(--line-strong);border-radius:10px;background:var(--raised);
+    color:var(--ink);max-width:660px;width:calc(100% - 32px);padding:0}
+  dialog::backdrop{background:rgba(10,14,12,.55)}
+  .dlg-h{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;
+    justify-content:space-between;align-items:center;gap:12px}
+  .dlg-h h3{font-size:17px}
+  .dlg-b{padding:18px 20px}
+  .dlg-f{padding:14px 20px;border-top:1px solid var(--line);display:flex;gap:9px;
+    justify-content:flex-end;flex-wrap:wrap}
+  textarea.letter{min-height:290px;font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+    line-height:1.6;resize:vertical}
+  .x{background:none;border:none;color:var(--slate);font-size:22px;cursor:pointer;line-height:1;padding:0 4px}
+
+  footer.foot{margin-top:46px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:12.5px;color:var(--slate)}
+  footer.foot h3{font-family:"Source Sans 3",sans-serif;font-size:12.5px;font-weight:600;
+    color:var(--ink-soft);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+  footer.foot ul{margin:0 0 14px;padding-left:18px}
+  footer.foot li{margin-bottom:4px}
+
+  @media (max-width:560px){.counts{grid-template-columns:repeat(2,1fr)}}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="brandrow">
+      <h1>Unlisted</h1>
+      <span class="tagline">data broker opt-out workbench</span>
+    </div>
+    <p class="lede">A free, open tool for getting yourself out of data broker databases — the same work removal services charge $20–130/year for. It ranks brokers by how much they actually expose you, walks you through each opt-out, drafts your legal deletion letters, and schedules the follow-ups.</p>
+    <div class="privacy-strip">
+      <svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+      <span><b>Nothing you type here leaves your device.</b> There is no server, no account, and no database — the page has no way to send your details anywhere.</span>
+    </div>
+  </header>
+
+  <!-- ============ DROP ============ -->
+  <div class="drop" id="dropNotice">
+    <span class="flag">Read this before you use this tool</span>
+    <h2>If you live in California, use the state's own platform instead</h2>
+    <p>California built something better than this tool, and it is <b>free</b>. Under the <b>Delete Act</b>, the California Privacy Protection Agency runs <b>DROP</b> — the Delete Request and Opt-Out Platform. You submit <b>one verified request</b> and every data broker registered in California must delete your personal information and stop selling it.</p>
+    <p>It is not a courtesy request. Since <b>August 1, 2026</b>, brokers are legally required to check DROP at least every 45 days, process the deletions, and report back. Non-compliance carries penalties of <b>$200 per request, per day</b>. Several hundred thousand Californians have already signed up.</p>
+    <p>It also covers cases this tool deliberately does not: a parent can submit for a child, and a family member can submit for an elderly relative.</p>
+    <p><b>So: if you are a California resident, go do that first.</b> It is strictly better than working through this list by hand, and it costs nothing. Come back afterward only for the gaps below.</p>
+    <ul>
+      <li><b>Brokers that never registered in California.</b> DROP only binds registrants — plenty of people-search sites simply do not register. Those are in the list below.</li>
+      <li><b>Verification.</b> DROP does not show you whether a given listing actually came down. This tool tracks that.</li>
+      <li><b>Everyone else.</b> DROP is California residents only. Connecticut has committed to a similar portal but not until <b>2028</b>. Texas and Oregon maintain broker registries with no unified deletion portal — you must contact each broker yourself, which is exactly what this tool is for.</li>
+    </ul>
+    <a class="cta" href="https://privacy.ca.gov/drop/" target="_blank" rel="noopener noreferrer">Open California DROP →</a>
+  </div>
+
+  <!-- ============ PROFILE ============ -->
+  <section>
+    <div class="sec-title"><h2>1 · Your details</h2><span class="hint">stored only in this browser</span></div>
+    <div class="panel">
+      <div class="grid">
+        <label class="fld"><span>First name</span><input id="pFirst" autocomplete="off" placeholder="Jane"></label>
+        <label class="fld"><span>Last name</span><input id="pLast" autocomplete="off" placeholder="Doe"></label>
+        <label class="fld"><span>City</span><input id="pCity" autocomplete="off" placeholder="Austin"></label>
+        <label class="fld"><span>State</span><select id="pState"></select></label>
+      </div>
+      <div class="grid" style="margin-top:12px">
+        <label class="fld"><span>Contact email for replies</span><input id="pEmail" type="email" autocomplete="off" placeholder="alias@yourdomain.com"></label>
+        <label class="fld"><span>Street address <span style="text-transform:none">(optional)</span></span><input id="pAddr" autocomplete="off" placeholder="Used only in letters you send"></label>
+      </div>
+      <p class="fieldnote">Use an email alias rather than your primary address — brokers have been known to add opt-out contacts to marketing lists. Proton Pass, SimpleLogin, and iCloud Hide My Email all do this free. Street address is only needed for brokers that require it to match a record; leave it blank otherwise.</p>
+    </div>
+  </section>
+
+  <!-- ============ PROGRESS ============ -->
+  <section>
+    <div class="sec-title"><h2>2 · Your worklist</h2><span class="hint" id="rankHint"></span></div>
+    <div class="counts">
+      <div class="count"><span class="n mono" id="cTodo">0</span><span class="l"><i class="dot todo"></i>To do</span></div>
+      <div class="count"><span class="n mono" id="cSent">0</span><span class="l"><i class="dot sent"></i>Submitted</span></div>
+      <div class="count"><span class="n mono" id="cDone">0</span><span class="l"><i class="dot done"></i>Confirmed</span></div>
+      <div class="count"><span class="n mono" id="cBack">0</span><span class="l"><i class="dot back"></i>Reappeared</span></div>
+    </div>
+
+    <div class="controls">
+      <input type="text" id="q" placeholder="Search broker or domain…">
+      <select id="fCat">
+        <option value="priority">Priority sites</option>
+        <option value="all">All categories</option>
+        <option value="people-search">People search</option>
+        <option value="face-search">Face search</option>
+        <option value="phone-directory">Phone directories</option>
+        <option value="b2b">B2B / professional</option>
+        <option value="marketing">Marketing / upstream</option>
+        <option value="public-record">Public record</option>
+      </select>
+      <select id="fStat">
+        <option value="">Any status</option>
+        <option value="todo">To do</option>
+        <option value="sent">Submitted</option>
+        <option value="done">Confirmed</option>
+        <option value="back">Reappeared</option>
+      </select>
+      <select id="fLimit">
+        <option value="50">Top 50</option>
+        <option value="100">Top 100</option>
+        <option value="250">Top 250</option>
+        <option value="0">Show all</option>
+      </select>
+      <span class="shown" id="shown"></span>
+    </div>
+
+    <div class="list" id="list"></div>
+    <div class="empty" id="empty" hidden>No brokers match those filters.</div>
+  </section>
+
+  <!-- ============ FOLLOW-UPS ============ -->
+  <section>
+    <div class="sec-title"><h2>3 · Follow-ups &amp; backup</h2></div>
+    <div class="panel">
+      <p style="margin:0 0 12px;font-size:14.5px;color:var(--ink-soft)">Brokers routinely ignore a first request, and records repopulate months later. Download a calendar file with follow-up reminders for everything you have submitted — it imports into Apple, Google, or Proton Calendar and fires even with this page closed. Reminders land at <b>30, 45, 90 and 120 days</b>; after 120 days the escalation stops and you get one final nudge to handle that broker by hand.</p>
+      <div class="acts">
+        <button class="btn primary" id="icsBtn">Download follow-up calendar (.ics)</button>
+        <button class="btn" id="expBtn">Export progress</button>
+        <button class="btn" id="impBtn">Import progress</button>
+        <input type="file" id="impFile" accept="application/json" hidden>
+        <button class="btn" id="clrBtn">Clear all</button>
+      </div>
+      <p class="fieldnote">Export writes a plain JSON file to your downloads folder so you can back up or move to another browser. It contains the details you entered above, so store it like any other personal document.</p>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <h3>Sources &amp; credit</h3>
+    <p style="margin:0 0 8px">The broker list is built by a script in this repository from primary public records, chiefly the <a href="https://cppa.ca.gov/data_broker_registry/" target="_blank" rel="noopener noreferrer">California Data Broker Registry</a> published by the California Privacy Protection Agency, combined with opt-out details verified directly against each company's own published pages.</p>
+    <p style="margin:0 0 8px">This work was informed and inspired by people who did the hard cataloguing first, and who deserve the credit for making any of this tractable:</p>
+    <ul>
+      <li><a href="https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List" target="_blank" rel="noopener noreferrer">Yael Grauer — Big Ass Data Broker Opt-Out List</a>, the original and still the most useful hand-maintained guide.</li>
+      <li><a href="https://github.com/optery/optery-data-brokers-directory" target="_blank" rel="noopener noreferrer">Optery's open data broker directory</a>, for demonstrating that a structured, machine-readable directory was worth having.</li>
+      <li>The <a href="https://privacyrights.org/" target="_blank" rel="noopener noreferrer">Privacy Rights Clearinghouse</a> and the CPPA, for the public-records work that makes the underlying data available at all.</li>
+    </ul>
+    <p style="margin:0">Unlisted is free and always will be. It is not affiliated with any removal service. Nothing here is legal advice.</p>
+  </footer>
+</div>
+
+<dialog id="dlg">
+  <div class="dlg-h">
+    <h3 id="dlgTitle">Deletion request</h3>
+    <button class="x" id="dlgX" aria-label="Close">&times;</button>
+  </div>
+  <div class="dlg-b">
+    <p style="margin:0 0 10px;font-size:13.5px;color:var(--ink-soft)" id="dlgNote"></p>
+    <textarea class="letter" id="dlgText" spellcheck="false"></textarea>
+  </div>
+  <div class="dlg-f">
+    <button class="btn" id="dlgCopy">Copy to clipboard</button>
+    <a class="btn primary" id="dlgMail" href="#">Open in mail app →</a>
+  </div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

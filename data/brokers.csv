@@ -1,0 +1,883 @@
+rank,name,domain,category,opt_out_url,email,phone,opt_out_hub,leverage,priority_score,sensitivity_score,onward_sale_score,ca_registered,collects_minors,sold_to_genai,sold_to_law_enforcement,deletion_requests_received,deletion_compliance_rate,deletion_median_response_days,removal_method,sources
+1,Whitepages,whitepages.com,people-search,https://www.whitepages.com/suppression-requests,legal@whitepages.com,2067465409,,1,81.8,0,0,True,,,,5879,0.969,1.0,form,curated|cppa-registry-current|cppa-registry-historical
+2,SocialCatfish,socialcatfish.com,people-search,https://socialcatfish.com/opt-out/,david@socialcatfish.com,8444228347,,1,81.3,0,0,True,,,,3330,0.538,7.0,form,curated|cppa-registry-current|cppa-registry-historical
+3,SpyCloud Inc.,spycloud.com,,https://spycloud.com/legal/privacy-policy/,privacy@spycloud.com,800-513-2502,,1,78.1,3,2,True,True,False,True,2611,0.0,0.0,,cppa-registry-current|cppa-registry-historical
+4,MyLife,mylife.com,people-search,https://www.mylife.com/privacyrequest,privacy@mylife.com,8884661066,,1,77.0,0,0,True,,,,37196,0.986,2.0,form,curated|cppa-registry-current
+5,Moody's Corporation,moodys.com,,https://www.moodys.com/web/en/us/legal/privacy-policy.html,privacy@moodys.com,2125531653,,1,75.3,0,4,True,False,True,True,1533,0.011,14.0,,cppa-registry-current
+6,"DTN, LLC",dtn.com,,www.dtn.com,legal@dtn.com,8004854000,,1,72.7,1,2,True,False,False,True,6218,0.003,12.0,,cppa-registry-current|cppa-registry-historical
+7,Zeta Global,zetaglobal.com,,www.zetaglobal.com,privacy@zetaglobal.com,212-967-5055,,1,69.3,2,0,True,False,False,False,137625,0.2,62.0,,cppa-registry-current|cppa-registry-historical
+8,FamilyTreeNow,familytreenow.com,people-search,https://www.familytreenow.com/optout,support@familytreenow.com,8778384889,,1,68.8,0,0,True,,,,631,1.0,1.0,form,curated|cppa-registry-current
+9,HealthWise Data,healthwisedata.com,,https://www.healthwisedata.com,privacy@healthwisedata.com,844-494-5444,,1,67.2,1,0,True,False,False,False,98275,0.098,14.0,,cppa-registry-current|cppa-registry-historical
+10,VisitIQ LLC,visitiq.io,,https://visitiq.io/opt-out/,james.dunay@visitiq.io,5405536133,,1,66.7,1,0,True,False,False,False,363368,0.251,30.0,,cppa-registry-current
+11,"Effyis, Inc.",socialgist.ai,,https://www.socialgist.ai/privacy-and-terms,cwolfe@socialgist.com,2483186684,,1,66.6,0,2,True,False,True,False,1609,0.0,1.0,,cppa-registry-current
+12,Spokeo,spokeo.com,people-search,https://www.spokeo.com/optout,privacy@spokeo.com,,spokeo.com,2,65.4,0,0,True,,,,,,,form,curated|cppa-registry-historical
+13,33 Mile Radius LLC,33mileradius.com,,www.33mileradius.com,operations@ignitevisibility.com,(619) 752-1955,,1,64.7,0,0,True,False,False,False,62584,0.006,12.0,,cppa-registry-current|cppa-registry-historical
+14,"Datalink Services, Inc",transunion.com,,www.transunion.com,privacy@transunion.com,866-310-8783,,1,64.6,5,2,True,True,True,False,1057,0.936,41.0,,cppa-registry-current|cppa-registry-historical
+15,"Enformion, LLC",enformion.com; tracers.com; go.enformion.com,,https://www.enformion.com/privacy-policy/,support@enformion.com,8552813915,,1,64.6,2,2,True,False,False,True,80683,0.834,31.0,,cppa-registry-current
+16,"Live Data Technologies, Inc.",livedatatechnologies.com,,https://www.livedatatechnologies.com/opt-out,remove@livedatatechnologies.com,8055003293,,1,64.2,0,0,True,False,False,False,45865,0.0,172.0,,cppa-registry-current|cppa-registry-historical
+17,That's Them,thatsthem.com,people-search,https://thatsthem.com/optout,optout@thatsthem.com,,,1,64.2,0,0,,,,,,,,form,curated
+18,TruePeopleSearch,truepeoplesearch.com,people-search,https://www.truepeoplesearch.com/removal,support@truepeoplesearch.com,8888384803,,1,64.2,0,0,True,,,,,,,form,curated|cppa-registry-current
+19,"MaxMind, Inc.",maxmind.com,,https://www.maxmind.com/en/privacy-policy,tgonzalez@maxmind.com,617-500-4493,,1,63.4,0,4,True,False,True,True,87252,1.0,4.0,,cppa-registry-current|cppa-registry-historical
+20,Convex Labs LLC,convex.com,,https://www.convex.com,support@convexlabs.io,8558990970,,1,63.3,0,0,True,False,False,False,35214,0.019,7.0,,cppa-registry-current|cppa-registry-historical
+21,LexisNexis Risk Solutions FL Inc.,risk.lexisnexis.com,,https://risk.lexisnexis.com/state-privacy-act-notice,consumer.documents@lexisnexisrisk.com,888-217-1591,,1,61.3,3,2,True,True,False,True,12769,0.994,1.0,,cppa-registry-current|cppa-registry-historical
+22,"Austin Consolidated Holdings, Inc.",equifax.com,,https://www.equifax.com/personal/my-privacy/,usprivacy@equifax.com,8662956801,equifax.com,2,61.2,3,3,True,True,True,True,685,1.0,1.0,,cppa-registry-current
+23,Instant Checkmate,instantcheckmate.com,people-search,https://suppression.peopleconnect.us,support@instantcheckmate.com,,suppression.peopleconnect.us,5,61.0,0,0,True,,,,,,,form,curated|cppa-registry-historical
+24,Intelius,intelius.com,people-search,https://suppression.peopleconnect.us,privacy@intelius.com,,suppression.peopleconnect.us,5,61.0,0,0,True,,,,,,,form,curated|cppa-registry-historical
+25,TruthFinder,truthfinder.com,people-search,https://suppression.peopleconnect.us,help@truthfinder.com,,suppression.peopleconnect.us,5,61.0,0,0,True,,,,,,,form,curated|cppa-registry-historical
+26,DealerX Partners LLC,dealerx.com,,https://dealerx.com/privacy-options/,privacy@dealerx.com,844-466-4440,,1,60.8,0,0,True,False,False,False,11541,0.033,1.0,,cppa-registry-current|cppa-registry-historical
+27,MarketOps LLC,marketops.com,,https://marketops.com/privacy-options/,privacy@marketops.com,844-446-4440,,1,60.8,0,0,True,False,False,False,11541,0.033,1.0,,cppa-registry-current
+28,Online Advertising Network sp. z o.o.,oan.pl; https,,https://oan.pl/do-not-sell-my-personal-info/,privacy@oan.pl,606414898,,1,60.5,0,0,True,False,False,False,6879,0.0,48.0,,cppa-registry-current
+29,Cyber Background Checks,cyberbackgroundchecks.com,people-search,https://www.cyberbackgroundchecks.com/removal,,,,1,60.2,0,0,,,,,,,,form,curated
+30,Equifax Workforce Solutions LLC,theworknumber.com,,https://www.equifax.com/personal/my-privacy/,usprivacy@equifax.com,1-866-295-6801,equifax.com,2,60.2,4,2,True,True,False,True,685,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+31,FastPeopleSearch,fastpeoplesearch.com,people-search,https://www.fastpeoplesearch.com/optout,,,,1,60.2,0,0,,,,,,,,form,curated
+32,"Apollo Interactive, LLC",apollointeractive.com; http,,https://www.apollointeractive.com/privacy-policy.php,deatherage@apollointeractive.com,(310) 836-9777,,1,60.0,0,0,True,False,False,False,15040,0.1,1.0,,cppa-registry-current
+33,Keyword Connects LLC,keywordconnects.com,,https://keywordconnects.com/,operations@ignitevisibility.com,(619) 752-1955,,1,59.9,0,0,True,False,False,False,5201,0.0,20.0,,cppa-registry-current|cppa-registry-historical
+34,CheckPeople,checkpeople.com,people-search,https://checkpeople.com/opt-out,support@checkpeople.com,(561) 461-8439,,1,59.7,1,0,True,,,,,,,form,curated|cppa-registry-current
+35,Unmask,unmask.com,people-search,https://unmask.com/opt-out/,compliance@unmask.com,3213766933,,1,59.7,1,0,True,,,,,,,form,curated|cppa-registry-current
+36,NumLookup,numlookup.com,phone-directory,https://www.numlookup.com/opt_out,hello@numlookup.com,4088632316,,1,59.6,0,0,True,,,,94071,1.0,20.0,form,curated|cppa-registry-current
+37,VRTCAL Markets Inc.,vrtcal.com,,https://www.vrtcal.com/docs/PrivacyPolicy-Advertising.pdf,privacy@vrtcal.com,805 979 9080,,1,59.5,2,0,True,True,False,False,812,0.0,1.0,,cppa-registry-current|cppa-registry-historical
+38,"Semcasting, Inc.",semcasting.com,,https://privacychoice.com/,jgreer@semcasting.com,9786847580,,1,59.0,1,1,True,False,False,False,932924,0.954,3.0,,cppa-registry-current|cppa-registry-historical
+39,West Publishing Corp,thomsonreuters.com,,https://www.thomsonreuters.com/en/privacy-statement,privacy.enquiries@thomsonreuters.com,6516877000,,1,58.7,1,3,True,False,True,True,590,0.486,29.0,,cppa-registry-current|cppa-registry-historical
+40,Sterling Data Company LLC,sterling.ai,,sterling.ai,privacy@sterling.ai,2027018709,,1,58.6,0,0,True,False,False,False,7390,0.1,15.0,,cppa-registry-current
+41,Evorra Ltd,evorra.com,,https://evorra.com/privacy-data-policies/product-privacy-policy/,privacy@evorra.com,2081453391,,1,58.4,0,1,True,False,False,False,2355,0.226,9.0,,cppa-registry-current
+42,Acxiom,acxiom.com,marketing,https://www.acxiom.com/optout/,consumeradvo@acxiom.com,5013421000,,1,58.0,3,1,True,True,,,58416,0.984,5.0,form,curated|cppa-registry-current|cppa-registry-historical
+43,"33Across, Inc.",33across.com,,www.33across.com,privacy@33across.com,18882974094,,1,57.5,0,0,True,False,False,False,10478,0.192,10.0,,cppa-registry-current|cppa-registry-historical
+44,The Alesco Group LLC,alescodata.com,,www.alescodata.com,legal@alescodata.com,2392777529,,1,57.5,0,2,True,False,False,True,326818,0.975,1.0,,cppa-registry-current|cppa-registry-historical
+45,AnyWho,anywho.com,people-search,https://www.spokeo.com/optout,privacy@spokeo.com,,spokeo.com,2,57.4,0,0,,,,,,,,form,curated
+46,BeenVerified,beenverified.com,people-search,https://www.beenverified.com/app/optout/search,privacy@beenverified.com,,beenverified.com,2,57.4,0,0,,,,,,,,form,curated
+47,eContext.ai LLC,complementics.com,,https://www.complementics.com/optout-donotsell,akatavic@econtext.ai,312-477-7313,,1,57.4,1,0,True,False,False,False,1340,0.17,3.0,,cppa-registry-current|cppa-registry-historical
+48,Addresses.com,addresses.com,people-search,https://suppression.peopleconnect.us,,,suppression.peopleconnect.us,5,57.0,0,0,,,,,,,,form,curated
+49,"Epsilon Data Management, LLC",epsilon.com,,https://legal.epsilon.com/dsr/,privacy@epsilon.com,8662673861,,1,57.0,1,1,True,False,False,False,4985,0.54,2.0,,cppa-registry-current|cppa-registry-historical
+50,US Search,ussearch.com,people-search,https://suppression.peopleconnect.us,,,suppression.peopleconnect.us,5,57.0,0,0,,,,,,,,form,curated
+51,"Cuebiq Group, LLC",cuebiq.com,,https://cuebiq.com/privacy-request/,legal@cuebiq.com,6469146384,,1,56.8,1,0,True,False,False,False,26285436,0.997,4.0,,cppa-registry-current|cppa-registry-historical
+52,"Azira, LLC",azira.com,,https://azira.com/privacy-policy,privacy@azira.com,6268897680,,1,56.7,1,0,True,False,False,False,5042679,1.0,1.0,,cppa-registry-current
+53,"Crunchbase, Inc.",crunchbase.com,,https://about.crunchbase.com/terms-of-service/privacy-policy,legal@crunchbase.com,4158490002,,1,56.3,1,3,True,False,True,True,423,0.494,48.0,,cppa-registry-current|cppa-registry-historical
+54,411.com,411.com,people-search,https://www.whitepages.com/suppression-requests,support@whitepages.com,,,1,56.2,0,0,,,,,,,,form,curated
+55,FastBackgroundCheck,fastbackgroundcheck.com,people-search,https://www.fastbackgroundcheck.com/removal,support@fastbackgroundcheck.com,,,1,56.2,0,0,,,,,,,,form,curated
+56,National Public Data,nationalpublicdata.com,people-search,https://nationalpublicdata.com/optout.html,support@nationalpublicdata.com,,,1,56.2,0,0,,,,,,,,form,curated
+57,Nuwber,nuwber.com,people-search,https://nuwber.com/removal/link,support@nuwber.com,8449121292,,1,56.2,0,0,True,,,,,,,form,curated|cppa-registry-current|cppa-registry-historical
+58,PeopleFinders,peoplefinders.com,people-search,https://www.peoplefinders.com/opt-out,customercare@peoplefinders.com,,,1,56.2,0,0,True,,,,,,,form,curated|cppa-registry-historical
+59,PeopleLooker,peoplelooker.com,people-search,https://www.peoplelooker.com/app/optout/form,privacy@beenverified.com,,,1,56.2,0,0,,,,,,,,form,curated
+60,PeopleSmart,peoplesmart.com,people-search,https://www.peoplesmart.com/app/optout/search,privacy@beenverified.com,,,1,56.2,0,0,,,,,,,,form,curated
+61,Radaris,radaris.com,people-search,https://radaris.com/control/privacy,customer-service@radaris.com,,,1,56.2,0,0,,,,,,,,form,curated
+62,SmartBackgroundChecks,smartbackgroundchecks.com,people-search,https://www.smartbackgroundchecks.com/optout,privacy@mtalley.zendesk.com,,,1,56.2,0,0,,,,,,,,form,curated
+63,SpyDialer,spydialer.com,people-search,https://spydialer.com/Consumers/,info@spydialer.com,8668342579,,1,56.2,0,0,True,,,,,,,form,curated|cppa-registry-current|cppa-registry-historical
+64,USPhoneBook,usphonebook.com,people-search,https://www.usphonebook.com/removal,support+optout@usphonebook.com,,,1,56.2,0,0,,,,,,,,form,curated
+65,Disqus,disqus.com,,www.Disqus.com,privacy@disqus.com,2129675055,,1,55.9,2,0,True,False,False,False,1475,0.43,1.0,,cppa-registry-current|cppa-registry-historical
+66,LiveIntent,liveintent.com,,https://www.liveintent.com/privacy-policy/,privacy@zetaglobal.com,2129675055,,1,55.7,2,0,True,False,False,False,452535,1.0,4.0,,cppa-registry-current|cppa-registry-historical
+67,Key Marketing Advantage,keymarketingadvantage.com,,https://keymarketingadvantage.com/do_not_use_my_personal_information,lbridson@keymarketingadvantage.com,2034912200,,1,54.8,0,0,True,False,False,False,2297,0.175,15.0,,cppa-registry-current|cppa-registry-historical
+68,PitchBook Data Inc,pitchbook.com,,https://pitchbook.com/privacy-policy,legal@pitchbook.com,(206) 623-1986,,1,54.6,0,4,True,False,True,True,949,1.0,5.0,,cppa-registry-current|cppa-registry-historical
+69,RocketReach LLC,rocketreach.co,,https://rocketreach.co/privacy,privacy@rocketreach.co,8332123828,,1,53.7,0,3,True,False,True,True,5887,1.0,4.0,,cppa-registry-current|cppa-registry-historical
+70,Cybba Inc.,cybba.com,,https://cybba.com,privacy@cybba.com,(857) 284-7000,,1,53.6,1,0,True,False,False,False,933375,1.0,16.0,,cppa-registry-current|cppa-registry-historical
+71,"Clearview AI, Inc.",clearview.ai,,https://www.clearview.ai/privacy-and-requests,privacy-requests@clearview.ai,866-637-0257,,1,53.3,1,2,True,False,False,True,1425,0.832,17.0,,cppa-registry-current|cppa-registry-historical
+72,"Labels & Lists, Inc",l2-data.com,,https://www.l2-data.com/wp-content/uploads/2025/08/L2-Privacy-Notice-19Aug25v3.pdf,lauren.pembo@l2political.com,800-842-5478,,1,52.9,1,1,True,False,False,False,65891,1.0,4.0,,cppa-registry-current
+73,Uplead LLC,uplead.com,,https://www.uplead.com/opt-out/,techteam@uplead.com,(800) 493-4084,,1,52.9,0,0,True,False,False,False,4063777,1.0,15.0,,cppa-registry-current|cppa-registry-historical
+74,"Chartboost, LLC",loopme.com,,https://loopme.ai/chartboost/,privacy@loopme.com,7779991560,,1,52.4,1,1,True,False,False,False,52042,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+75,AdvancedBackgroundChecks,advancedbackgroundchecks.com,people-search,https://www.advancedbackgroundchecks.com/removal,,,,1,52.2,0,0,,,,,,,,form,curated
+76,ClustrMaps,clustrmaps.com,people-search,https://clustrmaps.com/bl/opt-out,,,,1,52.2,0,0,,,,,,,,form,curated
+77,"Dice Career Solutions, Inc.",dice.com,,https://www.dice.com/about/ccpa,support@dice.com,888-321-3423,,1,52.2,1,0,True,False,False,False,453710,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+78,DOBSearch,dobsearch.com,people-search,https://www.dobsearch.com/people-finder/block-record-request.php,,,,1,52.2,0,0,,,,,,,,form,curated
+79,"Experian Information Solutions, Inc",experian.com,,https://www.experian.com/privacy/us-consumer-data-privacy-policy,ca_drop_fsd@experian.com,714-830-7000,,1,52.2,2,2,True,True,True,False,794,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+80,IDCrawl,idcrawl.com,people-search,https://www.idcrawl.com/remove-my-information,,,,1,52.2,0,0,,,,,,,,form,curated
+81,IDStrong,idstrong.com,people-search,https://www.idstrong.com/optout/,,,,1,52.2,0,0,,,,,,,,form,curated
+82,InfoTracer,infotracer.com,people-search,https://infotracer.com/optout/,,,,1,52.2,0,0,,,,,,,,form,curated
+83,Neighbor.Report,neighbor.report,people-search,https://neighbor.report/remove,,,,1,52.2,0,0,,,,,,,,form,curated
+84,OfficialUSA,officialusa.com,people-search,https://www.officialusa.com/opt-out/,,,,1,52.2,0,0,,,,,,,,form,curated
+85,PeopleByName,peoplebyname.com,people-search,http://www.peoplebyname.com/remove.php,,,,1,52.2,0,0,,,,,,,,form,curated
+86,PeopleSearchNow,peoplesearchnow.com,people-search,https://www.peoplesearchnow.com/opt-out,,,,1,52.2,0,0,,,,,,,,form,curated
+87,PrivateEye,privateeye.com,people-search,https://www.privateeye.com/removal,,,,1,52.2,0,0,,,,,,,,form,curated
+88,PublicDataUSA,publicdatausa.com,people-search,https://publicdatausa.com/optout,,,,1,52.2,0,0,,,,,,,,form,curated
+89,RecordsFinder,recordsfinder.com,people-search,https://recordsfinder.com/optout/,,,,1,52.2,0,0,,,,,,,,form,curated
+90,Rehold,rehold.com,people-search,https://rehold.com/control/privacy,,,,1,52.2,0,0,,,,,,,,form,curated
+91,Search People Free,searchpeoplefree.com,people-search,https://www.searchpeoplefree.com/opt-out/email,,,,1,52.2,0,0,,,,,,,,form,curated
+92,SearchQuarry,searchquarry.com,people-search,https://members.searchquarry.com/removeMyData/,,,,1,52.2,0,0,,,,,,,,form,curated
+93,USA People Search,usa-people-search.com,people-search,https://www.usa-people-search.com/manage,,,,1,52.2,0,0,,,,,,,,form,curated
+94,Veripages,veripages.com,people-search,https://veripages.com/inner/control-privacy,,,,1,52.2,0,0,,,,,,,,form,curated
+95,"Peoplewhiz, Inc",peoplewhiz.com,,https://www.peoplewhiz.com,cyrus@peoplewhiz.com,8332769449,,1,52.0,0,0,True,False,False,False,2569965,1.0,0.0,,cppa-registry-current
+96,Ziff Davis LLC,ziffdavis.com,,https://www.ziffdavis.com,legal@ziffdavis.com,2125033500,,1,52.0,2,1,True,False,False,False,7099,1.0,7.0,,cppa-registry-current
+97,"Consumerbase, LLC",exactdata.com,,https://www.exactdata.com,privacy@exactdata.com,(402) 836-3377,,1,51.8,1,1,True,True,True,False,37141,1.0,9.0,,cppa-registry-current|cppa-registry-historical
+98,Data Axle Inc.,data-axle.com,,https://www.data-axle.com,privacyteam@data-axle.com,(402) 836-3377,,1,51.8,1,1,True,True,True,False,37141,1.0,9.0,,cppa-registry-current|cppa-registry-historical
+99,Adstra LLC,adstradata.com,,https://www.adstradata.com/privacy-policy/,privacy.officer@adstradata.com,609-580-2800,,1,51.6,0,0,True,False,False,False,2583,0.348,4.0,,cppa-registry-current
+100,"Ray CDP, Inc.",rayinsights.com; www.raycdp.com,,www.rayinsights.com,ddemarsh@rayinsights.com,7203080758,rayinsights.com,2,51.3,0,0,True,False,False,False,4490,0.478,2.0,,cppa-registry-current
+101,Dun and Bradstreet Inc.,dnb.com,,https://www.dnb.com/en-us/why-dnb/data-transparency.html,privacyofficer@dnb.com,9046486350,,1,50.9,0,3,True,False,True,True,998,0.965,8.0,,cppa-registry-current|cppa-registry-historical
+102,Affinity Answers Corporation,affinityanswers.com,,https://www.affinityanswers.com/your-privacy-choices/,dataprivacy@affinityanswers.com,5122228582,,1,50.7,0,0,True,False,False,False,27278,0.622,8.0,,cppa-registry-current|cppa-registry-historical
+103,Fifty Technology Ltd,fifty.io,,https://fifty.io/privacy-policy,privacy@fifty.io,2038588950,,1,50.5,0,0,True,False,False,False,1145868,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+104,"Focus USA, Inc.",focus-usa.com,,https://www.focus-usa.com/your-privacy-choices/,michaelu@focus-usa.com,2014892525,,1,50.1,0,0,True,False,False,False,965924,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+105,Fourleaf LLC,fourleafdata.com,,https://www.fourleafdata.com/,privacy@fourleafdata.com,8003606213,,1,50.1,0,0,True,False,False,False,953753,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+106,"Share Local Media, Inc.",sharelocalmedia.com,,https://www.sharelocalmedia.com/privacy-policy,privacy-team@sharelocalmedia.com,(904) 543-3803,,1,50.0,0,0,True,False,False,False,892395,0.998,1.0,,cppa-registry-current|cppa-registry-historical
+107,AGR Marketing Solutions LLC,agrmarketingsolutions.com,,www.agrmarketingsolutions.com,stephen@agrmarketingsolutions.com,2398342371,,1,49.9,0,0,True,False,False,False,846141,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+108,Catalina Marketing Corporation,catalina.com,,www.catalina.com,privacyteam@catalina.com,7275795000,,1,49.9,1,0,True,False,False,False,140020,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+109,"SalesIntel Research, Inc.",salesintel.io,,www.salesintel.io,support@salesintel.io,5715927045,,1,49.7,0,0,True,False,False,False,786044,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+110,"5x5 US, LLC",5x5data.com,,https://privacy.5x5data.com/5x5/opt-out,contact@join5x5.com,5085457902,,1,49.6,1,0,True,False,False,False,123378,1.0,1.0,,cppa-registry-current
+111,"Digital Safety Products, LLC",spyfly.com; publicrecordreports.com,,https://www.spyfly.com/help-center/privacy,privacyinfo@spyfly.com,8008319235,,1,49.6,2,0,True,False,False,False,16055,0.976,3.0,,cppa-registry-current
+112,"LionShare Marketing, Inc",lionsharemarketing.com,,www.lionsharemarketing.com,ap@lionsharemarketing.com,9136318400,,1,49.6,0,0,True,False,False,False,749588,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+113,"Civil Data Research, LLC",searchpublicrecords.com,,https://www.searchpublicrecords.com/help-center/privacy,privacyinfo@searchpublicrecords.com,8007192498,,1,49.4,2,0,True,False,False,False,17117,0.994,3.0,,cppa-registry-current
+114,"Information Data Resources, LLC",publicinfoservices.com,,https://www.publicinfoservices.com/help-center/privacy,privacyinfo@publicinfoservices.com,8006173169,,1,49.3,2,0,True,False,False,False,16824,0.994,3.0,,cppa-registry-current
+115,Redi-Data Inc,redidata.com,,https://www.redidata.com/privacy-policy/,privacy@redidata.com,9732274380,,1,49.3,0,0,True,False,False,False,617950,1.0,11.0,,cppa-registry-current|cppa-registry-historical
+116,"National Data Analytics, LLC",publicdatacheck.com,,publicdatacheck.com,privacyinfo@publicdatacheck.com,8009500953,,1,49.2,2,0,True,False,False,False,14915,0.987,3.0,,cppa-registry-current
+117,PimEyes,pimeyes.com,face-search,https://pimeyes.com/en/opt-out,dpo@pimeyes.com,,,1,49.2,0,0,,,,,,,,form,curated
+118,Scalable Commerce LLC,kidslivesafe.com; quickpublicrecords.com,,https://www.kidslivesafe.com/help-center/privacy,privacyinfo@kidslivesafe.com,8003015905,,1,48.9,2,0,True,False,False,False,13957,0.996,3.0,,cppa-registry-current
+119,"Interactive Data, LLC",ididata.com,,https://www.ididata.com/idis-privacy-statement/,statebasedprivacy@ididata.com,888-376-6659,,1,48.8,1,2,True,False,False,True,171,0.099,6.0,,cppa-registry-current|cppa-registry-historical
+120,"Jun Group Productions, LLC",jungroup.com,,jungroup.com,ccpa@jungroup.com,3479184586,,1,48.8,0,0,True,False,False,False,684,0.064,26.0,,cppa-registry-current|cppa-registry-historical
+121,Melissa Data Corporation,melissa.com,,https://www.melissa.com/privacy,compliance@melissa.com,8005070870,,1,48.8,0,2,True,False,False,True,4203,0.985,4.0,,cppa-registry-current|cppa-registry-historical
+122,"Foursquare Labs, Inc.",foursquare.com,,https://foursquare.com,privacyteam@foursquare.com,914-355-9124,,1,48.7,1,0,True,False,False,False,76321,0.997,10.0,,cppa-registry-current|cppa-registry-historical
+123,"Marriott International, Inc.",marriott.com,,https://www.marriott.com/about/privacy.mi,privacy@marriott.com,800-218-9316,,1,48.5,4,0,True,True,False,False,331,1.0,16.0,,cppa-registry-current
+124,"Guidestar Direct, Corp.",carneydirect.com,,https://www.carneydirect.com/privacy-policy/,privacy@carneydirect.com,9495815100,,1,48.4,0,0,True,False,False,False,400410,1.0,11.0,,cppa-registry-current|cppa-registry-historical
+125,"Valassis Communications, Inc.",rrd.com,,https://www.rrd.com/privacy-policy/valassis,valassisprivacy.request@rrd.com,6303226000,,1,48.4,1,0,True,False,False,False,67433,1.0,8.0,,cppa-registry-current|cppa-registry-historical
+126,BIGDBM,bigdbm.com; https,,https://optout.bigdbm.com/,privacy@bigdbm.com,3365587717,,1,48.3,0,0,True,False,False,False,380900,1.0,3.0,,cppa-registry-current
+127,Speedeon Data LLC,speedeondata.com,,www.speedeondata.com,accounting@speedeondata.com,866-647-9219,,1,48.3,0,0,True,False,False,False,385112,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+128,Attribits,attribits.com,,https://www.attribits.com/privacy-policy,compliance@allgoodmediagroup.com,6179917065,,1,48.2,0,0,True,False,False,False,358017,1.0,5.0,,cppa-registry-current|cppa-registry-historical
+129,Institutional Shareholder Services Inc.,issgovernance.com,,https://www.issgovernance.com/privacy-legal/ccpa/,dataprotectionofficer@issgovernance.com,3015560357,,1,48.2,1,2,True,False,False,False,141,0.014,0.0,,cppa-registry-current|cppa-registry-historical
+130,"Bridg, a division of Cardlytics, Inc.",bridg.com,,https://www.bridg.com/privacy-policy,legalnotices@cardlytics.com,(888) 798-5802,,1,48.1,0,0,True,False,False,False,343121,1.0,4.0,,cppa-registry-current|cppa-registry-historical
+131,"InMarket Media, LLC",inmarket.com,,preferences.inmarket.com; inmarket.com/privacy,jknapp@inmarket.com,310-392-0500,,1,48.1,1,0,True,False,False,False,55981,1.0,7.0,,cppa-registry-current|cppa-registry-historical
+132,"Allant Group, LLC",allantgroup.com,,https://allantgroup.com/privacy-policy,privacy@allantgroup.com,6303553003,,1,48.0,0,0,True,False,False,False,328828,1.0,1.0,,cppa-registry-current
+133,"Findem, Inc.",findem.ai,,https://www.findem.ai/privacy-policy-platform,privacy@findem.ai,(650) 632-7215,,1,48.0,0,0,True,False,False,False,318244,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+134,"Integrated Direct Marketing, LLC",idm.us.com,,https://www.idm.us.com/do-not-sell-my-personal-information/,ccpa@idm.us.com,703-547-4961,,1,48.0,0,0,True,False,False,False,330619,1.0,5.0,,cppa-registry-current|cppa-registry-historical
+135,"Orgio, Inc.",theorg.com,,https://theorg.com/do-not-sell,privacy@theorg.com,6469606241,,1,48.0,0,1,True,False,False,False,17771,0.939,2.0,,cppa-registry-current
+136,"Fideo Intelligence, Inc.",fideo.ai,,https://app.fideo.ai/your-privacy-choices,dpo@fideo.ai,8883306943,,1,47.9,1,1,True,False,False,False,5125,1.0,3.0,,cppa-registry-current
+137,General Motors LLC,gm.com,,https://www.gm.com/consumer-privacy,privacy@gm.com,866-697-7482,,1,47.9,4,0,True,False,False,False,200,0.91,30.0,,cppa-registry-current
+138,LeadPost LLC,leadpost.com,,https://leadpost.com/privacy-policy/,amanda@leadpost.com,(866) 456-6674,,1,47.9,0,0,True,False,False,False,309072,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+139,Anchor Computer Inc.,anchorcomputer.com,,http://www.anchorcomputer.com/,hkhan@anchorcomputer.com,(631) 306-9336,,1,47.8,0,0,True,False,False,False,280939,0.996,14.0,,cppa-registry-current|cppa-registry-historical
+140,Pacific East Research Inc,pacificeast.com,,www.pacificeast.com,privacy@pacificeast.com,5037474474,,1,47.8,0,0,True,False,False,False,286952,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+141,Versar Data Solutions Inc,versium.com; www.datafinder.com,,https://versium.com/california-privacy-policy/,privacy@versium.com,800-395-0164,,1,47.8,0,0,True,False,False,False,295873,1.0,10.0,,cppa-registry-current
+142,BH Marketing Group LLC,usmarketinggrp.com,,https://usmarketinggrp.com/privacy-policy,privacy@usmarketinggrp.com,818-574-7774,,1,47.6,0,0,True,False,False,False,267082,1.0,45.0,,cppa-registry-current|cppa-registry-historical
+143,True Blue Analytics LLC,trueblueanalytics.org,,https://trueblueanalytics.org/,privacy@trueblueanalytics.org,7735304378,,1,47.6,0,0,True,False,False,False,270044,1.0,0.0,,cppa-registry-current|cppa-registry-historical
+144,"ACH, Address Clearing House",achcoop.com,,https://www.achcoop.com/,privacy@achcoop.com,3024800432,,1,47.5,0,0,True,False,False,False,254237,0.999,10.0,,cppa-registry-current|cppa-registry-historical
+145,"Cox Automotive, Inc.",coxautoinc.com; www.autotrader.com; www.fordblueadvantage.com; www.kbb.com,,https://www.coxautoinc.com/privacy-statement/,consumer-privacy-ops@coxautoinc.com,866-288-6872,,1,47.5,4,0,True,False,False,False,107,0.439,43.0,,cppa-registry-current
+146,Site Impact LLC,siteimpact.com,,https://www.siteimpact.com/privacypolicy.php,dataprivacy@siteimpact.com,954-982-7900,,1,47.4,0,0,True,False,False,False,233662,1.0,5.0,,cppa-registry-current|cppa-registry-historical
+147,ZoomInfo,zoominfo.com,b2b,https://privacyrequest.zoominfo.com/remove/verify,privacy@zoominfo.com,8669049666,,1,47.4,0,0,True,,,,10874,1.0,1.0,form,curated|cppa-registry-current|cppa-registry-historical
+148,"InfoPay, Inc",infopay.com; infotracer.com; propertychecker.com; goodcar.com; statecourts.org; courtcasefinder.com; thepublicindex.org; entitycheck.com; sentinex.org; idstrong.com; courtrecords.us; staterecords.org; recordsfinder.com,,https://www.infopay.com/privacy,compliance@infopay.com,8003099351,,1,47.3,0,0,True,False,False,False,18145,0.752,6.0,,cppa-registry-current
+149,People Data Labs,peopledatalabs.com,,https://privacy.peopledatalabs.com/policies?name=privacy-policy,privacy@peopledatalabs.com,888-868-1028,,1,47.2,0,0,True,False,False,False,218788,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+150,Swordfish AI Inc,swordfish.ai,,https://swordfish.ai/policy,contact@swordfish.ai,(855) 512-9715,,1,47.2,0,0,True,False,False,False,211740,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+151,IQVIA Digital Inc.,iqviadigital.com; https,,https://privacyportal.onetrust.com/webform/07e8dc4d-6686-403e-9b11-39fe7347d2f4/2f999bd2-c826-498c-a504-894eaf543b6f,privacyofficer@iqvia.com,8662674479,privacyportal.onetrust.com,4,46.9,2,0,True,False,False,False,766,0.99,6.0,,cppa-registry-current
+152,Milestone Marketing Solutions,milestonemarketingsolutions.com,,https://www.milestonemarketingsolutions.com/privacy-policy,accounting@milestonemarketingsolutions.com,800-313-1873,,1,46.4,1,0,True,False,False,False,24389,1.0,33.0,,cppa-registry-current|cppa-registry-historical
+153,Choreograph LLC,choreograph.com,,https://www.choreograph.com,datagovernance@choreograph.com,4156120051,,1,46.3,3,0,True,False,False,False,312,0.776,12.0,,cppa-registry-current|cppa-registry-historical
+154,"HireTeamMate, Inc.",hireez.com,,https://app.hireez.com/ownyourdata,privacy@hireez.com,888-797-9291,,1,46.3,0,1,True,False,False,False,13337,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+155,"Ownco, LLC",monitorbase.com,,https://my.monitorbase.com/privacypolicy,privacy@monitorbase.com,8018644610,,1,46.3,0,0,True,False,False,False,136120,1.0,1.0,,cppa-registry-current
+156,"CoStar Realty Information, Inc.",costar.com,,https://www.costar.com/about/privacy-notice,globalprivacyinbox@costar.com,8882267404,,1,46.2,1,2,True,False,False,False,144,0.729,5.0,,cppa-registry-current|cppa-registry-historical
+157,Datamentors LLC,porchgroupmedia.com,,www.porchgroupmedia.com,lchiodo@porchgroupmedia.com,8139607800,,1,45.8,0,0,True,False,False,False,105609,1.0,7.0,,cppa-registry-current
+158,"Deep Root Analytics, LLC",deeprootanalytics.com,,deeprootanalytics.com,notice@deeprootanalytics.com,2705560066,,1,45.8,0,0,True,False,False,False,35264,0.895,4.0,,cppa-registry-current|cppa-registry-historical
+159,"TruthFinder, LLC",truthfinder.com; www.courthousedirectory.us; www.getfullreport.com; www.unitedstatesbackgroundchecks.com; www.courtlocations.com; www.locaterecord.net; www.recordlocator.net; www.backgroundchecks.us,,https://www.truthfinder.com/privacy-center/,legal@peopleconnect.us,855 921-3711,,1,45.8,0,0,True,False,False,False,61672,0.946,1.0,,cppa-registry-current
+160,"Tunnl, LLC",tunnldata.com,,tunnldata.com,notice@tunnldata.com,2028182717,,1,45.8,0,0,True,False,False,False,35264,0.895,4.0,,cppa-registry-current|cppa-registry-historical
+161,"Meltwater News US, Inc.",meltwater.com,,meltwater.com/privacy,privacy@meltwater.com,1 332-600-1426,,1,45.7,0,4,True,False,True,True,10,1.0,23.0,,cppa-registry-current|cppa-registry-historical
+162,"Aidentified, Inc.",aidentified.com,,https://www.aidentified.com/privacy--policy,privacy@aidentified.com,5087356011,,1,45.6,0,0,True,False,False,False,95319,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+163,Globicom Inc,recordsfinder.com; https,,https://recordsfinder.com/optout/,aregsakanyan@gmail.com,7813541556,,1,45.5,0,0,True,False,False,False,529,0.055,6.0,,cppa-registry-current
+164,KB Synergy Inc,kbsynergy.com,,https://hiy.ywv.mybluehost.me/website_8088244e/privacy-policy-ccpa-do-not-sell-my-information/,info@kbsynergy.com,8882147234,,1,45.5,0,0,True,False,False,False,91207,1.0,42.0,,cppa-registry-current|cppa-registry-historical
+165,"Specialists Marketing Services, Inc.",sms-inc.com,,https://sms-inc.com/privacy-notice/,dataprivacyteam@sms-inc.com,2018655800,,1,45.4,0,0,True,False,False,False,58307,0.96,3.0,,cppa-registry-current|cppa-registry-historical
+166,Alliant Cooperative Data Solutions LLC,alliantinsight.com,,https://alliantinsight.com/alliant-privacy-policy/,compliance@alliantdata.com,8456175500,,1,45.2,0,0,True,False,False,False,73023,0.994,1.0,,cppa-registry-current
+167,"Belardi Ostroy, ALC, LLC",belardiwong.com,,https://belardiwong.com/,privacy.officer@belardiwong.com,212-924-1300,,1,45.2,0,0,True,False,False,False,1179,0.593,7.0,,cppa-registry-current|cppa-registry-historical
+168,FaceCheck.ID,facecheck.id,face-search,https://facecheck.id/Face-Search/RemoveMyPhotos,,,,1,45.2,0,0,,,,,,,,form,curated
+169,"Faraday, Inc.",faraday.ai,,https://faraday.ai/privacy-options,ccpa@faraday.io,8024580441,,1,45.2,0,0,True,False,False,False,77676,1.0,5.0,,cppa-registry-current
+170,US Data Corporation,usdatacorporation.com,,https://www.usdatacorporation.com/do-not-sell-my-info/?utm_source=google_ads&utm_medium=ppc&utm_term=us&gclid=undefined,privacy@usdatacorporation.com,818-444-4590,,1,45.2,0,0,True,False,False,False,76651,1.0,33.0,,cppa-registry-current|cppa-registry-historical
+171,"BeenVerified, LLC and its subsidiaries and affiliates",beenverified.com; https,,https://www.beenverified.com/svc/optout/search/comprehensive_optouts,privacy@ltvco.com,347-931-2725,beenverified.com,2,45.0,0,0,True,False,False,False,31905,0.981,3.0,,cppa-registry-current
+172,"Brooks Integrated Marketing, LLC",brooksim.com,,https://www.brooksim.com/privacy-policy,privacy@brooksim.com,8005312601,,1,45.0,0,0,True,False,False,False,68593,1.0,15.0,,cppa-registry-current|cppa-registry-historical
+173,Audience Acuity LLC,audienceacuity.com,,https://audienceacuity.com/,privacy@audienceacuity.com,4439943679,,1,44.9,0,0,True,False,False,False,49024,0.968,3.0,,cppa-registry-current|cppa-registry-historical
+174,"First Direct, Inc.",firstdirectmarketing.com; nationallistcounts.com,,https://compliance.firstdirectmarketing.com/,privacy@firstdirectmarketing.com,4024030000,,1,44.8,0,0,True,False,False,False,62010,1.0,10.0,,cppa-registry-current
+175,Resonate,resonate.com,,https://www.resonate.com/privacy-policy/,techleads@resonate.com,5712663200,,1,44.8,0,0,True,False,False,False,61800,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+176,Sabio Inc,sabioctv.com,,https://www.sabioctv.com/,privacy@sabio.inc,8449742662,,1,44.8,0,0,True,False,False,False,62217,1.0,2.0,,cppa-registry-current
+177,"Asset International, Inc.",issmarketintelligence.com,,https://www.issgovernance.com/privacy-legal/ccpa/,dataprotectionofficer@iss-stoxx.com,3015560357,,1,44.7,0,2,True,False,False,False,141,0.014,0.0,,cppa-registry-current
+178,MediaWallah Inc,mediawallah.com,,www.mediawallah.com,privacy@mediawallah.com,855 925-524,,1,44.6,0,0,True,False,False,False,56150,0.997,11.0,,cppa-registry-current|cppa-registry-historical
+179,Accurate Append Inc.,accurateappend.com,,https://accurateappend.com/privacy-policy/,shawn@accurateappend.com,833-663-4646,,1,44.5,0,0,True,False,False,False,53223,1.0,1.0,,cppa-registry-current
+180,Wunderkind Corporation,wunderkind.co,,https://www.wunderkind.co/privacy/,legal@wunderkind.co,2122923162,,1,44.5,0,0,True,False,False,False,55116,1.0,10.0,,cppa-registry-current
+181,First Orion Corp,firstorion.com,,www.firstorion.com,snichols@firstorion.com,3584061,,1,44.4,0,0,True,False,False,False,28464,0.944,1.0,,cppa-registry-current|cppa-registry-historical
+182,"Intelius, LLC",intelius.com; www.ussearch.com; www.pro.ussearch.com; www.arrestrecordsearch.com; www.criminalrecords.com; www.peoplefinder.com; www.peoplefind.com; www.telephonenumberlookups.com; www.reversephonelookup.com; www.brbpub.com; www.callercomplaints.com; www.courtreference.com; www.easybackgroundchecks.com; www.freebackgroundchecksusa.com; www.onlinesearches.com; www.snoopstation.com; www.zabasearch.com; www.addresses.com; www.publicrecords.com; www.publicrecords.onlinesearches.com; www.peoplelookup.com; www.publicrecords360.com,,www.intelius.com/privacy-center,legal@intelius.com,8775643253,,1,44.4,0,0,True,False,False,False,32339,0.957,1.0,,cppa-registry-current
+183,J2 Martech Corp,fullcontact.com,,https://platform.fullcontact.com/your-privacy-choices,privacy@fullcontact.com,2125033500,,1,44.4,0,1,True,False,True,False,5128,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+184,"NFocus Consulting, Inc.",n-focus.com,,https://www.n-focus.com/privacy-policy/,consumer@n-focus.com,7406545809,,1,44.4,3,0,True,False,False,False,187,0.877,18.0,,cppa-registry-current|cppa-registry-historical
+185,PrivCo Holding Inc,privco.com,,https://www.privco.com/privacy-policy,legal@privco.com,2126451686,,1,44.4,0,0,True,False,False,False,52136,1.0,9.0,,cppa-registry-current|cppa-registry-historical
+186,REAL INTENT INC,realintent.co,,https://www.realintent.co/privacy-policy,aaron@realintent.co,9492587296,,1,44.4,0,0,True,False,False,False,50602,1.0,1.0,,cppa-registry-current
+187,"Inbound Insight, LLC",inboundinsight.com,,https://inboundinsight.com/ccpa,privacy@inboundinsight.com,212-655-9807,,1,44.3,0,0,True,False,False,False,48963,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+188,Carry Technologies Inc.,hightouch.com,,https://hightouch.com/privacy-policy,legal@hightouch.com,332203819,,1,44.2,0,0,True,False,False,False,45852,1.0,33.0,,cppa-registry-current
+189,"Giant Partners, Inc.",giantpartners.com; www.listgiant.com,,www.giantpartners.com; www.listgiant.com,nikki@giantpartners.com,8052671575,,1,44.1,0,0,True,False,False,False,44784,1.0,12.0,,cppa-registry-current
+190,Instant Checkmate LLC,instantcheckmate.com; www.cellphonedirectory.com; www.cheaterslie.com; www.freepeople-search.com,,www.instantcheckmate.com/privacy-center,tara.buck@peopleconnect.us,(877) 564-3003,,1,44.0,0,0,True,False,False,False,24499,0.949,1.0,,cppa-registry-current
+191,Decide Technologies Inc.,decide.co,,https://decide.co/privacy,privacy@decide.co,8009835280,,1,43.9,1,0,True,False,False,False,6554,1.0,22.0,,cppa-registry-current|cppa-registry-historical
+192,"Postie, Inc",postie.com,,https://postie.com/your-privacy-choices/,legal@postie.com,888-992-4935,,1,43.9,0,0,True,False,False,False,40091,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+193,"Altair Data Resources, Inc",altairdata.com,,https://www.altairdata.com/consumer-info,dpelland@altairci.com,(615) 468-6800,,1,43.8,0,0,True,False,False,False,37132,1.0,3.0,,cppa-registry-current
+194,"Dataline, Inc.",datalinedata.com,,https://datalinedata.com/privacy-portal/,privacy.officer@datalinedata.com,6094526014,,1,43.8,0,0,True,False,False,False,37175,1.0,10.0,,cppa-registry-current
+195,"DonorBase, Inc.",donorbase.com,,https://donorbase.com,doba_privacy@donorbase.com,(402) 836-3377,,1,43.8,0,0,True,False,False,False,37141,1.0,9.0,,cppa-registry-current|cppa-registry-historical
+196,RELX Inc.,lexisnexis.com,,https://www.lexisnexis.com/global/privacy/en/privacy-center-us.page,privacy.inquiries@lexisnexis.com,8008973259,,1,43.7,0,2,True,False,False,True,130,0.231,6.0,,cppa-registry-current
+197,"Intalytics, Inc.",intalytics.com,,https://kalibrate.com/data-subject-access-request-form/,privacy@kalibrate.com,888-231-2921,,1,43.6,0,0,True,False,False,False,34220,1.0,15.0,,cppa-registry-current|cppa-registry-historical
+198,"Unacast, Inc.",unacast.com,,https://www.unacast.com/privacy-policy,privacy@unacast.com,7038408850,,1,43.6,1,1,True,False,False,False,561,1.0,11.0,,cppa-registry-current
+199,"Stirista, LLC",stirista.com; www.lbdigitaldata.com; www.mediasourcesolutions.com; ameribase.com; www.lighthouselist.com; www.andrewswharton.com; www.listconnection.net; www.magnetik.com,,https://www.stirista.com/privacy-policy/,info@stirista.com,8883206083,,1,43.5,0,0,True,False,False,False,31758,1.0,2.0,,cppa-registry-current
+200,CTAM LeadShare Corp.,smartmove.us,,https://www.smartmove.us/company/privacy,compliance@ctam.com,3014858933,,1,43.3,0,0,True,False,False,False,17683,0.95,16.0,,cppa-registry-current|cppa-registry-historical
+201,Realeflow LLC,realeflow.com; www.leadflow.com,,www.realeflow.com; www.leadflow.com,privacy@realeflow.com,4404470563,,1,43.3,0,0,True,False,False,False,29660,1.0,3.0,,cppa-registry-current
+202,"PropertyRadar, Inc.",propertyradar.com,,https://www.propertyradar.com/privacy-policy,privacy@propertyradar.com,888-914-9661,,1,43.2,1,2,True,False,False,True,42,0.714,5.0,,cppa-registry-current|cppa-registry-historical
+203,"Blackbaud, Inc",blackbaud.com,,https://www.blackbaud.com/,privacy@blackbaud.com,8436543256,,1,43.0,0,0,True,False,False,False,448,0.123,9.0,,cppa-registry-current|cppa-registry-historical
+204,"Civis Analytics, Inc.",civisanalytics.com,,https://www.civisanalytics.com/legal-pages/supplemental-privacy-notice,dataprotectionmail@civisanalytics.com,(312) 985-0173,,1,42.9,0,0,True,False,False,False,23773,1.0,27.0,,cppa-registry-current|cppa-registry-historical
+205,AnalyticsIQ Inc,analytics-iq.com,,https://analytics-iq.com/privacy-policy/,privacy@analyticsiq.com,8886124309,,1,42.8,0,0,True,False,False,False,22357,1.0,6.0,,cppa-registry-current|cppa-registry-historical
+206,"Slashdot Media, LLC",slashdotmedia.com; www.sourceforge.net; www.slashdot.org; www.voipreview.org; www.linuxjournal.com; www.myrateplan.com; wirefly.com,,https://slashdotmedia.com/privacy-statement/,roger.abbott@slashdotmedia.com,8585831700,,1,42.8,0,0,True,False,False,False,1474,0.732,1.0,,cppa-registry-current
+207,ContactOut Limited,contactout.com,,https://contactout.com/privacy_data_subjects,albert@contactout.io,3054063801,,1,42.7,0,0,True,False,False,False,21622,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+208,"HubSpot, Inc.",hubspot.com; https,,https://legal.hubspot.com/privacy-policy,privacy@hubspot.com,8884827768,,1,42.7,0,1,True,False,False,False,2175,1.0,15.0,,cppa-registry-current
+209,"Censia, Inc.",censia.com,,www.censia.com,support@censia.com,5102461192,,1,42.5,0,0,True,False,False,False,19529,1.0,2.0,,cppa-registry-current|cppa-registry-historical
+210,"M&R Strategic Services, Inc.",mrss.com,,https://www.mrss.com,privacy@mrss.com,202-223-9541,,1,42.5,0,0,True,False,False,False,19898,1.0,6.0,,cppa-registry-current|cppa-registry-historical
+211,Crimson Hexagon,brandwatch.com,,https://portals.dporganizer.com/fa778b0e-817f-4c96-b13d-e2b614470033,dpo@cision.com,2122292240,portals.dporganizer.com,2,42.4,0,4,True,False,True,True,0,,0.0,,cppa-registry-current|cppa-registry-historical
+212,"Zenleads, Inc.",apollo.io,,https://www.apollo.io/,dpo@apollo.io,3475239985,,1,42.4,0,0,True,False,False,False,18610,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+213,"Aristotle International, Inc.",aristotle.com,,https://www.aristotle.com/privacy/addendum-for-california-residents/,dpo@aristotle.com,2025438345,,1,42.3,1,0,True,False,False,False,635,0.767,1.0,,cppa-registry-current|cppa-registry-historical
+214,"Blue Hill Marketing Solutions, Inc",liftbasedata.com; www.liftengine.com; www.launchpadltv.com,,https://www.liftbasedata.com/request-to-know/,dataprivacy@liftbasedata.com,8456276600,liftbasedata.com,2,42.3,0,0,True,False,False,False,9322,1.0,21.0,,cppa-registry-current
+215,"iSpot.tv, Inc.",ispot.tv,,https://www.ispot.tv/privacy,privacy@ispot.tv,(855) 477-6888,,1,42.3,1,1,True,False,True,False,287,1.0,40.0,,cppa-registry-current|cppa-registry-historical
+216,Cision,cision.com,,https://portals.dporganizer.com/fa778b0e-817f-4c96-b13d-e2b614470033,dpo@cision.com,866-639-5087,portals.dporganizer.com,2,42.2,0,2,True,False,False,False,89,0.989,9.0,,cppa-registry-current|cppa-registry-historical
+217,"Datasys Group, Inc.",datasys.com,,https://datasys.com/privacy-policy,seth.lubin@datasys.com,9546603556,,1,42.2,0,0,True,False,False,False,16675,1.0,3.0,,cppa-registry-current
+218,"AtData, LLC",atdata.com,,https://www.atdata.com,privacy_support@atdata.com,3322404684,,1,42.1,0,0,True,False,False,False,9355,0.948,38.0,,cppa-registry-current|cppa-registry-historical
+219,Cognism,cognism.com,,www.cognism.com,privacy@cognism.com,6503725001,,1,42.1,0,0,True,False,False,False,16153,1.0,9.0,,cppa-registry-current|cppa-registry-historical
+220,Deloitte Consulting LLP,deloitte.com; https,,https://datasubject.deloitte.com/,usprivacyquestions@deloitte.com,8449190711,datasubject.deloitte.com,2,42.1,0,1,True,False,False,False,835,0.994,20.0,,cppa-registry-current
+221,"SheerID, Inc.",sheerid.com,,https://www.sheerid.com/global-privacy-policy/,privacy@sheerid.com,5033206614,,1,42.1,1,0,True,False,False,False,2625,1.0,10.0,,cppa-registry-current|cppa-registry-historical
+222,"Seamless Contacts, Inc.",seamless.ai,,https://preferences.seamless.ai/,privacy@seamlessleads.com,855-953-3265,,1,41.9,0,0,True,False,False,False,14576,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+223,Digital Viking Media Inc,digitalvikingmedia.com,,https://www.digitalvikingmedia.com/privacy-policy,privacy@digitalvikingmedia.com,5032030001,,1,41.8,1,0,True,False,False,False,2257,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+224,Datanyze LLC,datanyze.com,,https://www.datanyze.com/privacy-center,privacy@datanyze.com,3607185630,,1,41.6,0,0,True,False,False,False,12034,0.999,1.0,,cppa-registry-current|cppa-registry-historical
+225,Unearth Campaigns LLC,unearthcampaigns.com; www.atlasinfluence.com,,https://www.unearthcampaigns.com/privacy-policy/#ca,privacy@unearthcampaigns.com,8554562646,,1,41.6,0,0,True,False,False,False,12336,1.0,7.0,,cppa-registry-current
+226,"Venntel, Inc.",venntel.com,,https://www.venntel.com/privacy-policy,privacy@venntel.com,8555455623,,1,41.5,1,1,True,False,False,False,194,1.0,11.0,,cppa-registry-current|cppa-registry-historical
+227,"Madhive, Inc.",madhive.com,,https://www.madhive.com/legal/privacy-policy,privacy@madhive.com,646-727-4054,,1,41.4,1,0,True,False,False,False,1888,1.0,45.0,,cppa-registry-current|cppa-registry-historical
+228,ONAUDIENCE LTD,onaudience.com,,https://onaudience.com/do-not-sell-my-personal-info/,privacy@onaudience.com,20 3936 4267,,1,41.4,0,0,True,False,False,False,340,0.0,48.0,,cppa-registry-current|cppa-registry-historical
+229,"PulsePoint, Inc.",pulsepoint.com,,https://www.pulsepoint.com/legal/platform-privacy-policy,dataprivacy@pulsepoint.com,201-918-1871,,1,41.4,0,0,True,False,False,False,378,0.122,3.0,,cppa-registry-current|cppa-registry-historical
+230,"Strategic Data Intelligence, LLC",strategicdataintelligence.com,,www.strategicdataintelligence.com,m.curtis@sdintelligence.com,847-897-5706,,1,41.3,0,0,True,False,False,False,10400,1.0,9.0,,cppa-registry-current|cppa-registry-historical
+231,"e.Republic, LLC",erepublic.com; govtech.com; governing.com; marketing.governmentnavigator.com; insider.govtech.com,,https://erepublic.my.salesforce-sites.com/PrivacyRequest/,privacy@erepublic.com,9169321300,,1,41.2,0,0,True,False,False,False,7606,0.972,37.0,,cppa-registry-current
+232,"Lightcast, LLC",lightcast.io; rhetorik.com,,https://privacyportal.onetrust.com/webform/0f61f895-d08d-410f-b96d-ecfd34fd42e3/8d4dfe0d-998d-4c1d-ab6d-4357670fa8e9,privacy@lightcast.io,(208) 883-3500,privacyportal.onetrust.com,4,41.2,0,2,True,False,False,False,16,1.0,12.0,,cppa-registry-current
+233,Tagis Inc,amplemarket.com,,https://portal.usepylon.com/amplemarket/forms/privacy-request-form,legal@amplemarket.com,918204466,,1,41.2,0,0,True,False,False,False,8281,0.982,6.0,,cppa-registry-current|cppa-registry-historical
+234,Deloitte Financial Advisory Services LLP,deloitte.com,,https://datasubject.deloitte.com,usprivacyquestions@deloitte.com,8449190711,datasubject.deloitte.com,2,41.1,1,0,True,False,False,False,835,0.994,20.0,,cppa-registry-current|cppa-registry-historical
+235,"FourthWall Media, Inc.",fourthwall.tv,,https://www.fourthwall.tv/privacy-fourthwall,californiadrop@fourthwall.tv,5712669787,,1,41.1,1,0,True,False,False,False,1602,1.0,6.0,,cppa-registry-current|cppa-registry-historical
+236,"Mobilewalla, Inc.",mobilewalla.com,,https://www.mobilewalla.com/global-opt-out-request,jclark@mobilewalla.com,7704026730,,1,41.1,1,0,True,False,False,False,1547,1.0,4.0,,cppa-registry-current|cppa-registry-historical
+237,Monocl AB,account.monocl.com; https,,https://www.definitivehc.com,monocldrop@definitivehc.com,31 20 20 53,,1,41.1,0,1,True,False,False,False,692,0.954,3.0,,cppa-registry-current
+238,Populi LLC,definitivehc.com,,https://www.definitivehc.com,populidrop@definitivehc.com,(508) 904-4490,,1,41.1,0,1,True,False,False,False,692,0.954,3.0,,cppa-registry-current|cppa-registry-historical
+239,"Collective Data Solutions, LLC",collectivedata.io,,collectivedata.io,legal@collectivedata.io,3608607333,,1,41.0,1,0,True,False,False,False,1496,1.0,5.0,,cppa-registry-current|cppa-registry-historical
+240,"Spokeo, Inc.",spokeo.com; www.freepeopledirectory.com; www.thatsthem.com; www.peoplewin.com; www.anywho.com; www.family.me,,https://www.spokeo.com/privacy-policy,jmatthes@spokeo.com,6263969499,spokeo.com,2,41.0,1,2,True,False,False,True,8,1.0,1.0,,cppa-registry-current
+241,"Samba TV, Inc.",samba.tv,,https://www.samba.tv/users/privacy-policy?lang=en,jagdip.sekhon@samba.tv,4158896404,,1,40.9,0,0,True,False,False,False,8419,1.0,10.0,,cppa-registry-current|cppa-registry-historical
+242,WINR Data Pty Ltd,winrdata.com,,https://www.winrdata.com/privacy-policy-us/,privacyoffice@winrdata.com,414523064,,1,40.9,0,0,True,False,False,False,8592,1.0,1.0,,cppa-registry-current
+243,adsquare GmbH,adsquare.com,,https://adsquare.com/,privacy@adsquare.com,3020 8498140,,1,40.7,1,0,True,False,False,False,1266,1.0,8.0,,cppa-registry-current|cppa-registry-historical
+244,"Knowledge Works, Inc.",sbinsights.paynetonline.com,,https://www.equifax.com/personal/my-privacy/,usprivacy@equifax.com,1-866-295-6801,equifax.com,2,40.7,1,0,True,False,False,False,685,1.0,1.0,,cppa-registry-current
+245,Leadspace Inc,leadspace.com,,https://www.leadspace.com/do-not-sell-form,compliance_privacy@leadspace.com,855-532-3772,,1,40.7,0,0,True,False,False,False,7730,1.0,11.0,,cppa-registry-current|cppa-registry-historical
+246,"Warmly, Inc.",warmly.ai,,https://www.warmly.ai/p/privacy-policy,privacy@warmly.ai,4042931239,,1,40.7,0,1,True,False,True,False,768,1.0,2.0,,cppa-registry-current|cppa-registry-historical
+247,AppLovin Corporation,applovin.com,,https://legal.applovin.com/privacy/,datarequests@applovin.com,(800) 839-9646,,1,40.6,0,0,True,False,False,False,7392,1.0,1.0,,cppa-registry-current
+248,Private Records LLC,privaterecords.net; peoplesearch123.com; backgroundcheckers.net; personsearchers.com,,https://www.privaterecords.net,support@privaterecords.net,(888) 270-9304,,1,40.6,0,0,True,False,False,False,7178,1.0,1.0,,cppa-registry-current
+249,The People Searchers LLC,peoplesearcher.com; http,,http://peopesearcher.cm,support@peoplesearcher.com,8335679375,,1,40.6,0,0,True,False,False,False,7178,1.0,1.0,,cppa-registry-current
+250,Statara Solutions LLC,statara.com,,https://statara.com/privacy/,privacy@statara.com,(888) 207-8743,,1,40.5,0,0,True,False,False,False,7074,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+251,Qualfon,qualfon.com,,https://www.qualfon.com/privacy-policy/consumer-privacy-choices/,consumerprivacy@qualfon.com,3139575100,,1,40.2,0,0,True,False,False,False,6141,1.0,48.0,,cppa-registry-current|cppa-registry-historical
+252,"i360, LLC",i-360.com,,https://www.i-360.com/ccpa,privacy@i-360.com,8446112737,,1,40.0,1,1,True,False,False,False,92,1.0,20.0,,cppa-registry-current|cppa-registry-historical
+253,"Foo Monk, LLC",instantly.ai,,https://app.instantly.ai/privacy/info,privacy@instantly.ai,8182826243,,1,39.9,0,0,True,False,False,False,5229,1.0,1.0,,cppa-registry-current
+254,Truth Now LLC,checksecrets.com; peoplesearchusa.org; inmatesearcher.com; sealedrecords.net,,checksecrets.com; peoplesearchUSA.org; inmatesearcher.com; sealedrecords.net,support@checksecrets.com,(855) 754-7951,,1,39.9,0,0,True,False,False,False,5068,1.0,1.0,,cppa-registry-current
+255,"VideoAmp, Inc.",videoamp.com,,www.videoamp.com,privacy@videoamp.com,(424) 272-7774,,1,39.9,1,0,True,False,False,False,239,0.485,14.0,,cppa-registry-current|cppa-registry-historical
+256,Lookify.io,lookify.io,,https://lookify.io/ccpa-privacy-statement,support@lookify.io,5165193689,,1,39.8,0,0,True,False,False,False,2530,0.938,1.0,,cppa-registry-current
+257,"Narvar, Inc",corp.narvar.com,,https://corp.narvar.com/legal/privacy-policy,legal@narvar.com,6505859550,,1,39.8,0,0,True,False,False,False,4767,1.0,1.0,,cppa-registry-current
+258,We Inform LLC,weinform.org; www.truthrecord.org,,www.weinform.org; www.truthrecord.org,support@weinform.org,(855) 879-0159,,1,39.8,0,0,True,False,False,False,4814,1.0,1.0,,cppa-registry-current
+259,"RealSource, Inc",realsourcedata.com,,https://www.realsourcedata.com/privacy-policy,privacy@realsourcedata.com,6302081835,,1,39.6,0,0,True,False,False,False,4473,1.0,7.0,,cppa-registry-current|cppa-registry-historical
+260,"Clay Labs, Inc.",clay.com,,https://privacy.clay.com/policies,privacy@clay.com,6465350201,,1,39.5,0,1,True,False,True,False,376,0.976,32.0,,cppa-registry-current
+261,"Intermedia Ventures, LLC",staterecords.org; courtrecords.us; californiacourtrecords.us,,https://staterecords.org/optout,compliance@intermedia.team,512 617 2480,,1,39.5,0,0,True,False,False,False,300,0.133,6.0,,cppa-registry-current
+262,"T-Mobile USA, Inc.",t-mobile.com,,https://www.t-mobile.com/advertising-solutions,mmp-privacy@t-mobile.com,8009378997,,1,39.5,1,0,True,False,False,False,693,0.996,31.0,,cppa-registry-current|cppa-registry-historical
+263,A Direct Marketing Inc,bookyourdata.com,,https://www.bookyourdata.com,data@bookyourdata.com,3479012977,,1,39.4,0,0,True,False,False,False,3898,1.0,15.0,,cppa-registry-current|cppa-registry-historical
+264,"M1 Data & Analytics, LLC",m1-data.com,,https://m1-data.com/unsubscribe/,service@m1-data.com,954-776-1197,,1,39.4,1,0,True,False,False,False,651,1.0,2.0,,cppa-registry-current
+265,Revenue Roll Inc.,meettie.com,,meettie.com,info@meettie.com,9086799124,,1,39.4,1,0,True,False,False,False,667,1.0,7.0,,cppa-registry-current
+266,Azerion US Inc.,azerion.com,,https://www.hybridtheory.com/privacy-notice/,dpo_hybridtheory@azerion.com,9257881462,,1,39.3,2,0,True,False,False,False,106,1.0,6.0,,cppa-registry-current
+267,Intent IQ LLC,intentiq.com,,https://www.intentiq.com/opt-out/,privacy@intentiq.com,(888) 701-1811,,1,39.3,1,0,True,False,False,False,630,1.0,0.0,,cppa-registry-current|cppa-registry-historical
+268,Infomatics LLC,privatereports.com; mugshotlook.com; publicsearcher.com,,privatereports.com; mugshotlook.com; publicsearcher.com,support@privatereports.com,8337830920,,1,39.2,0,0,True,False,False,False,3516,1.0,1.0,,cppa-registry-current
+269,RampedUp,rampedup.io,,https://basic.rampedup.io/app/donotsell,privacy@rampedup.io,8882783433,,1,39.2,0,0,True,False,False,False,3526,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+270,Similarweb Ltd.,similarweb.com,,https://similarweb.com/,legal@similarweb.com,35447782,,1,39.2,2,2,True,False,True,False,0,,0.0,,cppa-registry-current
+271,"ClearCompany, LLC",clearcompany.com,,https://www.clearcompany.com/privacy-policy/,privacy@clearcompany.com,6179383801,,1,39.1,3,0,True,False,False,False,16,1.0,3.0,,cppa-registry-current
+272,"DR Decision Resources, LLC",clarivate.com,,https://privacyportal.onetrust.com/webform/7636e208-dda4-4218-8026-e1bc155873fc/draft/c3eedb35-4568-4772-87fb-4d8ae17ac233,drgdsr@clarivate.com,6829783558,privacyportal.onetrust.com,4,39.0,0,1,True,False,False,False,38,0.263,16.0,,cppa-registry-current
+273,Lead Intelligence Inc.,infutor.com,,https://infutor.com/privacy-center/,privacy@infutor.com,312-348-7900,,1,38.9,0,1,True,False,True,False,263,0.947,1.0,,cppa-registry-current
+274,"H1 Insights, Inc.",h1.co,,www.h1.co,inquiries@h1.co,6463636450,,1,38.5,0,0,True,False,False,False,2565,1.0,10.0,,cppa-registry-current
+275,"MH Sub I, LLC",internetbrands.com,,www.internetbrands.com,privacy@internetbrands.com,3102804000,,1,38.5,0,0,True,False,False,False,373,0.501,7.0,,cppa-registry-current|cppa-registry-historical
+276,"PostPilot, Inc.",postpilot.com,,https://www.postpilot.com/privacy-policy,operations@postpilot.com,(854) 205-5367,,1,38.4,0,0,True,False,False,False,2352,1.0,5.0,,cppa-registry-current
+277,"Taboola, Inc.",taboola.com,,https://www.taboola.com/,privacy@taboola.com,2122067663,,1,38.3,0,0,True,False,False,False,2310,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+278,GrayHair Software LLC,grayhairsoftware.com,,https://grayhairsoftware.com/privacy-policy/,privacy@grayhairsoftware.com,(856) 727-9372,,1,38.1,0,0,True,False,False,False,2091,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+279,"TrueData Solutions, Inc.",truedata.co,,https://www.truedata.co/wp-content/uploads/2026/01/TD-Privacy-Policy-effective-16-Jan-2026.pdf,privacy@truedata.co,6785496936,,1,38.1,0,0,True,False,False,False,2012,1.0,129.0,,cppa-registry-current|cppa-registry-historical
+280,Minerva BI Inc,minerva.io,,https://preferences.minerva.io/,privacy@minerva.io,6465353532,,1,38.0,0,0,True,False,False,False,1245,0.956,12.0,,cppa-registry-current
+281,PubMatic Inc.,pubmatic.com,,https://pubmatic.com/,privacy@pubmatic.com,6503313485,,1,38.0,1,0,True,False,False,False,321,0.997,5.0,,cppa-registry-current|cppa-registry-historical
+282,"Round Sky, Inc.",roundsky.com,,https://www.roundsky.com/supplemental-privacy-notice/,legal@roundsky.com,(855) 826-6284,,1,38.0,1,0,True,False,False,False,321,1.0,19.0,,cppa-registry-current|cppa-registry-historical
+283,"6sense Insights, Inc.",6sense.com,,https://6sense.com/privacy-policy/,privacy@6sense.com,(415) 212-9225,,1,37.9,0,0,True,False,False,False,1849,0.998,1.0,,cppa-registry-current|cppa-registry-historical
+284,BV Insights LLC,big-village.com,,https://big-village.com/privacy-policy/,jp.sardi@brightmountainmedia.com,646-516-6824,,1,37.9,1,1,True,True,True,False,31,1.0,40.0,,cppa-registry-current
+285,"Edvisors Network, Inc.",edvisors.com,,https://www.edvisors.com/your-privacy-choices/,customerservice@edvisors.com,8889721010,,1,37.8,2,0,True,False,False,False,43,0.721,1.0,,cppa-registry-current|cppa-registry-historical
+286,Famous Birthdays LLC,famousbirthdays.com; https,,https://www.famousbirthdays.com/privacy/,privacy@famousbirthdays.com,(917) 319-8875,,1,37.8,1,0,True,True,False,False,300,1.0,7.0,,cppa-registry-current
+287,"DataDelivers, LLC",datadelivers.com,,datadelivers.com,privacy@datadelivers.com,6306352400,,1,37.7,1,0,True,False,False,False,276,1.0,20.0,,cppa-registry-current|cppa-registry-historical
+288,"SBFE, LLC",sbfe.org,,https://www.sbfe.org/connect/ccpa,info@sbfe.org,2164562311,,1,37.7,0,0,True,False,False,False,1641,1.0,40.0,,cppa-registry-current|cppa-registry-historical
+289,"PossibleNOW, Inc.",possiblenow.com,,https://www.possiblenow.com/privacy-statement-california,californiadrop@possiblenowmarketing.com,7702551020,,1,37.6,0,0,True,False,False,False,1577,1.0,14.0,,cppa-registry-current|cppa-registry-historical
+290,Viant US LLC,viantinc.com,,www.viantinc.com,privacy@viantinc.com,9498618888,,1,37.6,1,0,True,False,False,False,172,0.762,5.0,,cppa-registry-current|cppa-registry-historical
+291,"Comscore, Inc",comscore.com,,https://www.comscore.com/About/Privacy-Policy,privacy@comscore.com,703-438-2000,,1,37.5,1,0,True,True,False,False,255,1.0,28.0,,cppa-registry-current|cppa-registry-historical
+292,Lead411 Corporation,lead411.com; growjo.com; quickenrich.io,,https://www.lead411.com/your-privacy-choices/,tom@lead411.io,5055002317,,1,37.5,0,1,True,False,True,False,152,1.0,14.0,,cppa-registry-current
+293,"Pipl, Inc.",pipl.com,,https://pipl.com,privacy@pipl.com,415-373-0180,,1,37.5,0,2,True,False,False,True,15,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+294,"Property Reach, L.P.",propertyreach.com; leadsherpa.com,,https://www.propertyreach.com/privacy,compliance@propertyreach.com,8775519855,,1,37.5,0,0,True,False,False,False,411,0.696,1.0,,cppa-registry-current
+295,"LiveRamp Holdings, Inc.",liveramp.com,,www.liveramp.com,consumercare@liveramp.com,(888) 987-6764,,1,37.4,1,0,True,False,False,False,132,0.545,0.0,,cppa-registry-current|cppa-registry-historical
+296,"NetWise Data, LLC",netwisedata.com,,https://www.netwisedata.com,privacyofficer@dnb.com,561-409-0570,,1,37.4,0,0,True,False,False,False,998,0.965,8.0,,cppa-registry-current|cppa-registry-historical
+297,Global Source Data Solutions Inc,gsdsi.com,,https://gsdsi.com/privacy,privacy@gsdsi.com,9542707722,,1,37.2,4,0,True,False,False,False,0,,0.0,,cppa-registry-current
+298,"Path2Response, LLC",path2response.com,,https://privacyportal-cdn.onetrust.com/dsarwebform/2de26f06-de6f-45a7-8e1d-7d1148a3f301/draft/7a5dc7d1-cc7e-43a8-9f24-702807deb65b.html,privacyinfo@path2response.com,3039277733,privacyportal-cdn.onetrust.com,2,37.2,0,0,True,False,False,False,250,0.604,3.0,,cppa-registry-current|cppa-registry-historical
+299,Hivestack Technologies Inc.,perion.com,,www.perion.com,privacy@hivestack.com,5143071538,,1,37.1,1,0,True,False,False,False,207,1.0,1.0,,cppa-registry-current
+300,Affinity Solutions Inc.,affinity.solutions,,https://affinitysolutions-privacy.my.onetrust.com/webform/a564cfa1-53bf-4c10-bf95-cd907432d7e8/7e4e6bf3-6562-454e-8c73-6a7bd1f4b336,privacy@affinitysolutions.com,8772187776,,1,36.9,0,0,True,False,False,False,297,0.559,27.0,,cppa-registry-current|cppa-registry-historical
+301,"Lusha Systems, Inc",lusha.com,,https://www.lusha.com/legal/privacy-notice/,legal@lusha.com,18664678688,,1,36.9,0,0,True,False,False,False,1119,1.0,4.0,,cppa-registry-current
+302,"MedPro Systems, LLC",medprosystems.com,,https://www.medprosystems.com/privacy-policy/,privacy@medprosystems.com,9733987800,,1,36.9,0,0,True,False,False,False,178,0.0,45.0,,cppa-registry-current
+303,ModFx Labs Pvt Ltd,modfxlabs.com,,https://modfxlabs.com/privacy,mandeep@modfxlabs.com,9845714575,,1,36.9,1,0,True,False,False,False,182,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+304,"TripleLift, Inc.",triplelift.com,,https://triplelift.com/user-rights-policy-and-opt-out/,privacy@triplelift.com,0180076091,,1,36.9,1,0,True,False,False,False,187,1.0,30.0,,cppa-registry-current
+305,"Electronic Voice Services, Inc.",telephonelists.biz,,https://www.telephonelists.biz/privacy-notice-for-residents-of-california,richard@evs7.com,9727136622,,1,36.7,0,0,True,False,False,False,986,1.0,24.0,,cppa-registry-current|cppa-registry-historical
+306,Preqin Ltd,preqin.com,,www.preqin.com,preqin.dp@blackrock.com,2128105300,,1,36.7,0,3,True,False,False,True,0,,0.0,,cppa-registry-current
+307,"El Toro.com, LLC",eltoro.com,,https://eltoro.com/your-privacy-choices/,privacy@eltoro.com,855-935-8676,,1,36.6,1,0,True,False,False,False,105,0.629,1.0,,cppa-registry-current|cppa-registry-historical
+308,Blue Action Inc.,blueaction.io,,https://blueaction.io/do-not-sell/,info@blueaction.io,(202) 505-2604,,1,36.5,0,0,True,False,False,False,891,1.0,19.0,,cppa-registry-current|cppa-registry-historical
+309,Heartbeat.AI Inc,heartbeat.ai,,https://heartbeat.ai/policy,contact@heartbeat.ai,(855) 512-9715,,1,36.5,0,0,True,False,False,False,917,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+310,Semasio GmbH,semasio.com,,https://www.semasio.com/legal/semasio-privacy-policy,info@semasio.com,1728382410,,1,36.5,0,0,True,False,False,False,921,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+311,Alphonso Inc.,alphonso.tv,,https://alphonso.tv/privacy/consumer,tom.cushing@lgads.tv,7036797533,,1,36.4,0,0,True,False,False,False,838,1.0,20.0,,cppa-registry-current|cppa-registry-historical
+312,Magnite Inc,magnite.com,,https://www.magnite.com/legal/user-choice-portal/,privacy@magnite.com,3102070272,,1,36.4,1,0,True,False,False,False,69,0.0,5.0,,cppa-registry-current|cppa-registry-historical
+313,Visual Visitor L.L.C.,visualvisitor.com,,https://www.visualvisitor.com/legal-agreements/,privacy@visualvisitor.com,(678) 496-7895,,1,36.3,0,0,True,False,False,False,818,1.0,3.0,,cppa-registry-current
+314,Precisely Software Incorporated,precisely.com; www.cloud.precisely.com; www.cloudnative.precisely.com; www.data.precisely.com; www.developer.precisely.com; www.geotax.com; www.mapinfomarketplace.precisely.com; www.portal.spectrum.precisely.com,,https://www.precisely.com/legal/california-notice-at-collection-and-privacy-notice,privacy@precisely.com,201-576-8960,,1,36.1,1,0,True,False,False,False,70,0.243,1.0,,cppa-registry-current
+315,"Veraset, LLC",veraset.com,,https://www.veraset.com/legal/do-not-sell-request#consumer-opt-out-do-not-sell-request,tax@veraset.com,8185153432,,1,36.1,1,1,True,False,False,False,12,1.0,2.0,,cppa-registry-current|cppa-registry-historical
+316,Malvern Media Inc.,malvernmedia.com,,https://www.malvernmedia.com/privacy-policy,info@malvernmedia.com,7738186872,,1,36.0,0,0,True,False,False,False,696,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+317,"Wiland, Inc.",wiland.com,,https://wiland.com/privacy-choices/,privacy@wiland.com,303-485-8686,,1,35.9,0,0,True,False,False,False,513,0.953,5.0,,cppa-registry-current|cppa-registry-historical
+318,"AutoWeb, Inc.",autoweb.com,,www.autoweb.com,autolegal@autoweb.com,949-225-4500,,1,35.8,1,0,True,False,False,False,62,0.129,7.0,,cppa-registry-current|cppa-registry-historical
+319,Airlines Reporting Corporation,arccorp.com,,https://www2.arccorp.com/site-privacy-policy/,legalteam@arccorp.com,7038168000,,1,35.7,1,2,True,True,False,True,0,,0.0,,cppa-registry-current
+320,"Babel Street, Inc.",babelstreet.com,,https://www.babelstreet.com/privacy,privacy@babelstreet.com,7039563572,,1,35.7,1,2,True,False,False,True,0,,0.0,,cppa-registry-current
+321,Fog Data science LLC,fogdatascience.com,,https://www.fogdatascience.com/opt-out,info@fogdatascience.com,000-000-0000,,1,35.7,1,2,True,False,False,True,0,,0.0,,cppa-registry-current
+322,Healthcare Inc,healthcare.com; https,,https://www.healthcare.com/privacy-policy,security@healthcare.com,2392824600,,1,35.7,1,1,True,False,False,False,10,1.0,8.0,,cppa-registry-current
+323,"Pen-Link, Ltd.",penlink.com,,https://www.penlink.com/privacy-policy/,privacy@penlink.com,4024218857,,1,35.7,1,2,True,False,False,True,0,,0.0,,cppa-registry-current
+324,"AWL Holdings, LLC",allwebleads.com; insurancequotes.com; usinsuranceonline.com; affordable-home-insurance.org; discount-car-insurance-rates.com; general-liability-insurance-rates.com; affordable-health-insurance-plans.org; affordable-life-insurance-rates.org,,https://privacyportal-eu.onetrust.com/webform/031dc37f-2093-4055-9d04-22f83329fe9f/a4fb8ed6-8389-4a17-a3be-ca808c6b300e,onlineops@awl.com,(888)522-7355,,1,35.6,0,0,True,False,False,False,139,0.0,1.0,,cppa-registry-current
+325,Eyeota Pte Ltd,eyeota.com,,https://www.eyeota.com/,privacy@eyeota.com,91726409,,1,35.5,0,1,True,False,True,False,55,1.0,10.0,,cppa-registry-current|cppa-registry-historical
+326,"PaeDae, Inc.",infillion.com,,https://infillion.com/privacy-policy/,privacy@infillion.com,8008825216,,1,35.5,1,0,True,False,False,False,82,0.915,14.0,,cppa-registry-current
+327,"TechTarget, Inc",informatechtarget.com; https,,https://techtarget.zendesk.com/hc/en-us/requests/new?ticket_form_id=360004852434,privacy@techtarget.com,617-431-9200,,1,35.5,0,0,True,False,False,False,543,1.0,15.0,,cppa-registry-current
+328,DecisionLinks LLC,decisionlinks.com,,https://www.decisionlinks.com/legal-pages/your-privacy-choices,support@decisionlinks.com,(800) 343-2955,,1,35.3,0,0,True,False,False,False,500,1.0,10.0,,cppa-registry-current|cppa-registry-historical
+329,Merkle Inc.,merkle.com,,https://www.merkle.com/en/privacy-policy.html,americas.dpo@dentsu.com,2125745285,,1,35.3,0,0,True,False,False,False,391,0.949,7.0,,cppa-registry-current
+330,Bushwick Growbots LLC,growbots.com,,growbots.com,operations@growbots.com,502040733,,1,35.2,0,0,True,False,False,False,455,1.0,0.0,,cppa-registry-current|cppa-registry-historical
+331,"Sovrn, Inc.",sovrn.com,,https://www.sovrn.com/privacy-policy/policy-center/,privacy@sovrn.com,(303) 493-5490,,1,35.2,0,1,True,False,True,False,46,1.0,30.0,,cppa-registry-current|cppa-registry-historical
+332,"Matchbook Data, LLC",matchbookdata.com,,https://www.matchbookdata.com/privacy-policy/,privacy@matchbookdata.com,(855) 716-3196,,1,35.1,1,0,True,False,False,False,47,0.021,2.0,,cppa-registry-current
+333,"Outlogic, LLC",outlogic.io,,https://outlogic.io/opt-out-form/,privacy@outlogic.io,(866) 346-9602,,1,35.1,1,0,True,False,False,False,47,0.021,2.0,,cppa-registry-current|cppa-registry-historical
+334,"Peoplefinders, LLC",peoplefinders.com; findaneighborhood.com,,https://www.peoplefinders.com/about/privacy,customercare@peoplefinders.com,8007188997,,1,34.9,0,0,True,False,False,False,389,1.0,1.0,,cppa-registry-current
+335,PeoplefindersDaaS,peoplefindersdaas.com,,www.peoplefindersdaas.com,bryce@peoplefindersdaas.com,9169964310,,1,34.9,0,0,True,False,False,False,395,1.0,27.0,,cppa-registry-current|cppa-registry-historical
+336,"LeadIQ, Inc",leadiq.com,,https://leadiq.com/privacy-center,privacy@leadiq.com,8886532347,,1,34.8,0,0,True,False,False,False,374,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+337,"Windfall Data, Inc.",windfall.com,,https://www.windfall.com/your-privacy-choices,privacy@windfall.com,8009466710,,1,34.8,0,0,True,False,False,False,387,1.0,6.0,,cppa-registry-current
+338,"Autodata Solutions, Inc.",jdpower.com,,https://www.jdpower.com/privacy/california,jdpowerprivacy@jdpa.com,8054188000,,1,34.7,0,0,True,False,False,False,226,0.81,26.0,,cppa-registry-current|cppa-registry-historical
+339,Cadent LLC,cadent.tv,,www.cadent.tv,privacy@cadent.tv,2127961960,,1,34.6,1,0,True,False,False,False,56,1.0,25.0,,cppa-registry-current|cppa-registry-historical
+340,CITYDATA Inc.,citydata.ai,,https://www.citydata.ai/privacy,business@citydata.ai,6502040028,,1,34.6,1,0,True,False,False,False,58,1.0,3.0,,cppa-registry-current|cppa-registry-historical
+341,"Webbula, LLC",webbula.com,,https://webbula.com/privacy-center/,legal@webbula.com,888-993-2285,,1,34.6,0,0,True,False,False,False,348,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+342,Blis Global Ltd,blis.com,,https://www.blis.com,privacy@blis.com,02034754660,,1,34.5,1,0,True,False,False,False,54,1.0,35.0,,cppa-registry-current|cppa-registry-historical
+343,"Accudata Integrated Marketing, LLC",acculeads.com; https,,https://deepsync.com/accudata/,legal@deepsync.com,8889707248,,1,34.2,0,0,True,False,False,False,279,1.0,1.0,,cppa-registry-current
+344,"App Science, Inc",appscience.ai,,https://www.appscience.ai/,privacy@appscience.inc,8449742662,,1,34.2,0,0,True,False,False,False,283,1.0,3.0,,cppa-registry-current
+345,ASL Marketing,deepsync.com,,https://deepsync.com,legal@deepsync.com,(888) 970-7248,,1,34.2,0,0,True,False,False,False,279,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+346,Catalist LLC,catalist.us,,catalist.us/privacy-policy,privacy@catalist.us,2029627200,,1,34.1,0,0,True,False,False,False,198,0.869,11.0,,cppa-registry-current|cppa-registry-historical
+347,Command Precision Inc.,persistent.id,,https://persistent.id/privacy-policy,privacy@persistent.id,(781)552-9594,,1,34.1,0,0,True,False,False,False,258,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+348,"Exact Opco, LLC",exactcustomer.com,,www.exactcustomer.com,info@exactcustomer.com,516-253-6644,,1,34.0,0,0,True,False,False,False,112,0.286,2.0,,cppa-registry-current|cppa-registry-historical
+349,Rich Media LLC,richmediallc.com,,https://richmediallc.com/privacy-policy/,jeff@richmediallc.com,9542921013,,1,34.0,0,0,True,False,False,False,254,1.0,22.0,,cppa-registry-current|cppa-registry-historical
+350,"TSG Holdco, LLC",finthrive.com,,www.finthrive.com,tsg@finthrive.com,6782488161,,1,33.9,0,0,True,False,False,False,234,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+351,Black Pearl Group Limited,blackpearl.com,,https://www.blackpearl.com/your-privacy-choices,richard.doone@blackpearl.com,4805350309,,1,33.8,0,0,True,False,False,False,212,0.958,6.0,,cppa-registry-current
+352,"JMR Media Consulting, Inc.",jmr-media.com,,https://jmr-media.com/privacy-notice,jon@jmr-media.com,9547679339,,1,33.8,0,0,True,False,False,False,228,1.0,24.0,,cppa-registry-current|cppa-registry-historical
+353,"BDO GCI, LLC",bdo.com,,www.bdo.com,privacy@bdo-gci.com,6165758785,,1,33.7,3,0,True,True,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+354,Dealfront Finland Oy,leadfeeder.com,,https://www.leadfeeder.com/privacy/privacy-notice/,dpo@leadfeeder.com,58 10 279 294,,1,33.7,0,0,True,False,False,False,217,1.0,21.0,,cppa-registry-current
+355,"PlaceIQ, Inc.",precisely.com,,https://www.precisely.com/legal/placeiq-california-notice-at-collection-and-privacy-notice,placeiq.privacy@precisely.com,201-576-8960,,1,33.7,1,0,True,False,False,False,27,0.037,2.0,,cppa-registry-current
+356,"CDK Global, LLC",cdkglobal.com,,cdkglobal.com,james.kinzer@cdk.com,3122060352,,1,33.6,1,0,True,False,False,False,34,1.0,42.0,,cppa-registry-current
+357,DealMachine Operations Inc.,dealmachine.com,,https://privacyrequest.dealmachine.com/remove,support@dealmachine.com,3176807701,,1,33.6,0,0,True,False,False,False,202,1.0,7.0,,cppa-registry-current
+358,"NEXT WAVE MARKETING STRATEGIES, INC",agedleadstore.com; nextwavemarketingstrategies.com,,agedleadstore.com; nextwavemarketingstrategies.com,privacy_requests@nextwavemarketingstrategies.com,8882389283,,1,33.6,0,0,True,False,False,False,210,1.0,1.0,,cppa-registry-current
+359,illumin Inc.,illumin.com,,https://illumin.com/legalcenter/,itops@illumin.com,(416) 218-9888,,1,33.5,0,0,True,False,False,False,194,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+360,Snovio Inc,snov.io,,https://snov.io/do-not-sell-my-personal-information,v.budkevych@snov.io,3477050819,,1,33.5,0,1,True,False,False,False,19,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+361,Buyerlink Inc.,buyerlink.co,,www.buyerlink.co,legal@buyerlink.com,925-983-3400,,1,33.4,1,0,True,False,False,False,28,0.607,45.0,,cppa-registry-current
+362,"Dstillery, Inc.",dstillery.com,,dstillery.com,privacy@dstillery.com,(848) 272-1164,,1,33.4,0,0,True,False,False,False,188,1.0,0.0,,cppa-registry-current|cppa-registry-historical
+363,"Infinite Media Concepts, Inc.",mailinglists.com,,https://mailinglists.com/about/privacy-policy,unsubscribe@mailinglists.com,914-948-8300,,1,33.4,0,0,True,False,False,False,80,0.0,5.0,,cppa-registry-current
+364,StackAdapt Inc.,stackadapt.com,,stackadapt.com,privacy@stackadapt.com,(650) 999-3764,,1,33.4,2,0,True,False,False,False,5,0.0,2.0,,cppa-registry-current
+365,"ListsOnline.com, Inc.",everleads.com,,https://www.everleads.com/privacy,privacy@everleads.com,8007342275,,1,33.3,0,0,True,False,False,False,179,1.0,10.0,,cppa-registry-current
+366,"Swarm Holdings, Inc.",theswarm.com,,https://www.theswarm.com/privacy,privcy@theswarm.com,4153669903,,1,33.3,0,1,True,False,True,False,18,1.0,15.0,,cppa-registry-current
+367,"Complete Medical Lists, Inc.",completemedicallists.com,,https://www.completemedicallists.com/privacy.php,tburnell@completemedicallists.com,6038238042,,1,33.2,0,0,True,False,False,False,164,1.0,11.0,,cppa-registry-current|cppa-registry-historical
+368,PhoneBooks.com,phonebooks.com,phone-directory,https://www.phonebooks.com/opt-out,,,,1,33.2,0,0,,,,,,,,form,curated
+369,UnitedStatesPhonebook,unitedstatesphonebook.com,phone-directory,http://www.unitedstatesphonebook.com/contact.php,,,,1,33.2,0,0,,,,,,,,form,curated
+370,Zlookup,zlookup.com,phone-directory,https://www.zlookup.com/opt_out,,,,1,33.2,0,0,,,,,,,,form,curated
+371,Complete Mailing Lists LLC,completemailinglists.com,,https://completemailinglists.com/do-not-sell-my-information,ewoolf@completemailinglists.com,9147713120,,1,33.1,0,0,True,False,False,False,160,1.0,15.0,,cppa-registry-current|cppa-registry-historical
+372,"Forager.ai, LLC",forager.ai,,https://app.forager.ai/privacy,privacy@forager.ai,8182826243,,1,33.1,0,0,True,False,False,False,157,1.0,1.0,,cppa-registry-current
+373,"Remodeling.com, LLC",remodeling.com,,https://remodeling.com,operations@ignitevisibility.com,(619) 752-1955,,1,33.1,0,0,True,False,False,False,79,0.139,10.0,,cppa-registry-current|cppa-registry-historical
+374,S&P Global Inc,spglobal.com,,https://www.spglobal.com/en,privacy@spglobal.com,18555291761,,1,33.1,1,0,True,False,False,False,24,0.625,25.0,,cppa-registry-current|cppa-registry-historical
+375,DealerDirect LLC,forddirect.com,,www.forddirectprivacy.com,dprivacy@forddirect.com,(844) 889-7367,,1,33.0,0,0,True,False,False,False,137,0.949,24.0,,cppa-registry-current|cppa-registry-historical
+376,"Leidos Digital Solutions, Inc.",leidosiq.com,,www.leidosiq.com,privacy@leidos.com,7032085006,,1,33.0,0,1,True,False,False,False,15,1.0,9.0,,cppa-registry-current
+377,"Vendelux, Inc.",vendelux.com,,https://vendelux.com/privacy-center/,ben@vendelux.com,3477034231,,1,33.0,0,0,True,False,False,False,152,1.0,10.0,,cppa-registry-current
+378,"Endgame Labs, Inc.",endgame.io,,https://docs.endgame.io/trust/privacy,info@endgame.io,310-800-1257,,1,32.9,0,1,True,False,True,False,14,1.0,7.0,,cppa-registry-current
+379,Mobile Technology Corporation,onspotdata.com,,https://www.onspotdata.com/privacy-policy/,accounting@onspotdata.com,7206969935,,1,32.9,1,0,True,False,False,False,24,0.958,12.0,,cppa-registry-current|cppa-registry-historical
+380,Grassroots Analytics,grassrootsanalytics.com,,https://www.grassrootsanalytics.com/california-consumer-privacy-act-ccpa,operations@grassrootsanalytics.com,(202) 240-2456,,1,32.8,0,0,True,False,False,False,138,1.0,15.0,,cppa-registry-current|cppa-registry-historical
+381,JDM LIST SERVICES,jdmlistservices.com,,https://jdmlistservices.com/privacy-policy,chrissy@jdmlistservices.com,3472130076,,1,32.7,0,0,True,False,False,False,127,1.0,30.0,,cppa-registry-current|cppa-registry-historical
+382,RecruitBot,recruitbot.com,,https://recruitbot.com/ccpa/,privacy@salesbot.io,8186819266,,1,32.7,0,0,True,False,False,False,127,1.0,5.0,,cppa-registry-current
+383,"Komodo Health, Inc.",komodohealth.com,,https://www.komodohealth.com/,trust-and-safety@komodohealth.com,4154691787,,1,32.6,0,1,True,False,True,False,12,1.0,32.0,,cppa-registry-current|cppa-registry-historical
+384,Outward Media Inc.,outwardmedia.com,,https://outwardmedia.com/privacypolicy,privacy@outwardmedia.com,310-274-531,,1,32.6,0,0,True,False,False,False,120,1.0,10.0,,cppa-registry-current|cppa-registry-historical
+385,Subdirect LLC,www360mediadirect.com,,https://360-media-direct.privacy.saymine.io/360_Media_Direct,privacy@360mediadirect.com,8002583350,,1,32.6,0,0,True,False,False,False,103,0.825,6.0,,cppa-registry-current
+386,"Buxton Company, LLC",buxtonco.com,,https://www.buxtonco.com/privacy,consumerprivacy@buxtonco.com,8173323681,,1,32.4,2,0,True,False,False,False,3,0.667,21.0,,cppa-registry-current|cppa-registry-historical
+387,"Demand Science US, LLC",demandscience.com,,https://demandscience.com/,legal@demandscience.com,8577701744,,1,32.3,0,0,True,False,False,False,107,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+388,FreeWheel Media Inc,freewheel.com,,www.freewheel.com,legalnotices@freewheel.com,(952) 221-1507,,1,32.3,1,0,True,False,False,False,17,0.706,16.0,,cppa-registry-current
+389,Four Corner Media Corp,fourcornerhome.com; https,,https://fourcornerhome.com/data-privacy-form/,john@fourcornerhome.com,9194142867,,1,32.2,0,0,True,False,False,False,100,1.0,20.0,,cppa-registry-current
+390,"Revelio Labs, Inc.",reveliolabs.com,,https://www.reveliolabs.com/privacy/,hannah@reveliolabs.com,2014216375,,1,32.2,0,0,True,False,False,False,100,1.0,15.0,,cppa-registry-current|cppa-registry-historical
+391,"EAB Global, Inc.",eab.com,,https://eab.com/privacy-policy/,legal@eab.com,2027471000,,1,32.1,1,0,True,True,False,False,16,0.938,1.0,,cppa-registry-current|cppa-registry-historical
+392,"ZipStorm, Inc.",seekout.com,,https://www.seekout.com/privacy/choices,legal@seekout.com,206-737-1420,,1,32.1,0,0,True,False,False,False,72,0.639,31.0,,cppa-registry-current
+393,"Paramount Lists, Inc.",paramountdirectmarketing.com,,https://www.paramountdirectmarketing.com/privacy-policy.php,ccpa@paramountdirectmarketing.com,8007235478,,1,31.9,1,0,True,False,False,False,13,0.462,1.0,,cppa-registry-current|cppa-registry-historical
+394,"Reveal Mobile, Inc.",revealmobile.com,,https://revealmobile.com/privacy/,info@revealmobile.com,9195739701,,1,31.9,1,0,True,False,False,False,14,1.0,21.0,,cppa-registry-current|cppa-registry-historical
+395,"Above Data, Inc.",abovedata.io,,https://www.abovedata.io/opt-out/,privacy@abovedata.io,9372433708,,1,31.8,0,0,True,False,False,False,83,1.0,24.0,,cppa-registry-current
+396,L.S Mobile Apps Holdings LTD,lsmapps.com,,https://www.lsmapps.com/ccpa,guy.hamawi@lsmapps.com,526969477,,1,31.8,0,1,True,False,False,False,8,1.0,10.0,,cppa-registry-current
+397,LeadCrunch,getrev.ai,,getrev.ai; getrev.ai/privacy-policy; getrev.ai/privacy-request,privacy@getrev.ai,8886525452,,1,31.7,0,0,True,False,False,False,52,0.269,7.0,,cppa-registry-current|cppa-registry-historical
+398,"MULTIMEDIA LISTS, INC.",multimedialists.com,,www.multimedialists.com,daniel@multimedialists.com,2564685478,,1,31.7,0,0,True,False,False,False,78,1.0,6.0,,cppa-registry-current|cppa-registry-historical
+399,"Pop Acta Media, LLC",popacta.com,,https://popacta.com/privacy-policy/,legal@popacta.com,8889200791,,1,31.7,0,0,True,False,False,False,77,1.0,2.0,,cppa-registry-current|cppa-registry-historical
+400,"Innovative Database Solutions, Inc.",idatabasesolutions.com,,https://idatabasesolutions.com/personal-information-request-all-other-states/,justin@idatabasesolutions.com,3038343412,,1,31.6,0,0,True,False,False,False,73,1.0,2.0,,cppa-registry-current
+401,Sharethrough,sharethrough.com,,https://www.sharethrough.com/,dataprotection@sharethrough.com,888-881-6930,,1,31.6,1,0,True,False,False,False,12,1.0,26.0,,cppa-registry-current|cppa-registry-historical
+402,UPS Capital Corporation,upscapital.com; insureshield.com,,upscapital.com; insureshield.com,upscprivacyinfosec@ups.com,8889129055,,1,31.6,1,0,True,False,False,False,12,0.917,14.0,,cppa-registry-current
+403,"Wiza, Inc.",wiza.com,,www.wiza.co,harrison@wiza.com,9172320799,,1,31.6,0,0,True,False,False,False,75,1.0,5.0,,cppa-registry-current
+404,"Data Partners, Inc.",datapartners.com,,https://datapartners.com/donotsellmyinformation/,info@datapartners.com,2392678762,,1,31.3,0,0,True,False,False,False,63,1.0,7.0,,cppa-registry-current|cppa-registry-historical
+405,"Media.net Advertising FZ, LLC",media.net,,https://www.media.net/privacy-policy/,privacy@media.net,52-951-9546,,1,31.2,0,0,True,False,False,False,40,0.0,5.0,,cppa-registry-current
+406,"National Opinion Institute, LLC",nationalopinioninstitute.com,,https://nationalopinioninstitute.com/ca-privacy,privacy@nationalopinioninstitute.com,8449004722,,1,31.2,1,1,True,False,False,False,1,1.0,30.0,,cppa-registry-current
+407,Onfocus SAS,adagio.io,,https://adagio.io,dpo@adagio.io,6 80 03 49 11,,1,31.2,1,1,True,False,False,False,0,,0.0,,cppa-registry-current
+408,"RevOptimal, LLC",revoptimal.com,,https://revoptimal.com/privacy/,privacy@revoptimal.com,(504) 230-2388,,1,31.2,0,0,True,False,False,False,60,1.0,4.0,,cppa-registry-current
+409,"Rushmore Labs, LLC",rushmorelabs.com; https,,https://rushmorelabs.com/california-privacy-notice,privacy@rushmorelabs.com,8776642552,,1,31.2,1,1,True,False,False,False,0,,0.0,,cppa-registry-current
+410,VoterRecords,voterrecords.com,public-record,https://voterrecords.com/faq,admin@voterrecords.com,,,1,31.2,0,0,,,,,,,,form,curated
+411,Clickagy LLC,clickagy.com,,https://www.clickagy.com/privacy-center/,privacy@clickagy.com,833-737-1973,,1,31.1,0,0,True,False,False,False,56,1.0,2.0,,cppa-registry-current|cppa-registry-historical
+412,"Qurium Solutions, Inc.",supplier.io,,https://supplier.io/privacy-policy,dj.merino@supplier.io,7083677644,,1,31.1,0,0,True,False,False,False,56,0.946,6.0,,cppa-registry-current
+413,"ReallyGreatRate, Inc",rgrmarketing.com,,https://www.rgrmarketing.com/,drop@rgrmarketing.com,3105408900,,1,31.1,0,0,True,False,False,False,56,1.0,5.0,,cppa-registry-current|cppa-registry-historical
+414,Claritas LLC,claritas.com,,www.claritas.com,rhonda.rich@claritas.com,888-981-0040,,1,31.0,0,0,True,False,False,False,53,1.0,14.0,,cppa-registry-current|cppa-registry-historical
+415,"xAd, Inc.",groundtruth.com,,https://www.groundtruth.com/privacy-policy/,legal@groundtruth.com,5102957561,,1,31.0,1,0,True,False,False,False,9,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+416,"The Data Group, LLC",thedatagroup.com,,https://thedatagroup.com/california-consumer-privacy-act/,jhenson@thedatagroup.com,8002625609,,1,30.9,0,0,True,False,False,False,52,1.0,6.0,,cppa-registry-current
+417,"Anteriad, LLC",anteriad.com,,https://anteriad.com/,privacy@anteriad.com,9143681000,,1,30.7,0,0,True,False,False,False,46,1.0,2.0,,cppa-registry-current|cppa-registry-historical
+418,Explorium Inc.,explorium.ai,,https://www.explorium.ai/do-not-sell-my-personal-info/,contact@explorium.ai,4454563349,,1,30.7,0,0,True,False,False,False,47,1.0,10.0,,cppa-registry-current
+419,"LizDev,Inc",lizdev.com,,https://lizdev.com/privacy-policy/,privacyanddatacompliancereview@lizdev.com,9493020926,,1,30.7,0,0,True,False,False,False,46,1.0,10.0,,cppa-registry-current|cppa-registry-historical
+420,"Best Pick Reports, LLC",bestpickreports.com,,www.bestpickreports.com,operations@ignitevisibility.com,(619) 752-1955,,1,30.6,0,0,True,False,False,False,43,1.0,7.0,,cppa-registry-current
+421,"Great Lakes List, Inc.",greatlakeslists.com,,https://greatlakeslists.com/privacy-policy,ccpa@greatlakeslists.com,8009645478,,1,30.6,1,0,True,False,False,False,7,0.0,1.0,,cppa-registry-current|cppa-registry-historical
+422,"Predictive Pop, Inc.",audigent.com,,https://audigent.com/privacy-center,ca_drop_audigent@experian.com,9294839229,,1,30.6,0,0,True,False,False,False,44,1.0,3.0,,cppa-registry-current
+423,"Cross Pixel Media, Inc.",crosspixel.net,,https://privacy.crsspxl.com/,privacy@rbarrel.com,7802350934,,1,30.5,0,0,True,False,False,False,41,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+424,"Home Contractors Review, LLC",fivestarrated.com,,https://www.fivestarrated.com,operations@ignitevisibility.com,(619) 752-1955,,1,30.4,0,0,True,False,False,False,40,1.0,7.0,,cppa-registry-current
+425,Datonics LLC,datonics.com,,https://datonics.com/,accounting@datonics.com,6468670647,,1,30.3,0,0,True,False,False,False,38,1.0,21.0,,cppa-registry-current|cppa-registry-historical
+426,"Health Union, LLC",health-union.com,,https://privacyportal.onetrust.com/webform/c402d2db-7536-4212-a23d-ed4a33c1b3b2/e3aec736-7c0a-4313-a3e7-132ff601397a,privacy@health-union.com,484-985-9715,privacyportal.onetrust.com,4,30.3,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+427,01Advertising Inc.,01advertising.com,,https://www.01advertising.com/legal/dsar/,privacy@01advertising.com,9496099696,,1,30.2,2,0,True,False,False,False,0,,0.0,,cppa-registry-current
+428,"Consumer Canvas, LLC",consumercanvas.net,,https://www.consumercanvas.net/privacy/,privacy@consumercanvas.net,212-240-5403,,1,30.2,2,0,True,False,False,False,0,,0.0,,cppa-registry-current
+429,Reklaim Ltd.,reklaimyours.com,,https://www.reklaimyours.com/privacy-policy,finance@reklaimyours.com,4166025564,,1,30.2,2,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+430,"Vi Technologies, Inc.",vi.co,,www.vi.co,privacy@vi.co,6464559355,,1,30.2,2,0,True,False,False,False,0,,0.0,,cppa-registry-current
+431,"Altrata, Inc.",altrata.com,,https://altrata.com/privacy-policy,legal@altrata.com,212 224 3993,,1,30.1,0,0,True,False,False,False,31,0.742,1.0,,cppa-registry-current
+432,"iLeads.com, LLC",ileads.com,,https://ileads.com/submitrequest/,remove@ileads.com,9497192787,,1,30.1,0,0,True,False,False,False,34,1.0,3.0,,cppa-registry-current
+433,Nexxen Inc,nexxen.com,,nexxen.com,compliance@nexxen.com,4083061222,,1,30.1,0,0,True,False,False,False,67,1.97,21.0,,cppa-registry-current|cppa-registry-historical
+434,"Bombora, Inc.",bombora.com,,https://www.bombora.com,legal@bombora.com,(646) 759 8900,,1,30.0,0,0,True,False,False,False,32,1.0,32.0,,cppa-registry-current
+435,Predactiv,predactiv.com,,www.predactiv.cm; www.sharethis.com,privacy@predactiv.com,9179925552,,1,30.0,0,0,True,False,False,False,32,1.0,0.0,,cppa-registry-current
+436,"Bachmanity, Inc.",aviato.co,,https://www.aviato.co/legal/privacy,privacy@aviato.co,3178695671,,1,29.8,1,0,True,False,False,False,5,1.0,7.0,,cppa-registry-current
+437,Modigie Inc,modigie.com,,https://modigie.com/privacy-policy/,dpauli@modigie.com,4159604474,,1,29.8,0,0,True,False,False,False,46,2.0,80.0,,cppa-registry-current|cppa-registry-historical
+438,"Sprout Social, Inc.",sproutsocial.com,,https://sproutsocial.com/legal/privacy-policy/,dpo@sproutsocial.com,866-878-3231,,1,29.8,0,1,True,False,True,False,3,1.0,0.0,,cppa-registry-current
+439,Crisil Irvena US LLC,greenwich.com,,https://www.crisil.com/content/crisilcom/en/home/crisil-privacy-notice.html,privacy1@crisil.com,212 438 9806,,1,29.7,0,0,True,False,False,False,25,0.56,30.0,,cppa-registry-current|cppa-registry-historical
+440,"ExlService.com, LLC",exlservice.com,,www.exlservice.com/privacy-policy,privacy@exlservice.com,2122777100,,1,29.6,0,0,True,False,False,False,22,0.136,17.0,,cppa-registry-current|cppa-registry-historical
+441,"GetVector, Inc.",vector.co,,https://www.vector.co/opt-out,joshua@vector.co,9043031811,,1,29.6,0,0,True,False,False,False,27,1.0,1.0,,cppa-registry-current
+442,Teads Holding Co,outbrain.com,,https://www.outbrain.com/privacy/user-policy,privacy@teads.com,7823771890,,1,29.6,0,0,True,False,False,False,26,1.0,0.0,,cppa-registry-current|cppa-registry-historical
+443,"Connected Investors, LLC",connectedinvestors.com,,https://connectedinvestors.com/privacy-policy,dataprivacy@connectedinvestors.com,(800) 350-1502,,1,29.4,0,0,True,False,False,False,24,1.0,15.0,,cppa-registry-current|cppa-registry-historical
+444,BB Direct Inc,bbdirect.com,,https://www.bbdirect.com/about/privacy-compliance.html,melodyrongstad@bbdirect.com,2395738150,,1,29.1,0,0,True,False,False,False,20,1.0,15.0,,cppa-registry-current|cppa-registry-historical
+445,"Demandbase, Inc.",demandbase.com,,https://www.demandbase.com/privacy-center.html?ketch_preferences_tab=rightsTab,privacy@demandbase.com,415-683-2660,,1,29.1,0,0,True,False,False,False,21,1.0,4.0,,cppa-registry-current|cppa-registry-historical
+446,"Kloudend, Inc.",ipapi.co,,https://ipapi.co/donotsell/,privacy@kloudend.com,4085506507,,1,29.1,0,0,True,False,False,False,21,1.0,2.0,,cppa-registry-current
+447,"NextRoll, Inc.",nextroll.com,,www.nextroll.com/privacy,legal@nextroll.com,4086054704,,1,29.1,0,0,True,False,False,False,21,1.0,12.0,,cppa-registry-current|cppa-registry-historical
+448,Veeva Systems Inc.,veeva.com,,veeva.com/privacy,privacy@veeva.com,925-452-6500,,1,29.1,0,0,True,False,False,False,20,0.9,15.0,,cppa-registry-current|cppa-registry-historical
+449,"WealthFeed, Inc.",wealthfeed.com,,www.wealthfeed.com,sam@wealthfeed.com,4804405539,,1,29.1,0,0,True,False,False,False,21,1.0,10.0,,cppa-registry-current
+450,"ZS Associates, Inc.",zs.com,,www.zs.com,dataprivacy@zs.com,8474923600,,1,28.9,0,0,True,False,False,False,16,0.0,11.0,,cppa-registry-current|cppa-registry-historical
+451,"EverView HoldCo, Inc",evertrue.com,,https://www.evertrue.com/privacy-policy/,privacy@evertrue.com,855-387-8783,,1,28.8,1,0,True,False,False,False,3,1.0,9.0,,cppa-registry-current
+452,Fraiser LLC,fraiser.org,,fraiser.org,privacy@fraiser.org,8335101503,,1,28.8,0,0,True,False,False,False,18,1.0,19.0,,cppa-registry-current|cppa-registry-historical
+453,Virtual Marketing LLC,fusion92.com,,https://www.fusion92.com/privacy-policy,databroker@fusion92.com,888-550-4864,,1,28.8,1,0,True,False,False,False,3,1.0,1.0,,cppa-registry-current
+454,"Buildertrend Solutions, Inc.",buildertrend.com; https,,https://buildertrend.com/privacy-notice/,legal@buildertrend.com,4029999528,,1,28.6,0,0,True,False,False,False,16,1.0,35.0,,cppa-registry-current
+455,Salutary Data LLC.,salutarydata.com,,https://salutarydata.com,privacy@salutarydata.com,617-917-4084,,1,28.4,1,0,True,False,False,False,65134,2.0,3.0,,cppa-registry-current|cppa-registry-historical
+456,"Quad Graphics, Inc.",quad.com,,https://www.quad.com/legal/privacy-policy,databroker@quad.com,4145666000,,1,28.3,0,0,True,False,False,False,13,0.846,3.0,,cppa-registry-current|cppa-registry-historical
+457,GETEMAILS LLC,retention.com; www.rb2b.com,,www.retention.com; www.rb2b.com,support@retention.com,917-238-0730,,1,28.2,0,0,True,False,False,False,13,1.0,1.0,,cppa-registry-current
+458,"OpenX Technologies, Inc.",openx.com,,https://www.openx.com/privacy-center/,privacy@openx.com,626-466-1141,,1,28.2,0,0,True,False,False,False,13,1.0,21.0,,cppa-registry-current|cppa-registry-historical
+459,Roq.ad Inc.,roq.ad,,https://www.roq.ad/white-papers/#optout,contact@roq.ad,17664245026,,1,28.2,0,0,True,False,False,False,13,1.0,10.0,,cppa-registry-current|cppa-registry-historical
+460,"DT Client Services, LLC",thedatatrust.com,,https://thedatatrust.com/do-not-sell-my-personal-information/,info@thedatatrust.com,2027335235,,1,28.1,0,0,True,False,False,False,12,1.0,22.0,,cppa-registry-current|cppa-registry-historical
+461,IDMAP Inc,idmap.ai,,https://idmap.ai/privacy-policy.html,michael.belsky@idmap.ai,(775) 766-7006,,1,28.1,1,0,True,False,False,False,2,1.0,1.0,,cppa-registry-current
+462,Kargo Global LLC,kargo.com,,https://kargo.com,ccparequest@kargo.com,2129799000,,1,28.1,0,0,True,False,False,False,12,1.0,1.0,,cppa-registry-current
+463,"Fushia Media, LLC",fushiamedia.com,,https://www.fushiamedia.com/request-delete,lgold@fushiamedia.com,2399940787,,1,27.9,0,0,True,False,False,False,11,1.0,4.0,,cppa-registry-current|cppa-registry-historical
+464,TargetSmart Communications LLC,targetsmart.com,,https://privacy.targetsmart.com/,privacy@targetsmart.com,2024705100,,1,27.9,0,0,True,False,False,False,11,1.0,3.0,,cppa-registry-current
+465,"Agile Education Marketing, LLC",agile-ed.com,,https://agile-ed.com/california-privacy-rights/,personal_data_opt_out@agile-ed.com,3035229786,,1,27.7,0,1,True,False,False,False,0,,0.0,,cppa-registry-current
+466,"Hunter Web Services, Inc",hunter.io,,https://hunter.io/dashboard,matt@hunter.io,(617)631-0371,,1,27.7,0,1,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+467,"LightBox Parent, L.P.",lightboxre.com,,https://www.lightboxre.com/lightbox-individual-data-rights-request/,jfranks@lightboxre.com,9495846204,,1,27.7,0,1,True,False,False,False,0,,0.0,,cppa-registry-current
+468,Ocean Global Inc,ocean.io,,https://www.ocean.io/,kny@ocean.io,4157676048,,1,27.7,0,1,True,False,True,False,0,,0.0,,cppa-registry-current
+469,Ogury Ltd,ogury.com,,https://privacy.ogury.com/,legal@ogury.co,(855) 590-41,,1,27.7,0,1,True,False,False,False,0,,0.0,,cppa-registry-current
+470,"Project Affinity, Inc.",affinity.co,,https://www.affinity.co/legal/privacy-policy,privacy@affinity.co,6282633645,,1,27.7,0,1,True,False,True,False,1,1.0,1.0,,cppa-registry-current
+471,"Randall-Reilly, LLC",fusable.com,,https://fusable.com/legal/website-terms-and-privacy-notice/,privacy@fusable.com,2052481257,,1,27.7,0,1,True,False,True,False,0,,0.0,,cppa-registry-current
+472,"Steppingblocks, Inc.",steppingblocks.com,,https://www.steppingblocks.com/privacy-ccpa,privacy@steppingblocks.com,4047936500,,1,27.7,0,0,True,False,False,False,10,1.0,1.0,,cppa-registry-current|cppa-registry-historical
+473,"Enigma Technologies, Inc.",enigma.com,,https://enigma.com/company/privacy-policy,privacy@enigma.com,8005102856,,1,27.5,0,0,True,False,False,False,9,1.0,12.0,,cppa-registry-current|cppa-registry-historical
+474,Biscred,biscred.com,,https://www.biscred.com/do-not-sell-my-information,privacy@biscred.com,3474144291,,1,27.3,0,0,True,False,False,False,8,1.0,1.0,,cppa-registry-current
+475,Kontext Data,kontextdata.com,,www.kontextdata.com,info@kontextdata.com,9092062964,,1,27.3,0,0,True,False,False,False,8,1.0,21.0,,cppa-registry-current
+476,"RevContent, LLC",revcontent.com,,https://www.revcontent.com/policy/privacy-policy#your-privacy-rights-and-choices,privacy@revcontent.com,941-225-6132,,1,27.3,0,0,True,False,False,False,8,1.0,1.0,,cppa-registry-current
+477,"Summit Resources, LLC",clientcommand.com,,https://clientcommand.com/client-command-privacy-notice/,legal@clientcommand.com,7707770122,,1,27.3,0,0,True,False,False,False,8,0.75,15.0,,cppa-registry-current
+478,Enlyft Inc.,enlyft.com,,https://enlyft.com/tech/check-email,chirag@enlyft.com,(425) 298-6097,,1,27.0,0,0,True,False,False,False,7,1.0,3.0,,cppa-registry-current
+479,"eXelate, Inc.",nielsen.com,,www.nielsen.com,privacy.department@nielsen.com,(410) 717-7134,,1,27.0,0,0,True,False,False,False,7,0.857,9.0,,cppa-registry-current
+480,VentiveIQ LLC,ventiveiq.com,,https://ventiveiq.com,privacy@ventiveiq.com,(855) 202-9240,,1,27.0,0,0,True,False,False,False,7,1.0,2.0,,cppa-registry-current|cppa-registry-historical
+481,Acronymix LLC,acronymix.com,,Acronymix.com,privacy@acronymix.com,7542461134,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+482,Adttribution Inc,adttribution.com,,https://adttribution.com/privacy-policy.php,hello@adttrbution.com,07833225062,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+483,Astoria Company,astoriacompany.com,,https://astoriacompany.com,bizdev@astoriacompany.com,5106637016,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+484,Audience Mix LLC,audiencemix.net,,https://www.audiencemix.net/do-no-sell-or-share-my-personal-informat,privacy@audiencemix.net,3073162368,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+485,"BECAUSAL, INC.",becausal.com,,https://www.becausal.com/personal-information,privacy@becausal.com,(212) 278-0178,,1,26.7,1,0,True,False,False,False,0,,25.0,,cppa-registry-current
+486,Beeswax,beeswax.com,,www.beeswax.com,privacy@beeswax.com,(952) 221-1507,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+487,"Coast Technology, LLC",coasttechnology.com,,https://coasttechnology.com/,info@dealershiptoolkit.com,985-205-1833,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+488,Connatix Native Exchange Inc.,jwx.com,,www.jwx.com; www.connatix.com,privacy@connatix.com,2122440140,,1,26.7,0,0,True,False,False,False,6,1.0,10.0,,cppa-registry-current
+489,"Datafy, LLC",datafy.com,,https://www.datafy.com/opt-out,opt-out@datafy.com,(877) 328-2391,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+490,"Fetch Rewards, LLC",fetch.com,,https://fetch.com/privacy-policy,c.brown@fetchrewards.com,312-761-8411,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+491,"FREEPEOPLESEARCH.COM, LLC",freepeoplesearch.com,,https://freepeoplesearch.com/privacy-rights/,compliance@freepeoplesearch.com,561-349-7313,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+492,Index Exchange Inc.,indexexchange.com,,https://www.indexexchange.com/privacy/exchange-platform-privacy-policy/,privacy@indexexchange.com,4167855908,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+493,"INFORMATION.COM, LLC",information.com,,https://information.com/privacy-rights/,compliance@information.com,561-462-0092,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+494,Lead Me Media LLC,leadmemedia.com,,leadmemedia.com,californiaregistry@leadmemedia.com,5616748617,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+495,"LearnMore, LLC",learnmore.com,,https://learnmore.com/privacy-rights/,compliance@learnmore.com,800-798-2117,,1,26.7,1,0,True,False,False,False,0,,1.0,,cppa-registry-current
+496,"MV Digital Group, LLC",cinqdi.com,,https://www.cinqdi.com/privacy-policy/#section-rights,support@cinqdi.com,(929) 277-7252,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+497,Nachal Inc.,getliminal.com,,https://getliminal.com/privacypolicy,privacy@getliminal.com,541-852-2993,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+498,"Place Exchange, Inc.",placeexchange.com,,https://www.placeexchange.com/privacy,privacy@placeexchange.com,(212) 287-5660,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+499,"PublicRecordCom, LLC",publicrecord.com,,https://publicrecord.com/privacy-rights/,compliance@publicrecord.com,3213766933,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+500,Quadrant Global Pte. Ltd.,quadrant.io,,https://www.quadrant.io/manage-my-data,privacy@quadrant.io,00000000,,1,26.7,1,0,True,False,False,False,1,0.0,1.0,,cppa-registry-current
+501,"Quorum Data, Inc",quorum.inc; app.quorum.live,,quorum.inc/privacy,ezra@quorum.inc,2015190722,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+502,Rainbarrel USA LLC,knowertech.com,,https://www.rbarrel.com/opt-out,privacy@rbarrel.com,8887422458,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+503,Tauxbe Data Inc.,tauxbe.com; www.natcrim.com,,https://www.tauxbe.com/privacy-policy,sourcing@tauxbe.com,7049514333,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+504,"USPeopleSearch.com, LLC",uspeoplesearch.com,,https://uspeoplesearch.com/privacy-rights/,compliance@uspeoplesearch.com,689-214-4916,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+505,Vistar Media Inc.,vistarmedia.com,,https://www.vistarmedia.com,privacy@vistarmedia.com,6467807607,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+506,ZeroToOne.AI Inc.,zerotoone.ai,,https://www.zerotoone.ai/privacy-policy,legal@zerotoone.ai,510295-7561,,1,26.7,1,0,True,False,False,False,0,,0.0,,cppa-registry-current
+507,Data Decisions Group,datadecisionsgroup.com,,https://datadecisionsgroup.com/privacy-policy/,privacy@datadecisionsgroup.com,4693141206,,1,26.4,0,0,True,False,False,False,5,0.8,6.0,,cppa-registry-current
+508,"Juicebox App, Inc.",juicebox.ai,,https://juicebox.ai/,privacy@juicebox.work,5102138416,,1,26.3,0,0,True,False,False,False,5,1.0,1.0,,cppa-registry-current
+509,"CB Information Services, Inc.",cbinsights.com,,www.cbinsights.com/privacy-policy,privacy@cbinsights.com,212-292-3148,,1,25.4,0,0,True,False,False,False,3,0.667,17.0,,cppa-registry-current
+510,Informa Group Limited,informa.com,,https://privacy.informa.com/policies/en/,groupdpo@informa.com,20 8052 0400,,1,25.4,0,0,True,False,False,False,3,0.667,21.0,,cppa-registry-current|cppa-registry-historical
+511,Captify Technologies,captifytechnologies.com,,https://www.captifytechnologies.com/data-subject-rights-request/,legal-captify@verve.com,2078 126330,,1,25.3,0,0,True,False,False,False,3,1.0,5.0,,cppa-registry-current
+512,Innovation Brands Corp,proxima.ai,,www.proxima.ai,privacy@proxima.ai,516-591-0661,,1,25.3,0,0,True,False,False,False,3,1.0,27.0,,cppa-registry-current
+513,ListKit LLC,listkit.io,,https://www.listkit.io/privacy,andre@listkit.io,(272) 788-2122,,1,25.3,0,0,True,False,False,False,3,1.0,16.0,,cppa-registry-current
+514,"Addapptation, Inc.",propensity.com,,https://www.propensity.com/,infosec@propensity.com,6033039260,,1,24.6,0,0,True,False,False,False,2,1.0,1.0,,cppa-registry-current
+515,Anne Lewis Strategies LLC,missionwired.com,,https://info.missionwired.com/coop-optout,info@missionwired.com,(202) 525-7044,,1,24.6,0,0,True,False,False,False,2,1.0,43.0,,cppa-registry-current
+516,"DealerSocket, LLC (US)",dealersocket.com,,https://dealersocket.com/privacy-policy/,privacy@solera.com,(855)839-8020,,1,24.6,0,0,True,False,False,False,2,1.0,19.0,,cppa-registry-current
+517,"ROR Partners, LLC",rorpartners.com,,https://rorpartners.com/privacy-policy,privacy@rorpartners.com,8582982268,,1,24.6,0,0,True,False,False,False,2,1.0,14.0,,cppa-registry-current
+518,"Acuant, Inc.",acuant.com,,https://privacyportal-uk.onetrust.com/webform/031bf7fd-91fa-4063-952c-c34cf194aa41/a93b067f-014b-4377-b045-da9e42c7025a,compliance@gbgplc.com,,privacyportal-uk.onetrust.com,2,24.4,0,0,True,,,,,,,,cppa-registry-historical
+519,"BeenVerified, Inc. and its subsidiaries and affiliates",beenverified.com-www.peoplelooker.com-www.neighborwho.com-www.numberg...,,https://www.beenverified.com/app/optout/search,ccpa@beenverified.com,,beenverified.com,2,24.4,0,0,True,,,,,,,,cppa-registry-historical
+520,"Blue Hill Marketing Solutions, inc",liftengine.com,,https://www.liftbasedata.com/request-to-know/,dataprivacy@liftbasedata.com,,liftbasedata.com,2,24.4,0,0,True,,,,,,,,cppa-registry-historical
+521,"DataX, Ltd.",consumers.dataxltd.com,,https://myprivacy.equifax.com/opt-in-opt-out/personal-info,usprivacy@equifax.com,,myprivacy.equifax.com,2,24.4,0,0,True,,,,,,,,cppa-registry-historical
+522,"IDology, Inc.",idology.com,,https://privacyportal-uk.onetrust.com/webform/031bf7fd-91fa-4063-952c-c34cf194aa41/e59aad9a-ba10-4a55-86d7-81ef86357b91,compliance@gbgplc.com,,privacyportal-uk.onetrust.com,2,24.4,0,0,True,,,,,,,,cppa-registry-historical
+523,Infofree.com,infofree.com,,https://ccpa-optout.com/infofree/,bob@infofree.com,,ccpa-optout.com,2,24.4,0,0,True,,,,,,,,cppa-registry-historical
+524,"Knowledge Works, Inc., d/b/a PayNet",paynet.com,,https://myprivacy.equifax.com/opt-in-opt-out/personal-info,usprivacy@equifax.com,,myprivacy.equifax.com,2,24.4,0,0,True,,,,,,,,cppa-registry-historical
+525,Ray CDP Inc,raycdp.com,,https://www.rayinsights.com/privacy-notice/consumer-choice-portal/,privacy@raycdp.com,,rayinsights.com,2,24.4,0,0,True,,,,,,,,cppa-registry-historical
+526,ResearchUSA,researchusallc.com,,https://ccpa-optout.com/rsusa/,privacy@researchusallc.com,,ccpa-optout.com,2,24.4,0,0,True,,,,,,,,cppa-registry-historical
+527,"VIZIO Services, LLC",vizio.com; https,,https://privacyportal-cdn.onetrust.com/dsarwebform/41aebd10-58ee-4c98-9dd5-aa66c9be664a/0099df9c-c0aa-4bf7-bd5f-7f4ff46768f6.html,privacy@vizio.com,8554728817,privacyportal-cdn.onetrust.com,2,24.4,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+528,"5X5 US, LLC",join5x5.com,,https://join5x5.com/ccpa/,contact@join5x5.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+529,Accenture LLP,accenture.com,,https://www.accenture.com/us-en/form-do-not-sell-my-personal-information,regulatory.licenses@accenture.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+530,"AccuData Integrated Marketing, Inc.",accudata.com,,http://optout.accudata.com/request/opt-out,privacy.compliance@accudata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+531,"Acquire Media U.S., LLC",newsedge.com,,https://newsedge.com/privacy_policy/,newsedgesupport@moodys.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+532,"ActivImpact, LLC",activimpact.ai,,https://activimpact.ai/privacy-policy,privacy@activimpact.ai,8582982268,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+533,"AdeptID, Inc.",adept-id.com,,https://www.adept-id.com/opt-out-preferences/,privacy@adept-id.com,508-377-3103,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+534,Adprime Media LLC,adprime.com,,https://www.adprime.com/privacy-policy,privacy@adprime.com,2124408200,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+535,"AdsWizz, Inc.",adswizz.com,,www.adswizz.com,privacy@adswizz.com,9722078242,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+536,"AdvisorTarget, LLC",finsum.com,,https://www.finsum.com/what-we-do/your-privacy-choices,privacy@broadridge.com,4122016000,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+537,AggKnowledge Inc.,aggknowledge.ai,,https://www.aggknowledge.ai/privacypolicy,privacy@aggknowledge.ai,9172832477,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+538,AlikeAudience Inc,alikeaudience.com,,https://www.alikeaudience.com/,privacy@alikeaudience.com,852-6172-7413,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+539,"All Web Leads, Inc",allwebleads.com,,http://www.allwebleads.com/privacy/,onlineops@allwebleads.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+540,"Alliant Cooperative Data Solutions, LLC",alliantdata.com,,https://alliantdata.com/data-services-and-website-privacy-policy/,compliance@alliantdata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+541,Andrews Wharton Inc.,andrewswharton.com,,https://andrewswharton.com/privacy-policy,privacy@andrewswharton.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+542,Anexinet Corp.,anexinet.com,,https://anexinet.com/privacy-policy/,privacy@anexinet.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+543,"Aniline, Inc.",aniline.ai; www.salesassistiq.ai,,https://salesassistiq.ai/about,jen@aniline.io,9147332953,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+544,AppScience,appsci.io,,https://appsci.io/do_not_sell_my_info/,privacy@appsci.io,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+545,Arrakis Technologies Corp.,arrakis.ai,,https://www.arrakis.ai/optout,privacy@arrakis.ai,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+546,ASL Marketing,aslmarketing.com,,https://aslmarketing.com/opt-out/,privacy.compliance@aslmarketing.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+547,Aspire North,aspire-north.com,,https://www.aspire-north.com/do-not-sell-my-personal-information--out-out-request-form.html,privacy@aspire-north.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+548,"Atlantic Fox Technologies, Inc.",atlanticfox.com,,https://atlanticfox.com/privacy-policy/,privacy@atlanticfox.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+549,ATTOM Data Solutions LLC,attomdata.com,,https://www.attomdata.com/privacy/california-consumer-privacy-act-ccpa-request-form/,privacy@attomdata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+550,Audiencerate Ltd,audiencerate.com,,https://www.audiencerate.com/opt-out/,gl@audiencerate.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+551,automotive Mastermind,automotivemastermind.com,,https://www.automotivemastermind.com/california-consumer-privacy-act/,info@automotivemastermind.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+552,"Baron App, Inc.",candl.app; cameo.com,,https://legal.cameo.com/privacypolicy,safety@cameo.com,855-770-1024,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+553,"BDEX, LLC",bdex.com,,https://www.bdex.com/privacy-policy/,privacy@bdex.com,917 410-6616,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+554,BIGDBM,bigdbm.com,,http://optoutccpa.com/,privacy@bigdbm.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+555,Biointelli Corporation,biointelli.com,,www.biointelli.com,privacy@biointelli.net,6174448420,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+556,"Bliss Point Media, Inc.",blisspointmedia.com,,https://www.blisspointmedia.com/privacy,privacy@blisspointmedia.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+557,Blueprint Audiences,blueprintaudiences.com,,https://blueprintaudiences.com,privacy@blueprintaudiences.com,2013209684,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+558,BoardEx,boardex.com,,https://www.boardex.com/privacy-policy,privacy@altrata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+559,"Boardroom Insiders, Inc.",boardroominsiders.com,,https://www.boardroominsiders.com/privacy-policy,privacy@altrata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+560,"BTRS Holdings Inc with its covered entity, Factor Systems, LLC d/b/a Billtrust",billtrust.com,,https://www.billtrust.com/do-not-sell-my-information/,privacy@billtrust.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+561,Bureau van Dijk Electronic Publishing Ltd.,bvdinfo.com,,https://www.bvdinfo.com/en-gb/legal/personal-data-request-form,privacy@bvdinfo.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+562,"BuyersRoad, Inc",experience.com,,https://www.experience.com/privacy-notice,privacy@experience.com,8887016388,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+563,Captiv8 Inc.,captiv8.io,,https://captiv8.io/policy/,privacy@captiv8.io,833-983-0087,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+564,"CareerBuilder, LLC",hiring.careerbuilder.com,,https://hiring.careerbuilder.com/company/privacy-policy,riskandcompliance@careerbuilder.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+565,"Circana, LLC",circana.com,,https://www.circana.com/the-circana-group-global-privacy-policy-and-notice,privacy@circana.com,3127261221,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+566,"CO2 Ventures, LLC dba Oncore Leads",oncoreleads.com,,https://oncoreleads.com/california-privacy-rights/,leads@oncoreleads.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+567,"Commerce Signals, Inc.",commercesignals.com,,www.commercesignals.com,info@commercesignals.com,866-310-8783,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+568,Compact Information Systems,compactlists.com,,http://privacy.compactlists.com/request/opt-out,privacy.compliance@compactlists.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+569,Connect Computer LLC,calltruth.com,,https://www.calltruth.com/opt_out.php,support@calltruth.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+570,Connection Holdings,connectionholdings.com,,Connectionholdings.com,amanda@connectionholdings.com,2014584603,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+571,Converge Marketing LLC,convergemarketing.com,,https://www.convergemarketing.com/privacy/,privacy@convergemarketing.com,2122130111,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+572,"Cortera, Inc.",cortera.com,,https://www.cortera.com/privacy-policy,privacy@cortera.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+573,Criteo Corp.,criteo.com,,https://www.criteo.com/privacy/,dpo@criteo.com,646 410 0400,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+574,Cyndx Networks LLC,cyndx.com,,https://www.cyndx.com/California-Do-Not-Track/,privacy@cyndx.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+575,DatabaseUSA,databaseusa.com,,https://privacycompliance.biz/databaseusa-ccpa/,privacy@databaseusa.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+576,Datadesk Inc.,datadesk.io,,https://datadesk.io/help/do-not-sell-my-personal-info,privacy@datadesk.io,7788829065,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+577,Dataman Group Inc,datamangroup.com,,https://www.datamangroup.com/privacy/,dale@datamangroup.com,5614519302,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+578,Date Detective Inc,date-detective.app; https,,https://www.date-detective.app/agreements/privacy-policy,info@date-detective.app,3025502202,,1,23.2,0,0,True,False,False,False,1,1.0,2.0,,cppa-registry-current
+579,Deeptrace Inc.,coresignal.com,,https://coresignal.com/opt-out,privacy@coresignal.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+580,Deluxe Corporation,deluxe.com,,https://www.deluxe.com/about/contact-us/,privacyprogramoffice@deluxe.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+581,Diablo Media,diablomedia.com,,https://www.everydayresources.com/opt-out,data@diablomedia.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+582,"Digital Media Solutions, LLC",digitalmediasolutions.com,,dmsunsub.io,compliancedept@dmsgroup.com,8772368632,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+583,Diligent Corporation,diligent.com,,https://diligent.com/ccpa,privacy@diligent.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+584,Disco Technology Inc,disconetwork.com,,disconetwork.com,privacy@disconetwork.com,6149051661,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+585,DonorBureau LLC,donorbureau.com,,https://donorbureau.com/california-privacy-rights-for-california-residents-only/,ccpa@donorbureau.com,650-9066708,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+586,"Draup, Inc.",draup.com,,https://www.draup.com,amareshr@draup.com,4252305210,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+587,Dresden Direct inc.,dresdendirect.com,,http://dresdendirect.com,phil@dresdendirect.com,5612364449,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+588,"DSPolitical, LLC",dspolitical.com,,https://www.dspolitical.com/privacy-policy/,andy@mstreetlegal.com,2028887780,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+589,e.Republic LLC,erepublic.com,,https://erepublic.secure.force.com/PrivacyRequest/,privacy@erepublic.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+590,"Economic Modeling, LLC",lightcast.io,,https://lightcast.io/privacy-policy,privacy@lightcast.io,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+591,"Ekata, Inc.",ekata.com,,https://privacyrequests.ekata.com/hc/en-us/requests/new?,ccparequest@ekata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+592,"Elevar, LLC",getelevar.com,,getelevar.com,privacy@getelevar.com,8173323681,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+593,"eLocal USA, LLC",elocal.com,,www.elocal.com,privacy@elocal.com,6106296449,,1,23.2,0,0,True,False,False,False,1,1.0,1.0,,cppa-registry-current
+594,"Email Marketing Services, Inc",listmatch.com,,https://listmatch.com/privacy/,dataprivacy@listmatch.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+595,eMerges.com,emerges.com,,https://www.emerges.com/Opt-Out-Request_ep_51-1.html,shawn@emerges.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+596,"Enformion, LLC. , and its subsidiaries and affiliates",enformion.com,,https://www.enformion.com/privacy-policy/,databroker@enformion.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+597,EproDirect,eprodirect.com,,https://www.eprodirect.com/do-not-sell-my-personal-information/,team@eprodirect.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+598,Equimine,propstream.com,,https://www.propstream.com/privacy-request-form,privacyinquiry@propstream.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+599,EquiMine Inc.,batchleads.io,,www.batchleads.io,ops@equimine.com,877-204-9040,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+600,Exa Labs Inc.,exa.ai,,exa.ai,compliance@exa.ai,6282503948,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+601,Exact Match Marketing Inc,exactmatchmarketing.com; app.exactmatchmarketing.com; exactmatch.io,,https://exactmatchmarketing.com/privacy-policy,datarequest@exactmatch.io,(740) 527-8020,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+602,Factori Technologies LLC,factori.ai,,https://www.factori.ai/do-not-sell-my-information,privacy@factori.ai,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+603,"Famous Birthdays, LLC",famousbirthdays.com,,https://www.famousbirthdays.com/contact,info@famousbirthdays.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+604,"Faraday, Inc.",faraday.io,,http://terms-origin.faraday.io/privacy/,ccpa@faraday.io,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+605,FI Navigator Corporation,fi-navigator.com,,https://www.fi-navigator.com/remove/,privacy@fi-navigator.com,(770) 837-9974,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+606,"First Direct, Inc.",firstdirectmarketing.com,,https://alerts.com/,support@firstdirectmarketing.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+607,"First Movers Advantage, LLC",fmadata.com,,https://www.fmadata.com/do-not-sell-my-personal-information,privacy@fmadata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+608,Fyllo,hellofyllo.com,,https://hellofyllo.com/privacy-policy/,privacy@hellofyllo.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+609,"GetEmails, LLC",getemails.com,,https://app.getemails.com/ccpa_details,support@getemails.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+610,"Giant Partners, Inc.",giantpartners.com,,https://giantpartners.com/personal-information-request/,compliance@giantpartners.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+611,Gigabite Inc,boam.ai,,https://boam.ai/,privacy@boam.com,4086135720,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+612,"Gravy Analytics, Inc.",gravyanalytics.com,,https://gravyanalytics.com/opt-out-form/,privacy@gravyanalytics.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+613,Graze Social PBC,graze.social,,https://www.graze.social/privacy-policy,devin@graze.social,(503) 319-2931,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+614,"Growing Libraries, LLC",growinglibraries.com,,www.growinglibraries.com,ian@growinglibraries.com,3025549967,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+615,"GrowthCode, LLC",growthcode.io,,https://growthcode.io/do-not-sell-or-share-my-personal-information,jonathon@growthcode.io,646-926-2150,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+616,H1 Insights Inc.,h1insights.com,,https://www.h1.co/legal/privacy-preferences,inquiries@h1insights.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+617,"Harmon Research Group, LLC",harmonresearch.com,,http://www.harmonresearch.com/,info@harmonresearch.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+618,"HEALTHCARE, INC.",healthcare.com,,https://www.healthcare.com/data-request/request-form,privacy@healthcare.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+619,HealthLink Dimensions,healthlinkdimensions.com,,https://healthlinkdimensions.com/consumerprivacyrights,privacy@healthlinkdimensions.com,4042503900,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+620,Helix Campaigns LLC,helixcampaigns.com,,https://www.helixcampaigns.com/privacy,info@helixcampaigns.com,(877) 768-6461,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+621,HERE North America LLC,here.com,,https://legal.here.com/privacy/rights,privacy@here.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+622,Hexasoft Development Sdn. Bhd.,ip2location.com,,https://www.ip2location.com/do-not-sell,support@ip2location.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+623,"Hivestack, Inc.",hivestack.com,,http://hivestack.com/privacy-policy/#opt_out,privacy@hivestack.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+624,HomeData,homedata.com,,https://privacy.homedata.com/request/opt-out,privacy.compliance@deepsync.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+625,Homeowners Marketing Services Inc,homeownersmarketingservices.com,,https://homeownersmarketingservices.com/list-removal-request/,dnm@homeownersmarketingservices.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+626,"Huge Legal Technology Company, Inc",trustandwill.com,,https://trustandwill.com/security/privacy-policy,privacy@hugelegaltech.com,7605228300,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+627,Hunt Club Inc,app.exploreatlas.io,,https://www.huntclub.com/privacy,scott@huntclub.com,8474364229,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+628,ID Analytics LLC,idanalytics.com,,https://consumer.risk.lexisnexis.com/california,consumer.documents@lexisnexisrisk.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+629,ID5 Technology Ltd,id5.io,,https://id5.io,privacy@id5.io,6785496936,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+630,Indiemark LLC,emailindustries.com,,https://www.emailindustries.com/legal/#ccpa,privacy@emailindustries.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+631,Infomatics LLC,privatereports.com-mugshotlook.com,,https://www.privatereports.com/optOut/name/landing,support@privatereports.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+632,"InfoPay, Inc",infopay.com,,https://www.infopay.com/privacy,compliance@infopay.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+633,"Inmar Brand Solutions, Inc.",inmar.com,,https://www.inmar.com/about/privacy-policy,privacy_office@inmar.com,(800) 765-1277,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+634,"Intentsify, LLC",intentsify.io,,https://intentsify.io/privacy-policy/consumer-data-privacy-policy/,legal@intentsify.io,508-545-7902,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+635,Ipreo,ipreo.com,,http://more.ihs.com/DoNotSell,privacy@ihsmarkit.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+636,IQVIA Inc.,iqvia.com,,https://www.iqvia.com/about-us/privacy/ccpa/do-not-sell,privacyofficer@iqvia.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+637,"Irys, Inc",irys.us,,https://irys.us/do-not-sell-ccpa,privacy@irys.us,3199369044,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+638,iWave Information Systems,kindsight.io,,https://kindsight.io/privacy-policy/#iwave,privacy+california@iwave.com,1-800-655-7729,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+639,J2 Global Canada Inc.,campaigner.com; https,,https://www.campaigner.com/legal/privacy-policy,privacy@ziffdavis.com,2125033500,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+640,"Kind Skiptracing, Inc",kindskiptracing.com,,https://kindskiptracing.com,compliance@kindskiptracing.com,9802107715,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+641,"Koddi, Inc",koddi.com,,https://koddi.com,dataprivacy@koddi.com,8187258248,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+642,KOLs (Key Opinion Leaders),keyopinionleaders.com,,https://www.keyopinionleaders.com/,kol-privacy@keyopinionleaders.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+643,Kyber Health Data LLC,cowen.com,,https://www.cowen.com/kyber-data-science-disclosures/do-not-sell-my-information-request-form/,kyberccpa@cowen.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+644,"L2, Inc.",l2political.com,,https://l2political.com/california-privacy-rights-for-california-residents-only/,info@l2political.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+645,LEAD ENHANCE LLC,lead-enhance.com,,https://bathroom-remodel-today.com/privacy/,josh@lead-enhance.com,3104046672,,1,23.2,0,0,True,False,False,False,0,,1.0,,cppa-registry-current
+646,Lead411 Corporation,lead411.com,,https://www.lead411.com/removeinforequest/,tom@lead411.io,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+647,Leadership Connect,leadershipconnect.io,,https://www.leadershipconnect.io/privacy-portal/california-consumers-protection-act-ccpa-supplement/,privacy@leadershipconnect.io,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+648,LeadLoft Inc.,leadloft.com,,https://www.leadloft.com/user-agreements/personal-data,privacy@leadloft.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+649,LeadsMarket.com LLC,leadsmarket.com,,http://leadsmarket.com/privacy-policy,legal@leadsmarket.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+650,Lender Feed LC,ww3.monitorbase.com,,https://ww3.monitorbase.com/california-privacy-notice-ccpa,ccpa@monitorbase.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+651,Lifesight LLC,lifesight.io,,https://www.lifesight.io/do-not-sell-my-personal-info/,privacy@lifesight.io,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+652,LimeLeads,limeleads.com,,https://www.limeleads.com/about-us/privacy-center/,privacy@limeleads.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+653,"Lob.com, Inc.",lob.com,,https://www.lob.com/privacy,privacy.inbox@lob.com,415-894-9979,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+654,"LocateSmarter, LLC",locatesmarter.com,,https://www.locatesmarter.com/privacy-policy/,privacy@locatesmarter.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+655,"Logiq, Inc",logiq.com,,https://pushint.com/manage-my-data,compliance@logiq.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+656,"LOTaDATA, Inc.",lotadata.com,,https://lotadata.com/personal_information,apu@lotadata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+657,"Lotame Solutions, Inc.",lotame.com,,https://www.lotame.com/about-lotame/privacy/,privacy@lotame.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+658,Lusha Systems Inc,lusha.co,,https://dashboard.lusha.co/opt-out?ccpa=true,privacy@lusha.co,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+659,Marinus Analytics,marinusanalytics.com,,https://www.marinusanalytics.com/do-not-sell-my-personal-information,privacy@marinusanalytics.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+660,"Marketing Architects, Inc.",marketingarchitects.com,,https://www.marketingarchitects.com/privacy-policy-ProductAndService,privacy@markarch.com,9524492500,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+661,MatchAndAppend.com LLC,matchandappend.com,,https://www.matchandappend.com,info@matchandappend.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+662,MCH Strategic Data,mchdata.com,,https://www.mchdata.com/about/ccpaemail,privacy@mchdata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+663,"Media Resource Group, Inc.",mrginc.com,,https://www.mrginc.com/opt-out/,info@mrginc.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+664,"MediaMath, Inc.",mediamath.com,,http://www.mediamath.com/privacy-policy/#Section-11,privacy@mediamath.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+665,Merkle Inc.,merkleinc.com,,https://www.merkleinc.com/getting-know-your-privacy-rights/control-your-data,dpous@merkleinc.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+666,Message Digital LLC,messagedigital.com,,https://messagedigital.com/my-data,privacy@messagedigital.com,8889803207,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+667,"Mississippi Tornado Alley, LLC",advancedbackgroundchecks.com; cyberbackgroundchecks.com; fastbackgroundcheck.com; fastpeoplesearch.com; peoplesearchnow.com; phonebooks.com; searchpeoplefree.com; smartbackgroundchecks.com; usa-people-search.com; usphonebook.com,,https://www.advancedbackgroundchecks.com/privacy,privacy@mtalley.zendesk.com,9167755668,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+668,MobileFuse LLC,mobilefuse.com,,https://mobilefuse.com,danb@mobilefuse.com,5164699430,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+669,"Mogean, Inc.",mogean.com,,https://www.mogean.com/opt-out,info@mogean.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+670,Monevo Inc,monevo.us,,https://www.monevo.us/privacy-portal,supportusa@monevo.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+671,Monocl,monocl.com,,https://www.monocl.com/privacy/privacy-policy/,privacy@monocl.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+672,"Nativo, Inc.",nativo.com,,https://support.nativo.com/hc/en-us/requests/new,privacy@nativo.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+673,"Near Intelligence Holdings, Inc",near.com,,https://near.wirewheel.io/privacy-page/614c395a6a9fca00143453ae,privacy@near.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+674,Neptune Ops LLC,neptuneops.com,,https://neptuneaii.com/legal/privacy-policy,miller@neptuneops.com,2407446067,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+675,Networx Systems Inc.,networx.com,,https://www.networx.com/privacy,amyl@networx.com,9178163920,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+676,"Neustar, Inc.",home.neustar,,https://www.home.neustar/privacy/opt-out,privacy@team.neustar,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+677,New Mexico Data Insights,newmexicodatainsights.com,,newmexicodatainsights.com,privacy@eleris.com,866-372-3753,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+678,Nexsales Solutions Inc.,nexsales.com,,https://nexsales.com/privacy-policy/,privacy@nexsales.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+679,Nordic Data Resources AS,nordicdataresources.com,,https://www.nordicdataresources.com/netprivacypolicy,privacy@nordicdataresources.com,708679178,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+680,"NOVA List Company, LLC",novalist.com,,https://www.novalist.com,info@novalist.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+681,"Nymblr, Inc.",nymblr.com,,https://www.nymblr.com,privacy@nymblr.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+682,"On Hold-America, Inc. DBA KYC Data",kycdata.com,,https://consumer.kycdata.com,consumers@kycdata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+683,"One Model, Inc.",onemodel.co,,https://www.onemodel.co/ccpa-consumer-rights-request-form,privacy@onemodel.co,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+684,Onemata Corporation,onemata.com,,https://www.onemata.com/do-not-sell-my-personal-info,privacy@onemata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+685,Online Media Group Inc.,omginc.xyz; www.mixrank.com,,www.omginc.xyz,privacy@omginc.xyz,6282044024,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+686,Opensend Inc,opensend.com,,opensend.com/privacy-polic,privacy@opensend.com,702-553-2333,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+687,Optable Technologies US Inc.,optable.co,,https://terms.optable.co/privacy/privacy-policies/products-and-services,legal@optable.co,3023943980,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+688,Optimal Fusion,optimalfusion.com,,https://optimalfusion.com/privacy#CCPA,dataprotectionofficer@optimalfusion.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+689,"Oracle America, Inc., Oracle Data Cloud",oracle.com,,https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#12,privacy_ww@oracle.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+690,"OWMN, LTD.",thebridgecorp.com,,https://www.thebridgecorp.com/our-approach-to-data-privacy/,privacy@thebridgecorp.com,(212) 991-5633,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+691,"Pathway Ventures, LLC",indivizio.com,,https://www.protectdataprivacy.com/,privacyofficer@indivizio.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+692,PeekYou LLC,peekyou.com,,https://www.peekyou.com/privacy#DoNotSellMyInfo,info@peekyou.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+693,"Pension Benefit Information, LLC",pbinfo.com,,https://www.pbinfo.com/crf/,ccparequests@pbinfo.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+694,"Perf Labs, Inc. d/b/a Interseller",interseller.io,,https://www.interseller.io/do-not-sell,privacy@interseller.io,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+695,"Permutive, Inc",permutive.com,,https://permutive.com/privacy/,privacy@permutive.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+696,"PLEXUSS, INC.",plexuss.com,,https://plexuss.com/ccpa-opt-out,compliance@plexuss.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+697,Pludo Inc,cashmereai.com,,cashmereai.com,farbod@cashmereai.com,6504301133,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+698,Plug Chargers LLC,plug-industries.com,,www.plug-industries.com,blakehogan@plug-industries.com,713-515-3694,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+699,"Plunge, LLC",plungedigital.com,,www.plungedigital.com,privacy@plungedigital.com,8447586434,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+700,"PMG Worldwide, LLC",pmg.com,,https://www.pmg.com,dataprivacy@pmg.com,8174209970,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+701,Podible Inc,podscribe.com,,https://podscribe.com/privacy,privacy@podscribe.com,(512) 814-8549,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+702,Preferred Communications,preferredcommunications.com,,https://preferredcommunications.com/consumer-opt-out/,opt-out-ccpa@preferredcommunications.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+703,PricewaterhouseCoopers LLP,pwc.com,,https://www.pwc.com/us/en/site/notice-of-right-to-opt-out.html,us_privacy_office@pwc.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+704,Private Records LLC,privaterecords.net,,https://www.privaterecords.net/optOut/name/landing,support@privaterecords.net,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+705,ProspectBase UK Limited,prospectbase.com,,https://www.prospectbase.com,privacy@prospectbase.com,20 3695 7895,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+706,R.L. Polk & Co.,mobilityglobal.com; www.spglobal.com,,https://www.spglobal.com/en,privacy@mobilityglobal.com,888-433-8408,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+707,Redmob LLC,redmob.io,,https://redmob.io/,privacy@redmob.io,69977700,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+708,Reis Inc.,cre.moodysanalytics.com,,https://www.catylist.com/privacy/,info@reis.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+709,Relationship Science,relsci.com,,https://info.relsci.com/RelSciPrivacyPolicy,privacy@altrata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+710,"RelPro, Inc.",relpro.com,,https://relpro.com/privacy-policy,info@relpro.com,8885617890,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+711,"Response America, Inc.",responseamerica.net,,https://responseamerica.net/privacy_dec.html,ncoa@responseamerica.net,8149359796,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+712,"RevenueBase, Inc",revenuebase.ai,,https://revenuebase.ai/privacy-policy,privacy@revenuebase.ai,(617) 302-6275,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+713,Rhetorik Limited,rhetorik.com,,https://www.rhetorik.com/do-not-sell-my-info,privacy@rhetorik.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+714,Ripple Effect Strategies,ripple-fx.com; ripple-roi.com,,https://www.ripple-roi.com/privacy-policy,dylan@ripple-fx.com,3012547533,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+715,Rooftop Digital,therooftop.io,,https://www.consumerdataprotect.com/,privacyofficer@therooftop.io,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+716,"Sabio, Inc.",sabio.inc,,https://sabio.inc/personal_information_optout.php,privacy@sabio.inc,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+717,SafeGraph Inc.,safegraph.com,,https://www.safegraph.com/do-not-sell-my-info,privacy@safegraph.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+718,"Scanbuy, Inc.",scanbuy.com,,http://scanbuy.com/rights/data,privacy@scanbuy.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+719,SciLeads Ltd,scileads.com,,https://scileads.com/privacy-policy/,privacy@scileads.com,2895929005,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+720,Searchbug,searchbug.com,,https://www.searchbug.com/ccpa.aspx,support@searchbug.zohodesk.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+721,SEMANTIQ INC,semantiqhealth.com,,https://semantiqhealth.com/privacy-policy,ops@semantiqhealth.com,5619339030,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+722,"Simio Cloud, LLC",simiocloud.com,,https://simiocloud.com/simiocloud-products-services-privacy-policy/,privacy@simiocloud.com,866-600-3430,,1,23.2,0,0,True,False,False,False,1,1.0,6.0,,cppa-registry-current|cppa-registry-historical
+723,Skydeo Inc.,skydeo.com,,skydeo.com,privacy@skydeo.com,3072237200,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+724,"Skyhook Holding, Inc.",skyhook.com,,https://www.skyhook.com/opt-out-of-skyhook-products,privacy@skyhook.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+725,SMARTe Inc,smarte.pro,,www.smarte.pro,privacy@smarteprivacy.com,4083966679,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+726,"Sojern, Inc",sojern.com,,https://www.sojern.com/privacy/privacy-policy,sojernlegal@sojern.com,8189391345,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+727,"Solar Connect, LLC",bluefireleads.com; homeupgradepros.us; americanroofers.org; homeupgradepros.net; homeupgradeprofessionals.us; xpertroofers.com; homeupgradepros.org; homeupgradepros.io; homeupgradeprofessionals.net; kwikac.com; homeupgradeprofessionals.com; kwiksiding.com; kwik-kitchen.com; upgradepros.services; betterhousenow.com; kwikroofs.com,,https://www.bluefireleads.com/privacy-policy.php,dev@bluefireleads.com,8017962340,,1,23.2,0,0,True,False,False,False,,,0.0,,cppa-registry-current
+728,Source Path Digital,sourcepathdigital.com,,sourcepathdigital.com,privacy@sourcepathdigital.com,3146667284,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+729,"SourceIT Technologies, Inc",sourceitmarketing.com,,https://www.sourceitmarketing.com/privacy,dataprivacy@sourceitmarketing.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+730,"Sports Innovation Lab, inc.",sportsilab.com,,https://www.sportsilab.com/privacy-choices,privacy@sportsilab.com,6464943262,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+731,StatSocial,statsocial.com,,https://www.statsocial.com/privacy-policy,privacy@statsocial.com,212-951-1996,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+732,Strata Company,gostrata.com,,https://www.gostrata.com/do-not-sell-my-personal-information/,dataprivacy@gostrata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+733,Structure,structure.ac,,http://structure.ac/opt_outs/new,support@structure.ac,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+734,"Subgraph, Inc",subgraph.tech,,https://subgraph.tech/privacy-rights,privacy@subgraph.tech,413-325-7002,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+735,Swoop.com Inc,swoop.com,,https://swoop.com/your-privacy-choices/,privacyrights@swoop.com,8778489903,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+736,TargetSmart Communications LLC,privacy.targetsmart.com,,https://privacy.targetsmart.com/do-not-sell-my-personal-information,privacy@targetsmart.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+737,"Task Genie, Inc.",datalane.com,,www.datalane.com,admin@datalane.com,917-975-4714,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+738,Teads Inc,teads.com,,https://privacy-policy.teads.com,dpo@teads.com,7823771890,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+739,"TechTarget, Inc.",techtarget.com,,https://www.techtarget.com/CA-rights-request/,privacy@techtarget.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+740,Telesign Corporation,telesign.com,,www.telesign.com/privacy-requests,california-opt-out@telesign.com,8008503485,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+741,"Terminus Software, Inc.",terminus.com,,https://terminus.com,privacy@terminus.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+742,THE LINEA 1 MKT SL,tl1mkt.com,,Www.tl1mkt.com,fran@tl1mkt.com,623406321,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+743,The People Searchers LLC,peoplesearcher.com,,https://www.peoplesearcher.com/optOut/name/landing,support@peoplesearcher.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+744,The Segerdahl LLC,sg360.com,,https://sg360.com/do-not-sell-my-info/,charlesg@sg360.com,8475411080,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+745,Think Data Group Inc,thinkdatagroup.com,,thinkdatagroup.com,barry.gold@thinkdatagroup.com,5082596699,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+746,Tiplinks Inc,fetcher.ai,,https://www.fetcher.ai/opt-out,support@fetcher.ai,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+747,"TowerData, Inc.",towerdata.com,,https://www.towerdata.com/ccpa-form,privacy@towerdata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+748,"Traackr, Inc.",traackr.com,,https://www.traackr.com/legal/privacy-policy,legal@traackr.com,8558722257,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+749,"Trestle Solutions, Inc.",trestleiq.com,,https://trestleiq.com/privacy-policy/,privacy@trestleiq.com,4802082749,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current|cppa-registry-historical
+750,Truth Now LLC,checksecrets.com,,https://www.checksecrets.com/optOut/name/landing,support@checksecrets.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+751,"Truthed, Inc",truthed.com,,https://www.truthed.com/optout,anita@truthed.com,3104977721,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+752,Tymax Media,tymaxmedia.com,,http://tymaxmedia.com/ccpa.php,privacyofficer@datacomplianceportal.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+753,Ubermedia,ubermedia.com,,https://ubermedia.com/general-privacy-policy/,privacy@ubermedia.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+754,"Unearth Campaigns, LLC",unearthcampaigns.com,,https://www.unearthcampaigns.com/right-to-know/,privacy@unearthcampaigns.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+755,Unity Technologies SF,unity.com,,https://unity3d.com/legal/do-not-sell-my-personal-information,dpo@unity3d.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+756,"upcell, LLC",upcell.io,,https://www.upcell.io/data-claim,policy@upcell.io,(855) 525-7940,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+757,"Urban Science Applications, Inc.",urbanscience.com,,https://www.urbanscience.com/privacy/,usdatabroker@urbanscience.com,313-568-4359,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+758,"USADATA, Inc",usadata.com,,https://www.usadata.com/ccpa,support@usadata.com,(800) 399-8611,,1,23.2,0,0,True,False,False,False,0,,3.0,,cppa-registry-current|cppa-registry-historical
+759,V12 Privacy,v12data.com,,https://v12data.com/inbound/ccpa-form/,v12privacy@v12data.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+760,"Valassis Communications, Inc.",valassis.com,,https://www.valassis.com/do-not-sell-my-personal-information/,privacy@valassis.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+761,Versium,versium.com,,https://versium.com/ccpa-opt-out,privacy@versium.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+762,"Vertical Int, Inc.",enrichlayer.com,,https://enrichlayer.com/privacy-policy,privacy@enrichlayer.com,925-304-3435,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+763,Voxtur Data Services,benutech.com,,www.benutech.com,chad.brown@benutech.com,8668870206,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+764,We Inform LLC,weinform.org--www.truthrecord.org,,https://www.weinform.org/privacy,support@weinform.org,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+765,Wealth-X,wealthx.com,,https://www.wealthx.com/privacy-policy,privacy@altrata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+766,"WealthEngine, Inc.",wealthengine.com,,https://www.wealthengine.com/privacy-policy,privacy@altrata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+767,"Windfall Data, Inc.",windfalldata.com,,https://windfalldata.com/database-opt-out/,privacy@windfalldata.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+768,Wisdom Media Group LLC,wisdommediagroupllc.com,,http://wisdommediagroupllc.com/unsubscribe.php,contact@wisdommediagroupllc.com,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+769,"Wiza, Inc.",wiza.co,,https://wiza.co/optout,hello@wiza.co,,,1,23.2,0,0,True,,,,,,,,cppa-registry-historical
+770,"WURL, LLC",wurl.com,,https://www.wurl.com/,dataprotection@wurl.com,8008399646,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+771,Xcelerated Data LLC,xcelerated.com,,xcelerated.com,privacy@xcelerated.com,(877) 236-9155,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+772,"Yieldmo, Inc.",yieldmo.com,,https://yieldmo.com,privacy@yieldmo.com,6468450800,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+773,"Yobi Ventures, Inc.",yobi.ai,,https://www.yobi.ai/opt-out,privacy@yobi.ai,6465737108,,1,23.2,0,0,True,False,False,False,0,,0.0,,cppa-registry-current
+774,360 Media Direct,360mediadirect.com,,,privacy@360mediadirect.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+775,4C Insights,mediaocean.com,,,ccpa@mediaocean.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+776,ACE Agents Inc.,degree.me,,,admin@academixdirect.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+777,Ad Direct Inc,addirectinc.com,,,customerservice@addirect.inc,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+778,AdAdapted Inc.,adadapted.com,,,privacy@adadapted.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+779,"Adrea Rubin Marketing, Inc.",adrearubin.com,,,jenniferv@adrearubin.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+780,"Adrea Rubin Media, Inc. dba Calibrant Digital",calibrant.com,,,jennifer@calibrant.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+781,Adstra LLC,alc.com,,,privacy.officer@alc.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+782,"All Global Resources, LLC",agrgroupinc.com,,,privacy@agrgroupinc.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+783,"American City Business Journals, Inc.",acbj.com,,,legal@bizjournals.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+784,"APIHub, Inc.",clearbit.com,,,privacy@clearbit.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+785,"Apollo Interactive, Inc.",apollointeractive.com,,,requests@apollointeractive.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+786,"Arity 875, LLC",arity.com,,,privacy@arity.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+787,"Austin Consolidated Holdings, Inc.",myprivacy.equifax.com,,,usprivacy@equifax.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+788,BrightSwipe Inc,brightswipe.com,,,admin@brightswipe.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+789,"Buildertrend Solutions, Inc.",buildertrend.com,,,privacy@buildertrend.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+790,Buyerlink Inc.,buyerlink.com,,,legal@buyerlink.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+791,"Cappex.com, LLC",cappex.com,,,privacy@eab.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+792,"Catalyze AI, Inc",catalyzeai.com,,,privacy@catalyzeai.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+793,"Compile, Inc.",compile.com,,,privacy@compile.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+794,"Connext Digital, LLC",connextdigital.com,,,info@connextdigital.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+795,"Consider, Inc.",consider.com,,,ralph@consider.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+796,Contentgine Inc.,contentgine.com,,,paul@contentgine.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+797,Crosswalk Technologies Inc,crosswalknyc.com,,,privacy@crosswalknyc.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+798,"Customer Communications Group, Inc.",customer.com,,,ccgprivacy@customer.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+799,"Data Management, LLC",data-management.com,,,hello@data-management.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+800,"Data Marketing Solutions, Inc.",businesswatchnetwork.com,,,support@bizwatchnetwork.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+801,"DataDirect Marketing Solutions, Inc.",datadirectmarketing.com,,,allan@datadirectmarketing.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+802,David Rickenbacher,datamasters.org,,,sales@datamasters.org,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+803,"Demyst Data, Ltd",demyst.com,,,privacy@demystdata.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+804,"Digital Segment, LLC",digitalsegment.com,,,info@digitalsegment.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+805,Distribution Processing Center LLC,dpcoptout.com,,,customerservice@distpc.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+806,DMDatabases,dmdatabases.com,,,optout@dmdatabases.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+807,DrivenIQ Corporation,driveniq.com,,,support@driveniq.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+808,"Dynata, LLC",dynata.com,,,privacy@dynata.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+809,Effyis Inc. dba Socialgist,socialgist.com,,,info@socialgist.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+810,Emailmovers Ltd,emailmovers.com,,,compliance@emailmovers.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+811,"eSite Analytics, Inc.",esiteanalytics.com,,,privacy@kalibrate.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+812,"Exponential Interactive, Inc. doing business as VDX.tv",vdx.tv,,,privacy@vdx.tv,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+813,"FOREWARN, LLC",forewarn.com,,,legal.compliance@forewarn.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+814,Gale,gale.com,,,privacy@cengage.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+815,"Glad I Know, Inc.",gladiknow.com,,,support@gladiknow.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+816,"Good Boy Studios, Inc",parade.pet,,,hello@goodboystudios.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+817,Grata Inc,grata.com,,,hello@grata.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+818,"Greenhouse Software, Inc.",greenhouse.com,,,privacy@greenhouse.io,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+819,Health is Wealth Marketing LLC DBA PickMedicare,pickmedicare.com,,,info@pickmedicare.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+820,Hybrid Theory,hybridtheory.com,,,privacy@hybridtheory.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+821,Imprint Analytics LLC,imprintanalytics.io,,,privacy@imprintanalytics.io,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+822,Infinite Media Concepts Inc,mlxp.com,,,sheck@mlxp.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+823,InMobi,trufactor.io,,,privacy@inmobi.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+824,"Integrated Medical Data, LLC.",integratedmedicaldata.com,,,bzink@integratedmedicaldata.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+825,Intentgine Inc.,intentgine.com,,,paul@intentgine.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+826,IntentMacro Inc.,intentmacro.com,,,paul@intentmacro.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+827,Ipsos,ipsos.com,,,dpo.usa@ipsos.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+828,iWave Information Systems Inc.,iwave.com,,,privacy@iwave.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+829,"Leidos Digital Solutions, Inc.",intranetquorum.com,,,privacy@leidos.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+830,Lighthouse List,lighthouselist.com,,,robert@lighthouselist.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+831,List Service Direct Inc.,listservicedirect.com,,,dataremoval@listservicedirect.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+832,"Listings, Information, Systems and Tabulation Services, Inc",lists-inc.com,,,info@lists-inc.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+833,listsOnline,listsonline.com,,,privacyofficer@listsonline.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+834,"Lucid Holdings, LLC",luc.id,,,compliance@luc.id,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+835,Machintel,machintel.com,,,dpo@machintel.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+836,"Madison Logic, Inc.",madisonlogic.com,,,privacy@madisonlogic.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+837,Market Force Corporation,marketforcecorp.com,,,privacy@marketforcecorp.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+838,Martin Data LLC,martin-data.com,,,ccpa@usinfosearch.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+839,"Media Direct, Inc.",digdevdirect.com,,,seth@lubinlawfirm.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+840,Media Source Solutions,mediasourcesolutions.com,,,mvolpe@mediasourcesolutions.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+841,"MediaSoft, LLC",mediasoftstudio.com,,,info@mediasoftstudio.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+842,Mediazod LLC dba Leadzod.com,leadzod.com,,,privacy@leadzod.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+843,MightyRep,mightyrep.com,,,privacy@mightyrep.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+844,MY RENTER CHECKER LLC,myrenterchecker.com,,,myrenterchecker@gmail.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+845,"NC Ventures, LLC d/b/a NCS",ncsolutions.com,,,ncs.privacy@ncsolutions.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+846,NEAR PTE LTD,near.co,,,privacy@near.co,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+847,"Next Wave Marketing Strategies, Inc",nextwavemarketingstrategies.com,,,troy@nextwavemarketingstrategies.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+848,"Nexxa Group, Inc.",nexxagroup.com,,,consumerchoice@nexxagroup.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+849,Online Advertising Network sp. z o.o.,oan.pl,,,privacy@oan.pl,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+850,Precisely Software/PlaceIQ,placeiq.com,,,privacy@placeiq.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+851,Reach Marketing LLC,reachmarketing.com,,,info@reachmarketing.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+852,"Reality Media, Inc.",realitydebtsolutions.com,,,cform@realitymediainc.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+853,"RecruitBot, Inc.",therecruitbot.com,,,accounting@therecruitbot.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+854,Redbird Direct LLC,redbirddirect.com,,,carrie@redbirddirect.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+855,Response Solutions Group LLC,responsesoulutionsllc.com,,,michael@alescodata.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+856,Results Only Consulting and Advertising,rocadvertising.com,,,dataprivacy_rocadvertising@simpleoptoutcompliance.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+857,Saha Ventures LLC,findtrueowner.com,,,ops@findtrueowner.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+858,"Sawyer Lists, LLC",sawyerlists.com,,,admin@sawyerdatadirect.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+859,"Scraping Robot, LLC",scrapingrobot.com,,,support@scrapingrobot.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+860,"Scryer, Inc. (dba Reonomy)",reonomy.com,,,info@reonomy.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+861,SentiLink Corp,sentilink.com,,,privacy@sentilink.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+862,"Slashdot Media, LLC",slashdotmedia.com,,,privacy@slashdotmedia.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+863,"SMA Communications, LLC.",smacomm.com,,,steven@smacomm.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+864,Spectrum Mailing Lists,spectrumlists.com,,,privacy@spectrumlists.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+865,"Staircase, Inc.",staircase.co,,,optout@staircase.co,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+866,Stat Resource Group LLC DBA Statlistics,statlistics.com,,,michael@alescodata.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+867,stefan certic,myflashcloud.com,,,legal@myflashcloud.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+868,STEP2SUCCESS Marketing,step2successmarketing.com,,,mary@step2successmarketing.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+869,Sterling Data Company LLC,sterlingstrategies.co,,,info@sterlingstrategies.co,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+870,"Stirista, LLC",stirista.com,,,privacyinfo@stirista.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+871,"Tandem Marketing, LLC",fhamortgagefinder.com,,,info@tandemmarketingnv.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+872,"Tapad, Inc.",tapad.com,,,privacy@tapad.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+873,Telefi LLC,telefi.app,,,ccpa@telefi.app,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+874,"The Open Data People, Inc. DBA openpeoplesearch.com",openpeoplesearch.com,,,info@openpeoplesearch.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+875,Throtle,throtle.io,,,privacy@throtle.io,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+876,"Venpath, Inc.",venpath.net,,,support@venpath.net,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+877,Wholesale Mail,domymail.com,,,jenny@helmerprinting.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+878,"Wodwo, Inc.",wodwo.co,,,privacyofficer@wodwo.co,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+879,"X-Mode Social, Inc.",xmode.io,,,ap@xmodesocial.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+880,Xome Inc.,xome.com,,,licensing@xome.com,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+881,"Yobi Ventures, LLC",yobi.ventures,,,admin@yobi.ventures,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
+882,Zipstorm LLC,seekout.io,,,privacy@seekout.io,,,0,16.0,0,0,True,,,,,,,,cppa-registry-historical
