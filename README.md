@@ -270,6 +270,30 @@ Open an issue with the broker name and what happened, or edit
 
 ---
 
+## Free, and staying that way
+
+**This is free. All of it. There is no paid tier, no upsell, and nothing held
+back.** Privacy shouldn't be a subscription, and the whole point of this project
+is that the filings removal services charge $20–130/year for are free to make
+yourself.
+
+Nothing here is gated: the full 882-broker dataset, the letter templates, the
+follow-up scheduling, and the CLI are all in this repo under open licenses. You
+can fork it, run it offline, or rebuild the dataset from scratch without ever
+talking to me.
+
+If it saved you money or an afternoon, you're welcome to **[buy me a
+coffee](https://buymeacoffee.com/unlisted)** — genuinely optional, and it buys
+exactly one thing: time to keep the broker list current when sites change their
+opt-out flows, which is the real ongoing cost of a project like this.
+
+**☕ [buymeacoffee.com/unlisted](https://buymeacoffee.com/unlisted)**
+
+Contributing a fixed link or a new broker is worth more than a coffee, and costs
+nothing — see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
 ## Licenses
 
 - **Code** — AGPL-3.0. Chosen deliberately: if someone runs a modified version
