@@ -2,10 +2,12 @@
 
 **A free, open tool for getting yourself out of data broker databases.**
 
-Removal services charge $20–130/year to do this. Most of what they do is send
-form submissions and legal deletion letters, then follow up when brokers ignore
-them. None of that requires a subscription — it requires a good list, the right
-letter, and something to track the follow-ups. That's what this is.
+Removal services charge $20–130/year or more to do this. Most of what they do is send
+form submissions for you and legal deletion letters, then follow up when brokers ignore
+them. While the convenience of that service is nice, none of what they do requires a subscription. 
+Everything they do, you can do yourself with a little manual work. What I have built is a solid list
+of databases, a way to easily link to them, a method to draft a deletion letter, and a tracker
+to track the follow-ups. This is a manual guide to do this yourself and save some $. 
 
 - **882 data brokers**, ranked by how much they actually expose you
 - **Built from public records** — primarily the California Data Broker Registry
@@ -56,7 +58,7 @@ DROP is excellent and incomplete. Three things it does not do:
 
 ---
 
-## How to open it
+## How to open the tool
 
 There are three ways in, depending on how much you want to fuss. **All three run
 the same code entirely inside your browser** — there is no version of this that
@@ -71,7 +73,7 @@ https://YOURNAME.github.io/unlisted/
 ```
 
 Visit it like any website. Nothing to install, no account. Despite being hosted,
-your details never reach the server — GitHub is only serving static files, the
+your details never reach the server. GitHub is only serving static files, the
 same way it would serve an image. Everything you type stays in your browser.
 
 *To enable this on your own fork: Settings → Pages → Build from branch → `main`,
@@ -196,16 +198,16 @@ that **the project must never be technically capable of seeing your data.**
 
 | | |
 |---|---|
-| **No server** | The web app is static files. There is no backend to breach or subpoena. |
-| **No account** | Nothing to sign up for. No email collected, ever. |
+| **No server** | The web app is static files. |
+| **No account** | Nothing to sign up for. |
 | **No analytics** | No tracking scripts, no telemetry, no third-party requests except Google Fonts. |
 | **One network request** | The app fetches `brokers.json`. That's it. Your details are never sent anywhere. |
-| **You are your own agent** | Letters open in *your* mail client and send from *your* address. Under CCPA, an authorized agent acting for you can be required to produce signed permission — sending as yourself avoids that problem entirely. |
+| **You are your own agent** | Letters open in *your* email and send from *your* address. Under CCPA, an authorized agent acting for you can be required to produce signed permission — sending as yourself avoids that problem entirely. |
 | **Local storage only** | Your details live in `localStorage` (web) or `~/.config/unlisted/config.json` with `0600` permissions (CLI). |
 
-**Use an email alias** when contacting brokers. Several are known to add opt-out
+**Use an email alias** I would recommend when contacting brokers to use an alias. Several are known to add opt-out
 contacts to marketing lists. Proton Pass, SimpleLogin, and iCloud Hide My Email
-all provide these free.
+all provide these free and should provide an extra layer of security. 
 
 ### What this tool deliberately does not do
 
@@ -270,12 +272,11 @@ Open an issue with the broker name and what happened, or edit
 
 ---
 
-## Free, and staying that way
+## Also, this is all free and for fun
 
 **This is free. All of it. There is no paid tier, no upsell, and nothing held
-back.** Privacy shouldn't be a subscription, and the whole point of this project
-is that the filings removal services charge $20–130/year for are free to make
-yourself.
+back.** This is something that I have started researching recently and have become 
+passionate about. And I also wanted to save some of my own $. 
 
 Nothing here is gated: the full 882-broker dataset, the letter templates, the
 follow-up scheduling, and the CLI are all in this repo under open licenses. You
